@@ -19,7 +19,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        
     {% endblock %}
 
     {% block extra_css %}
@@ -37,12 +37,37 @@
     <title>Get The Fit</title>
 </head>
     <body>
-        <header class="container-fluid fixed-top"></header>
+        <!-- logo and nav link -->
+        <header class="container-fluid fixed-top">
+            <div id="logo-nav" class="row bg-black pt-lg-2 d-none d-lg-flex">
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+                    <a href="{% url 'home' %}" class="logo-link home-link">
+                        <h1 class="company-name-font text-white my-0">Get The Fit</h1>
+                    </a>
+                </div>
+                <!-- Search Bar -->
+                <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                    <form methods="GET" action="{% url 'gym_gear' %}">
+                        <div class="input-group w-100">
+                            <input class="form-control border border-white rounded-0 text-white" type="text" name="q" placeholder="Check Out Our Products">
+                            <div class="input-group-append">
+                                <button class="form-control btn btn-black rounded-0" type="submit">
+                                    <span class="button-icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </header>
         {% if messages %}
             <div class="site-message-container"></div>
         {% endif %}
 
-        {% block section_header %}
+        {% block page_header %}
         {% endblock %}
 
         {% block content %}
