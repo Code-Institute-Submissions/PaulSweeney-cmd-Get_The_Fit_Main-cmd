@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+body {
+    background: url('/media/home_cover.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #000;
+    font-family: 'Almarai', sans-serif;
+}
+
+/* Home Page */
+h1.home-main-text.display-3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
