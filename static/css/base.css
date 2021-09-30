@@ -9,6 +9,10 @@ body {
     font-family: 'Almarai', sans-serif;
 }
 
+/* Nav Bar */
+h1.company-name-font.text-white.my-0 {
+    font-family: 'Montserrat', sans-serif;
+}
 /* Home Page */
 h1.home-main-text.display-3 {
     font-family: 'Montserrat', sans-serif;
