@@ -12,9 +12,51 @@ body {
 /* Nav Bar */
 h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
+
+.col.bg-dark.text-white {
+    background-color: #a4a416 !important;
+    color: #000 !important;
+    font-weight: bolder !important;
+}
+
 /* Home Page */
 h1.home-main-text.display-3 {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-size: 45px;
+    font-weight: bolder;
 }
+
+
+
+
+
+/* -------------------------------- Media Queries */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 166px;
+    }
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
+  /* fixed top navbar only on medium and up */
+  @media (min-width: 992px) {
+      .fixed-top-desktop-only {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 1030;
+      }
+  
+      .header-container {
+          padding-top: 164px;
+      }
+}}
