@@ -1,6 +1,7 @@
 html {
     height: 100%;
 }
+
 body {
     background: url('/media/home_cover.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -14,16 +15,18 @@ h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
+
 div#topnav {
     background-color: black !important;
 }
+
 nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     background-color: black;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 20px;
-    font-family: 'Almarai';
+    font-family: 'Almarai', sans-serif;
 }
 
 .dropdown-item {
@@ -73,15 +76,15 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
 
 /* Search Box */
 input.form-control.search-bar.text-white.rounded-0 {
-    background-color: black;
-    font-weight: bolder;
+    background-color: #000;
+    text-transform: capitalize;
 }
 
 /* Search Box - Mobile View */
 input.form-control.border.border-black.rounded-0 {
     background-color: black;
-    font-weight: bold;
 }
+
 .fa-search {
     color: white;
 }
