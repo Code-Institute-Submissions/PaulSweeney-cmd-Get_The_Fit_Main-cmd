@@ -15,6 +15,8 @@ h1.company-name-font.text-white.my-0 {
     font-size: 50px;
 }
 
+/* Delivery banner */
+
 .col.bg-dark.text-white {
     background-color: #a4a416 !important;
     color: #000 !important;
@@ -27,6 +29,19 @@ h1.home-main-text.display-3 {
     color: white;
     font-size: 45px;
     font-weight: bolder;
+}
+
+/* Mobile View Nav */
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #dbdfe4;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #343a40 !important;
 }
 
 
