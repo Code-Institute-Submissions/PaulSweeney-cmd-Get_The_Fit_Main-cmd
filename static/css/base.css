@@ -14,10 +14,21 @@ h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
+div#topnav {
+    background-color: black !important;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
+    background-color: black;
+}
+
+/* Search Box */
+input.form-control.search-bar.text-white.rounded-0 {
+    background-color: black;
+    font-weight: bolder;
+}
 
 /* Delivery banner */
-
-.col.bg-dark.text-white {
+.col.bg-dark.text-black {
     background-color: #a4a416 !important;
     color: #000 !important;
     font-weight: bolder !important;
@@ -42,6 +53,25 @@ h1.home-main-text.display-3 {
     text-align: inherit;
     white-space: nowrap;
     background-color: #343a40 !important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #343a40;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
 }
 
 
