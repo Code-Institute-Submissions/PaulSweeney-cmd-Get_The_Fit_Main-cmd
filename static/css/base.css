@@ -5,8 +5,8 @@ body {
     background: url('/media/home_cover.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #000;
     font-family: 'Almarai', sans-serif;
+    opacity: 0.75;
 }
 
 /* Nav Bar */
@@ -83,7 +83,7 @@ input.form-control.border.border-black.rounded-0 {
 
 /* Delivery banner */
 .col.delivery-offer {
-    background-color: yellow;
+    background-color: #f0f005;
     font-weight: bolder;
     color: black;
 }
@@ -93,10 +93,18 @@ input.form-control.border.border-black.rounded-0 {
 }
 
 /* Home Page */
-h1.home-main-text.display-3 {
+h1.home-main-text {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-weight: bold;
+    color: #f0f005;
     font-size: 60px;
+}
+
+/* Shop Button */
+a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
+    font-family: 'Almarai', sans-serif;
+
+    border: 2px solid #fafafa;
 }
 
 
