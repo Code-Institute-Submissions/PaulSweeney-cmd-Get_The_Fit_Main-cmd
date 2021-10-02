@@ -3,10 +3,11 @@ html {
 }
 
 body {
-    background: url('/media/home_cover.jpg') no-repeat center center fixed;
+    background: url('/media/home-cover.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     font-family: 'Almarai', sans-serif;
+    background-color: black;
     opacity: 0.75;
 }
 
@@ -106,43 +107,79 @@ h1.home-main-text {
     font-weight: bold;
     color: #f0f005;
     font-size: 60px;
+    margin-top: 21px;
 }
 
 /* Shop Button */
 a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     font-family: 'Almarai', sans-serif;
     border: 2px solid #fafafa;
+    background-color: #000;
+    opacity: 0.75;
 }
 
 
 
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
 
+    .header-container {
+        padding-top: 164px;
+    }
+}
 
-
-
-/* -------------------------------- Media Queries */
+/* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 166px;
+        padding-top: 116px;
     }
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-      max-width: 80%;
+    body {
+        height: calc(100vh - 116px);
     }
-  }
 
-  /* fixed top navbar only on medium and up */
-  @media (min-width: 992px) {
-      .fixed-top-desktop-only {
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          z-index: 1030;
-      }
-      .header-container {
-          padding-top: 164px;
-      }
-}}
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+}
+
+
