@@ -21,29 +21,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     background-color: black;
 }
 
-/* Search Box */
-input.form-control.search-bar.text-white.rounded-0 {
-    background-color: black;
-    font-weight: bolder;
-}
-
-/* Delivery banner */
-.col.bg-dark.text-black {
-    background-color: #a4a416 !important;
-    color: #000 !important;
-    font-weight: bolder !important;
-}
-
-/* Home Page */
-h1.home-main-text.display-3 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 45px;
-    font-weight: bolder;
-}
-
-/* Mobile View Nav */
 .dropdown-item {
+    font-family: 'Almarai', sans-serif;
     display: block;
     width: 100%;
     padding: .25rem 1.5rem;
@@ -52,7 +31,7 @@ h1.home-main-text.display-3 {
     color: #dbdfe4;
     text-align: inherit;
     white-space: nowrap;
-    background-color: #343a40 !important;
+    background-color: black;
 }
 .dropdown-menu {
     position: absolute;
@@ -68,11 +47,59 @@ h1.home-main-text.display-3 {
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color: #343a40;
+    background-color: black;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
 }
+
+/* Mobile header */
+.navbar-dark .navbar-toggler {
+    color: white;
+    border: black !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Search Box */
+input.form-control.search-bar.text-white.rounded-0 {
+    background-color: black;
+    font-weight: bolder;
+}
+
+/* Search Box - Mobile View */
+input.form-control.border.border-black.rounded-0 {
+    background-color: black;
+    font-weight: bold;
+}
+.fa-search {
+    color: white;
+}
+
+/* Delivery banner */
+.col.delivery-offer {
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+}
+
+#delivery-banner h4 {
+    font-size: 25px;
+}
+
+/* Home Page */
+h1.home-main-text.display-3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+
 
 
 
@@ -100,7 +127,6 @@ h1.home-main-text.display-3 {
           left: 0;
           z-index: 1030;
       }
-  
       .header-container {
           padding-top: 164px;
       }
