@@ -20,6 +20,11 @@ div#topnav {
 nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     background-color: black;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Almarai';
+}
 
 .dropdown-item {
     font-family: 'Almarai', sans-serif;
@@ -103,7 +108,6 @@ h1.home-main-text {
 /* Shop Button */
 a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     font-family: 'Almarai', sans-serif;
-
     border: 2px solid #fafafa;
 }
 
