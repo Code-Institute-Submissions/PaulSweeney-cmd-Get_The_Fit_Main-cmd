@@ -1,0 +1,55 @@
+# MEDIA & PRODUCT DETAIL SOURCES
+## Clothing & Accessories
+
+- Vanquish
+- Squatwolf
+- Gym King
+- Ryderwear
+- Under armour
+- GymShark 
+- Nike
+- My Protein
+- Gym + Coffee
+- Firmabs
+----
+- Pursue Fitness
+- Sik Silk
+- VSX Gymwear
+- Urban Gymwear
+- MandM Direct
+- New Balance
+- Gym Pro Apparel
+- Urban Glitters
+- Frontside Sports
+- Sole Ambition
+----
+- Gym Tier
+- Gymwear
+- Gasp
+- The Gymwear Boutique
+- Nebbia
+- Gavelo
+- ONCROS
+- AYBL
+- Seamless
+- Mano Mano
+---
+- RDX
+- Ultra Fitness
+- Core Balance
+- Peak Supps
+- AQF Sports
+- Amazon
+- Edealing
+- Core Balance
+- Fat Grips
+- Mens Fitness
+---
+- Sports Direct
+- Everlast
+- Mira Fit
+- Beemat
+- PHD Nutrition
+- Primal Strength
+- Bulk
+- Meglio
