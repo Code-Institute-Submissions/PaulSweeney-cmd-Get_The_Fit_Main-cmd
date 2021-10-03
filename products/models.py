@@ -22,8 +22,6 @@ class Product(models.Model):
     detail_01 = models.CharField(max_length=100, default='some detail')
     detail_02 = models.CharField(max_length=100, default='some detail')
     detail_03 = models.CharField(max_length=100, default='some detail')
-    old_price = models.DecimalField(
-        max_digits=6, decimal_places=2, default=Decimal('0.00'))
     price = models.DecimalField(max_digits=6, decimal_places=2)
     rating = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True)
