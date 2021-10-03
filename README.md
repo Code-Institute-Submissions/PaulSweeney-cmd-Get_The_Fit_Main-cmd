@@ -17,11 +17,12 @@ I hereby state that the site creator shall not re-use or re-publish such content
 
 # Design
 ## Colour Scheme
+1. I've gone with a simple shceme consisting of yellows, blacks and dark shades. This is manly to do with the fact that sports sites normally go for a dynamic colour scheme which seeks to grab the attention of the user sraight away.
+2. 
 
 
 
 
-## Credits
-Collage Editor for products banner was created using Kapwing
-## media:
+
+## Media:
 Ivan Samkov @ pexels for home cover image
