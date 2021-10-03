@@ -1,0 +1,2496 @@
+[{
+    "pk": 1,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334329",
+        "name": "Gym King Basis Jogger - Dark Grey",
+        "description": "Unique fleece lining joggers made with ribbed cuffs for extra comfort and an embroidered Gym King logo on the leg in bright white",
+        "detail_01": "Machine wash at 30°C.",
+        "detail_02": "70% Cotton, 30% Polyester.",
+        "detail_03": "Elasticated waist with drawstring",
+        "price": 39.0,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/BASISCREW_JOGGER-DARKGREYSWT-F24DPTSB-F24E2_125_700x.jpg?v=1614684553",
+        "image": "MENJOG09.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113111",
+        "name": "VSX Apex Hoodie",
+        "description": "APEX Hoodie brings stand-out design, fitted to perfection. A fitted hoodie with unique panelling made with premium materials",
+        "detail_01": "Drawstring hood",
+        "detail_02": "Straight hem",
+        "detail_03": "80% Polyester 15% Rayon 5% Elastane",
+        "price": 45.0,
+        "category": 4,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0854/0182/products/apex-hoodie-391411_600x.jpg?v=1598013357",
+        "image": "MENHOOD01.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967885",
+        "name": "DOMYOS Stringer Weight Training Top",
+        "description": "This tank top will flatter your muscles while ensuring ease of movement during your weight training sessions.",
+        "detail_01": "Main fabric 70% Polyester, 30% Polyamide",
+        "detail_02": "Machine wash - 30° max - normal",
+        "detail_03": "Wicks perspiration away from the skin",
+        "price": 7.99,
+        "category": 5,
+        "rating": 4.2,
+        "image_url": "https://contents.mediadecathlon.com/p1574004/k$73dcd1021dabdcf5b2a4539027f67318/sq/stringer-weight-training-tank-top-black.jpg?format=auto&f=969x969",
+        "image": "MANTANK05.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113126",
+        "name": "Gym Shark Training Zip Up Hoodie - Taupe",
+        "description": "Zip up and go with the Training Zip Up Hoodie. With a full zip down the front and a drawcord hood, this hoodie follows a truly classic design. Plus, a pair of open pockets to each side. Without a doubt, a staple for everyone’s locker.",
+        "detail_01": "70% Cotton 30% Polyester",
+        "detail_02": "Open pockets to front seams",
+        "detail_03": "Drawcords to hood",
+        "price": 35.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGZIPHOODIEWARMTAUPE.A_HK_ZH_855x.jpg?v=1613987124",
+        "image": "WOMHOOD06.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000221",
+        "name": "LC Holdall",
+        "description": "The LC Holdall is the perfect bag for pre and post workout, with a large main pocket to store a change of clothes, slip pockets to keep essentials safe and a wet pocket to the side to stow away sweaty tops and bottoms after a session in the gym. Its reinforced PU base keeps the bag in top condition, from the changing room floor to the sidewalk, wherever you take it.",
+        "detail_01": "One main entry",
+        "detail_02": "Matte printed Gymshark logo to side",
+        "detail_03": "Length: 55cm. Height: 30cm. Width: 32cm. Volume: 52L (approx).",
+        "old_price": "39.00",
+        "price": 35.00,
+        "category": 8,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/THELCHOLDALLA-Edit_ZH_131f0036-0571-4236-ba2d-93450d040323_885x.jpg?v=1587389125",
+        "image": "SALE01.jpg"
+    }
+}, {
+    "pk": 6,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776552",
+        "name": "ONCROS - Men's Bodybuilding Gyms Fitness Quick-dry Thin Short Pants",
+        "description": "These good-quality gym shorts are great for all seasons and can be worn for workouts or leisure all day long.",
+        "detail_01": "Acetate, Polyester",
+        "detail_02": "Knee-Length",
+        "detail_03": "Open flap design allows more movement for bodybuilding and training.",
+        "price": 12.99,
+        "category": 6,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0560/9049/3121/products/Bodybuilding-Shorts-Men-Gyms-Fitness-Workout-Joggers-Summer-Quick-dry-Thin-Short-Pants-Male-Casual-Beach_1800x1800.jpg?v=1629339642",
+        "image": "MENSHORT02.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456343",
+        "name": "Peak Supps - Skipping Rope 9ft / 2.74m - Adjustable Length",
+        "description": "Professional pvc skipping rope with plastic handles, 2.74 metres (9 ft) in length excluding handles, can be easily adjusted. 3m (9.8 ft) in length including handles.",
+        "detail_01": "Adaptable – 3m (10ft) in length, can be shortened to suit any height.",
+        "detail_02": "Popular cardio exercise – A great workout accessory to improve stamina and up intensity training for sports, fitness training and general exercise.",
+        "detail_03": "Portable, so light you’ll forget it’s there (maybe defeating the object) so remember to do your workouts…",
+        "price": 3.95,
+        "category": 7,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0018/7567/3151/products/Jump-Rope-1-_Web_1024x1024.jpg?v=1570544011",
+        "image": "ACCESS03.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967886",
+        "name": "Urban Gym Wear - Golds Gym Contrast Stringer - Black",
+        "description": "The iconic stringer vest is the staple of the Gold's Gym brand since its early beginnings in Venice Beach, California. The scoop neck and deep armholes make this style so popular with lifters since the sport began.",
+        "detail_01": "Scoop neck",
+        "detail_02": "100% Cotton",
+        "detail_03": "High-quality cotton jersey fabric with contrast binding",
+        "price": 19.0,
+        "category": 5,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/golds-gym-muscle-joe-contrast-stringer-black-grey-marl-607987_1024x1024.jpg?v=1610386916",
+        "image": "MANTANK06.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113116",
+        "name": "Golds Gym Long Sleeve Hooded Top - Black Marl",
+        "description": "The lightweight Golds Gym Hooded Top is perfect for in and out of the gym. This hot style is constructed in a lightweight stretch fabric, with a flattering athletic fit and a hood.",
+        "detail_01": "80% Cotton, 20% Polyester",
+        "detail_02": "Large Gold's Gym logo printed to the front",
+        "detail_03": "Athletic fit",
+        "price": 22.0,
+        "category": 4,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/golds-gym-long-sleeve-hooded-top-black-marl-560154_1024x1024.jpg?v=1610387027",
+        "image": "MENHOOD06.jpg"
+    }
+}, {
+    "pk": 10,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334332",
+        "name": "Gym Shark Womens Adapt Camo Seamless Leggings - Blue",
+        "description": "Meet your new secret weapon. The flattering fit, ruched detailing and all-over jacquard camo pattern are carefully designed to blend out. The supportive, high-rise waistband and subtle, seamless fabric ensure comfort and ease of movement. The Adapt Camo Seamless Leggings have everything you need to attack every workout.",
+        "detail_01": "79% Polyamide, 15% Polyester, 6% Elastane",
+        "detail_02": "Elongated ribbed waistband",
+        "detail_03": "All-over jacquard camo pattern",
+        "price": 50.0,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/ADAPTCAMOSEAMLESSLEGGINGSLUNABLUE.A-Edit_CM_885x.jpg?v=1600882537",
+        "image": "WOMLEG02.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164442",
+        "name": "Firm Abs Zip Long Sleeve Shirt - Red",
+        "description": "When zipper meets Long Sleeve. The Zip long sleeves give another solution for the balance of fitness and style. The body fit design and stretchy fabric help you finish every movement easily and effectively and the quick-drying technology keeps your body fresh.",
+        "detail_01": "Body fit",
+        "detail_02": "53% Nylon 42% Cotton 5% Spandex",
+        "detail_03": "Comfortable & Stretchy Fabric",
+        "price": 29.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0243/9315/4623/products/4_f6062f0e-3663-4250-b6c0-7326d787a100_700x.jpg?v=1602731413",
+        "image": "WOMTOP02.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113127",
+        "name": "Womens GymPro Longline Hoodie - Black",
+        "description": "Ultimate comfort and cosy feeling is what this hoodie offers.  Its soft fabric keeps you snug whether worn on the way to your workout or for leisure. Unique back design gives the hoodie a stylish and modern look keeping you on trend, its a winter piece you wont want to be with out.",
+        "detail_01": "50% Cotton 50% Polyester",
+        "detail_02": "Relaxed hood",
+        "detail_03": "Anti pill technology to reduce bobbling",
+        "price": 49.0,
+        "category": 4,
+        "rating": 4.4,
+        "image_url": "https://cdn.shopify.com/s/files/1/0279/7882/5793/products/womenblacklogolonglinehoodie3_700x700@2x.jpg?v=1592240535",
+        "image": "WOMHOOD07.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967890",
+        "name": "Gorilla Wear Evansville Tank Top - Red",
+        "description": "The Evansville Tank Top will provide anybody wearing it with a classy and stylish look. Whatever your plans are today, with the Evansville Tank Top you will push boundaries to get the job done!",
+        "detail_01": "100% cotton. Knitted",
+        "detail_02": "Classic 3D logo on the front.",
+        "detail_03": "Manufactured with the finest materials",
+        "price": 39.0,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gorilla-wear-evansville-tank-top-red-825497_1024x1024.jpg?v=1610386478",
+        "image": "MANTANK10.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113113",
+        "name": "Gym Shark Collegiate Hoodie",
+        "description": "Whether it's rest day or you're going to and from the gym, rep team GSLC in the Collegiate Hoodie. With classic collegiate colours and a soft cotton-polyester blend, you can chill out in comfort and style while soaking up that team spirit.",
+        "detail_01": "Three-piece hood with adjustable drawcord",
+        "detail_02": "80% Cotton, 20% Polyester",
+        "detail_03": "We've cut down our use of swing tags, so this product comes without one",
+        "price": 45.0,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/GSLCCollegiatePulloverLightGreyMarlGMPO5773.A-Edit_BK_885x.jpg?v=1624273472",
+        "image": "MENHOOD03.jpg"
+    }
+}, {
+    "pk": 15,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334336",
+        "name": "Gym Tier Womens Sculpt Khaki Leggings",
+        "description": "The women’s multi-sport sculpt leggings are made with seamless technology ensuring comfort and freedom of movement whatever your sport.",
+        "detail_01": "Stretch fabric for enhanced movement",
+        "detail_02": "Stylish pattern",
+        "detail_03": "High waisted",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://www.gymtier.com/wp-content/uploads/2021/01/Sculptleggingskhaki-frontfull-960x1208.jpg",
+        "image": "WOMLEG06.jpg"
+    }
+}, {
+    "pk": 16,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776554",
+        "name": "Squat Wolf - Men's Warrior Shorts - Black",
+        "description": "Don’t let anything hold you back, with the new SQUATWOLF Warrior Shorts. Whether you are going for a jog or just going hard on leg day, the warrior shorts will help you push yourself to the limit.",
+        "detail_01": "100% High-Performance Polyester",
+        "detail_02": "Quick Dry & Extremely Breathable",
+        "detail_03": "Stretchy and Ultra Light-Weight",
+        "price": 35.0,
+        "category": 6,
+        "rating": 4.5,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2019/06/cover-4-1-510x510.jpg",
+        "image": "MENSHORT04.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164449",
+        "name": "Vanquish Radiate Women's Black Cropped Hoodie",
+        "description": "This hoodie features a cute mid-stomach crop, long drawstrings and the signature VQ logo tape running down both arms.",
+        "detail_01": "Machine wash inside out at 30 degrees.",
+        "detail_02": "95% cotton and 5% elastane.",
+        "detail_03": "Signature VQ logo tape running down both arms",
+        "price": 18.99,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Radiate-Womens-Black-Cropped-Hoodie-2_2000x.jpg?v=1589812507",
+        "image": "WOMTOP09.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020510",
+        "name": "Squat Wolf Stone Statement Tee",
+        "description": "Designed with purpose, engineered for efficiancy, Statement Tees to reflect your desired goals. Crafted with our stretchy, soft, and comfortable fabric will let you go all-in and make a statement.",
+        "detail_01": "Ultimate sweat-absorption",
+        "detail_02": "Reflective logo on the back",
+        "detail_03": "3D statement print “Lead The Pack”",
+        "price": 35.0,
+        "category": 2,
+        "rating": 4.9,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2018/09/IMG_0439-510x510.jpg",
+        "image": "MENTEE10.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164441",
+        "name": "Firm Abs Zip Chopped Long Sleeved Top - Grasshopper Green",
+        "description": "The Zip Cropped Long Sleeve perfectly blends a stylish silhouette with our customized fabric to ensure maximum comfort while you train. The cropped length, hidden front zip design, and V contouring give you a unique gym look.",
+        "detail_01": "Body fit",
+        "detail_02": "75% nylon 25% spandex",
+        "detail_03": "Mesh panels under arm",
+        "price": 45.0,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0243/9315/4623/products/1_5071a2f5-7bcb-4ad6-9b87-e180e2adfad0_700x.jpg?v=1615193116",
+        "image": "WOMTOP01.jpg"
+    }
+}, {
+    "pk": 20,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000222",
+        "name": "Men's GymShark Trunks Black - 2pk",
+        "description": "Men's classic boxer design, now with a shorter and tighter fit, so you'll always feel snug and secure without any bunching. Just because you're on the move, doesn't mean your boxers should too.",
+        "detail_01": " 95% Cotton, 5% Elastane",
+        "detail_02": "Elasticated jacquard waistband",
+        "detail_03": "Soft, stretchy material",
+        "old_price": "20.00",
+        "price": 15.99,
+        "category": 8,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/Trunk2PkBlackG1A1B.A-Edit_Edit_HKTIFF_IS_b95aa472-a26e-40a0-9ec5-df40a4a66fd4_885x.jpg?v=1632845718",
+        "image": "SALE02.jpg"
+    }
+}, {
+    "pk": 21,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334331",
+        "name": "Gym Shark Womens Adapt Camo Seamless Leggings - Black",
+        "description": "Meet your new secret weapon. The flattering fit, ruched detailing and all-over jacquard camo pattern are carefully designed to blend out. The supportive, high-rise waistband and subtle, seamless fabric ensure comfort and ease of movement. The Adapt Camo Seamless Leggings have everything you need to attack every workout.",
+        "detail_01": "79% Polyamide, 15% Polyester, 6% Elastane",
+        "detail_02": "Elongated ribbed waistband",
+        "detail_03": "All-over jacquard camo pattern",
+        "price": 50.0,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/AdaptCamoSeamlessLeggingsBlack2GLLG4683.A-Edit_BK_885x.jpg?v=1620295240",
+        "image": "WOMLEG01.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967898",
+        "name": "Gorilla Wear Seattle Tank Top - Mint Green",
+        "description": "The Seattle Tank Top is everything you need during your workouts. It’s loose, lightweight, and it keeps you cool. It is made of breathable polyester and has mesh areas for maximum ventilation. You can easily wear this regular fit top over your sports bra. The screen-printed logos on the front and back provide nice details. The Seattle Tank Top is available in three colours, you have the choice of Black, Mint Green, and Red. Stay cool and look cool!",
+        "detail_01": "Screen Printed Logos",
+        "detail_02": "100% Polyester",
+        "detail_03": "Mesh Areas For Ventilation",
+        "price": 25.0,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gorilla-wear-seattle-tank-top-mint-green-281295_1024x1024.jpg?v=1624268822",
+        "image": "WOMVEST08.jpg"
+    }
+}, {
+    "pk": 23,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456350",
+        "name": "EVERLAST Pro Training Gloves",
+        "description": "The Everlast Pro Training Gloves incorporate closed cell foam technology for superior hand protection and Evercool mesh ventilation panels keep your hands cool so you can train harder and longer.",
+        "detail_01": "Grip Cord Interior",
+        "detail_02": "Evercool Mesh Vent Panels",
+        "detail_03": "Evershield Wrist Reinforcement",
+        "price": 16.99,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://images.sportsdirect.com/images/products/76208608_l.jpg",
+        "image": "ACCESS10.jpg"
+    }
+}, {
+    "pk": 24,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334338",
+        "name": "Gym Wear Gym Leggings With Pockets",
+        "description": "If you haven’t already got a pair of gym leggings with pockets, what are you waiting for? They exist, and they are good! No longer do you need to use your sports bra to hold your phone, or your locker keys (don’t worry, we’ve all done it). Here are some of our favourite leggings with pockets, we know you’ll love them too.",
+        "detail_01": "Famme Techna High Waisted Leggings.",
+        "detail_02": "There are two pockets, one on each leg. This is ideal for anyone who likes to listen to their phone while they work out.",
+        "detail_03": "High waisted",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/1510/6482/files/Black-Techna-Tights-3_1024x1024_41bf3f35-1531-4d80-9f03-11013103a605_large.jpg?v=1588146050",
+        "image": "WOMLEG08.jpg"
+    }
+}, {
+    "pk": 25,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164450",
+        "name": "SikSilk Colour Signature Crop Hoodie - Blue",
+        "description": "Women's signature blue hoodie from Sik Silk, Featuring an embroidered colour signature on soft touch fabric",
+        "detail_01": "Drawstring hood",
+        "detail_02": "Straight hem",
+        "detail_03": "80% Polyester 15% Rayon 5% Elastane",
+        "price": 25.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0280/2529/0841/products/1603276540-78051800.jpg?v=1607020627",
+        "image": "WOMTOP10.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113123",
+        "name": "Gym Shark Training Zip Up Hoodie - Black",
+        "description": "Zip up and go with the Training Zip Up Hoodie. With a full zip down the front and a drawcord hood, this hoodie follows a truly classic design. Plus, a pair of open pockets to each side. Without a doubt, a staple for everyone’s locker.",
+        "detail_01": "70% Cotton 30% Polyester",
+        "detail_02": "Open pockets to front seams",
+        "detail_03": "Drawcords to hood",
+        "price": 35.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGZIPHOODIE-B1A1C-BBBB-XS-BW1-BLACK_24.A-Edit_AS_885x.jpg?v=1628107677",
+        "image": "WOMHOOD03.jpg"
+    }
+}, {
+    "pk": 27,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967889",
+        "name": "GASP Throwback Tank - Black",
+        "description": "Allow yourself to be inspired by the heaviest of the heavy from the golden ages of classic bodybuilding in this classic Throwback tank. It’s made from a comfortable washed cotton jersey with good breathability, great for your everyday workout.",
+        "detail_01": "100% cotton",
+        "detail_02": "Classic Iron Camp Logo.",
+        "detail_03": "Manufactured with the finest materials",
+        "price": 29.0,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gasp-throwback-tank-black-350112_1024x1024.jpg?v=1610386948",
+        "image": "MANTANK09.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776555",
+        "name": "Gym Shark - Men's Arrival Shorts - Blue",
+        "description": "A collection to help you realise everything you’re capable of, Arrival turns exercise into performance. Ensure maximum movement throughout your training in a lightweight, high-stretch material and stay revitalised through every action with sweat-wicking properties.",
+        "detail_01": "100% Polyester",
+        "detail_02": "Sweat-wicking",
+        "detail_03": "7-inch inseam",
+        "price": 18.0,
+        "category": 6,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/ARRIVAL7_SHORTPETROLBLUE.C-Edit_CM_290x.jpg?v=1617183477",
+        "image": "MENSHORT05.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000223",
+        "name": "Men's GymShark Trunks White- 2pk",
+        "description": "Men's classic boxer design, now with a shorter and tighter fit, so you'll always feel snug and secure without any bunching. Just because you're on the move, doesn't mean your boxers should too.",
+        "detail_01": " 95% Cotton, 5% Elastane",
+        "detail_02": "Elasticated jacquard waistband",
+        "detail_03": "Soft, stretchy material",
+        "old_price": "20.00",
+        "price": 15.99,
+        "category": 8,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/Trunk2PkWhiteG1A1B.A-Edit_Edit_HKTIFF_IS_ed4028ea-3d10-45c5-ac39-cbd167ccae01_885x.jpg?v=1632845719",
+        "image": "SALE03.jpg"
+    }
+}, {
+    "pk": 30,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456341",
+        "name": "RDX W2 Powerlifting Wrist Wraps",
+        "description": "RDX Gym Wrist wrap specializes in wrist support and sweat control by expertly incorporating anti-microbial properties. These top-quality RDX wrist wraps with thumb loops for added support are a special purpose protection gear, designed for hand protection from possible injuries.",
+        "detail_01": "Max-Shock Gel Technology",
+        "detail_02": "Grip Flex rubber for additional strength",
+        "detail_03": "Durable material",
+        "price": 10.99,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://media.rdxsports.com/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/w/2/w2_powerlifting_wrist_wraps_2_.jpg",
+        "image": "ACCESS01.jpg"
+    }
+}, {
+    "pk": 31,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456349",
+        "name": "Fat Gripz Original",
+        "description": "Big-grip training has long been hailed as the ‘secret’ to bigger arms and improved grip strength. More than just bulging biceps, grip strength affects every lift you do – from deadlifts, to lat pull-downs, to pull-ups – and for most gym-goers, Fat Gripz is the go-to brand.",
+        "detail_01": "AVailable in three sizes",
+        "detail_02": "Durable rubber design",
+        "detail_03": "Simply pop them on the barbell or dumbbells you’re using and prepare to feel the burn.",
+        "price": 26.0,
+        "category": 7,
+        "rating": 4.9,
+        "image_url": "https://mensfitness.co.uk/wp-content/uploads/2020/02/Fat-Gripz-1024x1024.jpg",
+        "image": "ACCESS09.jpg"
+    }
+}, {
+    "pk": 32,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113128",
+        "name": "Womens GymPro Pouch Longline Hoodie - Blue",
+        "description": "Unique back tape design continues over the hood and gives a stylish and modern look keeping you on trend, together with its bold centre embroidered logo, its a piece you wont want to be with out.",
+        "detail_01": "50% Cotton 50% Polyester",
+        "detail_02": "Relaxed hood",
+        "detail_03": "Anti pill technology to reduce bobbling",
+        "price": 49.0,
+        "category": 4,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0279/7882/5793/products/GYMPRO1_107_700x700@2x.jpg?v=1597485754",
+        "image": "WOMHOOD08.jpg"
+    }
+}, {
+    "pk": 33,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000234",
+        "name": "ULTRA FITNESS WEIGHT LIFTING HOOKS RED",
+        "description": "The specially designed hook protects from stresses faced by serious weightlifters and bodybuilders. It is useful for pulldowns, chin-ups, and deadlifts. 2.7 inches wide heavy duty hook with a non-slip material allows blasting your strengths. 0.25 inches thick and 2.8 inches wide neoprene wrist wrap is attached with the hook. 2 inches wide outside strap with velcro closure.",
+        "detail_01": "Adjustable hook positioning caters to your customized exercises",
+        "detail_02": "These coated hook straps are Padded and made from 100% Cotton and tested for Durability",
+        "detail_03": "The Straps padding cushion must be facing the bar while lifting",
+        "old_price": "9.99",
+        "price": 7.0,
+        "category": 8,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/2689/5238/products/162_600x.jpg?v=1538944700",
+        "image": "SALE14.jpg"
+    }
+}, {
+    "pk": 34,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334333",
+        "name": "Gym Shark Womens Adapt Camo Seamless Leggings - Pink",
+        "description": "Meet your new secret weapon. The flattering fit, ruched detailing and all-over jacquard camo pattern are carefully designed to blend out. The supportive, high-rise waistband and subtle, seamless fabric ensure comfort and ease of movement. The Adapt Camo Seamless Leggings have everything you need to attack every workout.",
+        "detail_01": "79% Polyamide, 15% Polyester, 6% Elastane",
+        "detail_02": "Elongated ribbed waistband",
+        "detail_03": "All-over jacquard camo pattern",
+        "price": 50.0,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/AdaptCamoSeamlessLeggingsScandiPinkGLLG4683880.A_copy_ZH_ZH_update_885x.jpg?v=1620068440",
+        "image": "WOMLEG03.jpg"
+    }
+}, {
+    "pk": 35,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967897",
+        "name": "Gorilla Wear Florida Stringer Tank Top - Grey-Neon Lime",
+        "description": "This truly comfortable lose fit stringer, is ideal for indoor and outdoor workouts. Furthermore it is woven with a fashionable mesh back print. In addition this lovely lose fit stringer is equipped with reflecting Gorilla Wear logos, therefore it can also be used for jogging even when it is dark outside.",
+        "detail_01": "Antracite/Neon Green",
+        "detail_02": "100% Polyester",
+        "detail_03": "Machine Washable 30C",
+        "price": 7.0,
+        "category": 5,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gorilla-wear-florida-stringer-tank-top-grey-neon-lime-236729_1024x1024.jpg?v=1625828511",
+        "image": "WOMVEST07.jpg"
+    }
+}, {
+    "pk": 36,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334324",
+        "name": "Gym Shark Men's Critical Zip Joggers Blue",
+        "description": "Meet your most reliable pair of sweats. Durable fabric meets straightforward design in these Critical Zip Joggers. They feature everything you need to get the job done well with an adjustable drawcord waist, open side pockets and a flattering slim fit.",
+        "detail_01": "60% Polyester, 35% Cotton, 5% Elastane",
+        "detail_02": "Zip side pockets",
+        "detail_03": "Adjustable drawcord waist",
+        "price": 35.0,
+        "category": 1,
+        "rating": 4.4,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/CriticalPantsAshTealGMBT4252.A-Edit_AS_855x.jpg?v=1613987439",
+        "image": "MENJOG04.jpg"
+    }
+}, {
+    "pk": 37,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164434",
+        "name": "Gym Shark Vital Seamless 1/4 Zip Up Top",
+        "description": "The Men’s Vital Seamless 1/4 Zip Pullover is an all-rounder for conditioning endeavours. Its seamless construction ensures movement is effortless, while still keeping you fresh and focused with sweat-wicking technology and coverage for any activity.",
+        "detail_01": "Physique-enhancing seamless textures",
+        "detail_02": "100% Nylon",
+        "detail_03": "Sweat-wicking technology",
+        "price": 35.0,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/VITALZIPUP-BLACKGMHD5283-BK640.A-Edit_ZH_ZH_55x.jpg?v=1617136111",
+        "image": "MENTOP04.jpg"
+    }
+}, {
+    "pk": 38,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334327",
+        "name": "Frontside Sport Men's Black Slim Fit Joggers",
+        "description": "Developed from lightweight fleece these skinny joggers combine comfort and style for a modern active wear look. Both versatile and comfortable the Mens Black Slim Fit Joggers will ensure your sports style is on point. Update your leisurewear with track pants guaranteed to strengthen your everyday style. ",
+        "detail_01": "95% cotton, 5% elastane",
+        "detail_02": "Iron garment on reverse",
+        "detail_03": "Tapered fit",
+        "price": 19.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/1004/0688/products/core-pro-slim-fit-gym-joggers-in-black-frontside-sportswear-13690826817617_400x.jpg?v=1592782727",
+        "image": "MENJOG07.jpg"
+    }
+}, {
+    "pk": 39,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776551",
+        "name": "ONCROS - Men's Gym Fitness Shorts Bodybuilding Jogging Workout Shorts",
+        "description": "The Force Knit Shorts Feature An Upgraded Fabrication Whilst Keeping In Line With The Popular Aesthetic Fit. Ideal For Leg Days And To Appeal To Your Physique; Adjustable Waistband With Drawcord For A Better Fit.",
+        "detail_01": "95% Polyamide / 5% Polyester.",
+        "detail_02": "Micro-elastic",
+        "detail_03": "Adjustable Waistband With Drawcord",
+        "price": 19.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0560/9049/3121/products/GITF-mens-gym-fitness-shorts-Bodybuilding-jogging-workout-male-shorts-pants-sport-Run-Breathable-Quick-drying_1800x1800.jpg?v=1621997055",
+        "image": "MENSHORT01.jpg"
+    }
+}, {
+    "pk": 40,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456342",
+        "name": "ONCROS - Gym Fitness Gloves Hand Palm Protector",
+        "description": "Made of durable microfiber and breathable micro mesh cloth, these weight lifting gloves allow you to keep your hands dry when you exercise, Silicone strips on the surface prevent the gloves from deforming. High standard of durability, you can use them for a long time.",
+        "detail_01": "high-quality ultralight polyester",
+        "detail_02": "strength training, weightlifting",
+        "detail_03": "Suitabale for adults only",
+        "price": 9.99,
+        "category": 7,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0560/9049/3121/products/Gym-Fitness-Gloves-Hand-Palm-Protector-with-Wrist-Wrap-Support-Crossfit-Workout-Bodybuilding-Power-Weight-Lifting_1800x1800.jpg?v=1621497886",
+        "image": "ACCESS02.jpg"
+    }
+}, {
+    "pk": 41,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967881",
+        "name": "Squatwolf Next Gen Stringer - Stone Grey",
+        "description": "Experience the perfection of leggings from the all-new Hera Collection. These leggings are designed to feel like a second skin, with its body-hugging fit to provide you with maximum comfort.",
+        "detail_01": "Premium Sweat-Wicking Fabric",
+        "detail_02": "3D Printed Logo",
+        "detail_03": "Fabric: 87% Nylon / 13% Spandex",
+        "price": 40.0,
+        "category": 5,
+        "rating": 4.5,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2018/09/7-min-12-1-510x510.jpg",
+        "image": "MANTANK01.jpg"
+    }
+}, {
+    "pk": 42,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164432",
+        "name": "Souluxe Long Sleeve Half Zip Sports Top",
+        "description": "Fancy adding some versatility to your activewear wardrobe? This two-tone jacket from our Souluxe collection has you covered. It comes in black and grey tones and includes long sleeves, as well as a half zip collar fastening for fending off cold weather. Crafted from woven fabric and features an antibacterial finish, making it ideal for any activity",
+        "detail_01": "92% Polyester 8% Elastane.",
+        "detail_02": "Machine washable",
+        "detail_03": "Crafted from woven fabric and features an antibacterial finish",
+        "price": 14.0,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "https://matalan-content.imgix.net/uploads/asset_file/asset_file/342173/1626857078.3198614-S2836961_C101_Alt1.jpg?ixlib=rails-2.1.4&cs=tinysrgb&auto=compress%2Cformat&fm=pjpg&w=1000&h=1400&fit=crop&dpr=2&s=9d0e722b945713dcb0df37a8fe6cabac",
+        "image": "MENTOP02.jpg"
+    }
+}, {
+    "pk": 43,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020501",
+        "name": "Squatwolf Classic Over-sized Bodybuilding Tee",
+        "description": "Taking you back to the era when gains were the heart, soul and blood of every iron pumper. Every rep, every pull mattered like there was no tomorrow. The Oversized Classic Body Building Cut is designed to show off those gains, because size does matter. With its Friction-free fine stitch and Super Soft Classic Cotton Feel, it will be a perfect addition for the most intense grinds, as well as the casual strolls on the streets.",
+        "detail_01": "Dry-Fit and Moisture Wicking",
+        "detail_02": "Super Soft Classic Cotton Feel",
+        "detail_03": "Side Splits",
+        "price": 35.0,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2019/11/3-48.jpg",
+        "image": "MENTEE01.jpg"
+    }
+}, {
+    "pk": 44,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334321",
+        "name": "Mens Vanquish Icon Heather Tapered Sweatpants - Grey",
+        "description": "A classic tapered fit with deep side pockets, off white contrast drawstrings and a new style logo.",
+        "detail_01": "Cotton, Polyester and Elastane blend",
+        "detail_02": "Machine wash inside out at 30°C",
+        "detail_03": "Featuring a new embroidered box logo",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/basicspantsgrey_0284_005_2000x.jpg?v=1623772227",
+        "image": "MENJOG01.jpg"
+    }
+}, {
+    "pk": 45,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000224",
+        "name": "Seamless Gym Sets - Athletica, M Leggings L Top / Black",
+        "description": "Time to upgrade your activewear, with Athletica's new seamless collections. Theyll give you great support which leaves you feeling confident throughout your entire workout. Not too mention you'll be the envy of the whole gym.",
+        "detail_01": "Mesh antibacterial coated fabric, retaining properties wash after wash",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Grey / Black Colour Combo",
+        "old_price": "35.00",
+        "price": 25.0,
+        "category": 8,
+         "rating": 4.4,
+        "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRpVw82b2j8xcVhdeO8j8lhhT7h2rzVymyHGpVWZXJsrtD0MSk&usqp=CAY",
+        "image": "SALE04.jpg"
+    }
+}, {
+    "pk": 46,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967899",
+        "name": "Gorilla Wear Seattle Tank Top - Red",
+        "description": "The Seattle Tank Top is everything you need during your workouts. It’s loose, lightweight, and it keeps you cool. It is made of breathable polyester and has mesh areas for maximum ventilation. You can easily wear this regular fit top over your sports bra. The screen-printed logos on the front and back provide nice details. The Seattle Tank Top is available in three colours, you have the choice of Black, Mint Green, and Red. Stay cool and look cool!",
+        "detail_01": "Screen Printed Logos",
+        "detail_02": "100% Polyester",
+        "detail_03": "Mesh Areas For Ventilation",
+        "price": 25.0,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gorilla-wear-seattle-tank-top-red-849286_1024x1024.jpg?v=1624268822",
+        "image": "WOMVEST09.jpg"
+    }
+}, {
+    "pk": 47,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776567",
+        "name": "RyderWear Women's Seamless Staples Shorts - Teal Marl",
+        "description": "Whatever the workout, whatever the occasion, the Staples Seamless Originals Shorts have you covered. Featuring our signature seamless fabric, these lightweight shorts offer maximum movement, so you can crush your workout in ultimate comfort",
+        "detail_01": "Seamless knit technology",
+        "detail_02": "65% Nylon/25% Polyester/10% Spandex",
+        "detail_03": "Supportive seamless rib waistband",
+        "price": 13.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/2678/2688/products/seamless-staples-shorts-teal-marl-clothing-ryderwear-374601_1000x1000.jpg?v=1626438922",
+        "image": "WOMSHORT07.jpg"
+    }
+}, {
+    "pk": 48,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456358",
+        "name": "RDX R1 Double Handle Gym Triceps Rope",
+        "description": "RDX Gym Triceps Rope is highly useful in building strong triceps and biceps, and is integrated with quality rubberized ends. The customizable Gym Tricep Rope by RDX is attached with clip and is compatible with all cable machines which adds more to its utility",
+        "detail_01": "Easy hook up with large carabiner",
+        "detail_02": "Thick rope with rubber ends",
+        "detail_03": "Attachment clip for enhanced compatibility with cable machines ",
+        "price": 20.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://media.rdxsports.com/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/r/d/rdx_r1_tricep_rope_black_2_.jpg",
+        "image": "ACCESS18.jpg"
+    }
+}, {
+    "pk": 49,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967887",
+        "name": "GASP Vintage T-Back - Black",
+        "description": "100% soft jersey cotton with a big print for big physiques! Hard wearing and made for the gym. It’s designed to be looser than the ribbed tanks for a more relaxed fit. This is the one for when you’re bulking up.",
+        "detail_01": "100% Cotton",
+        "detail_02": "Iconic 'G' Logo",
+        "detail_03": "Contrasting Material",
+        "price": 29.0,
+        "category": 5,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gasp-vintage-t-back-black-567841_1024x1024.jpg?v=1611068562",
+        "image": "MANTANK07.jpg"
+    }
+}, {
+    "pk": 50,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113120",
+        "name": "Pursue Fitness Classic Hoodie 4.0 - Grey",
+        "description": "The classic hoodie returns with a new fabric and updated design for unparalleled comfort.",
+        "detail_01": "Stay warm in layers of premium brushed fleece",
+        "detail_02": "Kangaroo pocket",
+        "detail_03": "Classic logo print to front",
+        "price": 27.99,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/classic-hoodie-40-heather-grey.jpg?v=1628009898",
+        "image": "MENHOOD10.jpg"
+    }
+}, {
+    "pk": 51,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164433",
+        "name": "Vanquish Warm Up Project Top",
+        "description": "Generously oversized to drape over the shoulders and fit loose around the body.",
+        "detail_01": "Machine wash inside out at 30 degrees",
+        "detail_02": "95% Cotton 5% Elastane",
+        "detail_03": "Worn Vintage Effect",
+        "price": 39.99,
+        "category": 3,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Warm-Up-Project-Olive-Oversized-Long-Sleeve-T-Shirt-5_de1eea8c-34cc-4077-8cf8-5ede5ca547ee_5000x.jpg?v=1617094537",
+        "image": "MENTOP03.jpg"
+    }
+}, {
+    "pk": 52,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334323",
+        "name": "Mens Vanquish Eclipse Strike Sweatpants - Khaki",
+        "description": "The Eclipse Strike is made to stand out. With an updated fit, lighter drawstrings and a bold stripe along the outer leg.",
+        "detail_01": "Machine wash inside out at 30 degrees.",
+        "detail_02": "95% cotton and 5% elastane.",
+        "detail_03": "Zips on the side and back pockets",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__087-2_2000x.jpg?v=1623418330",
+        "image": "WOMHOOD03.jpg"
+    }
+}, {
+    "pk": 53,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967892",
+        "name": "Rhya Drape Back Gym Top",
+        "description": "Pretty yet practical. The Rhya is a stunning addition any gym kit.",
+        "detail_01": "Soft, stretching moisture wicking fabric",
+        "detail_02": "Drape back top",
+        "detail_03": "Machine Durable Cotton",
+        "price": 26.0,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/2777/0828/products/DSC_0262_Square_590x.jpg?v=1581594369",
+        "image": "WOMVEST02.jpg"
+    }
+}, {
+    "pk": 54,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776566",
+        "name": "AYBL Core Shorts",
+        "description": "Crush your next workout in these high performance compression workout shorts. Designed for comfort and breathability, these ultra-soft gym shorts will feel like a second skin. The workout leggings feature a flattering high-waisted design that will make you stand out at the gym. Squat-proof and supportive, these gym shorts will become your new favourite pair for both high and low intensity workouts.",
+        "detail_01": "87% Nylon | 13% Elastane",
+        "detail_02": "Squat proof",
+        "detail_03": "300 GSM",
+        "price": 22.0,
+        "category": 6,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/3000/0340/products/resizing-webimgs-24jun1913_600x.jpg?v=1561934659",
+        "image": "WOMSHORT06.jpg"
+    }
+}, {
+    "pk": 55,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776559",
+        "name": "Gym King Sport Pro Jersey Short - Pebble",
+        "description": "The Gym King Sport range offers incredible comfort at an affordable price, giving you a great fitted feeling when doing those all important squats",
+        "detail_01": "Gym King branding, in White",
+        "detail_02": "Elasticated waist with drawstring",
+        "detail_03": "95% Cotton, 5% Elastane.",
+        "price": 21.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/GKSPORTLOGOTEE_SHORT-PEBBLESST-B24HZSHR-B24I2_152_700x.jpg?v=1627908698",
+        "image": "MENSHORT09.jpg"
+    }
+}, {
+    "pk": 56,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000225",
+        "name": "2 pcs non-slip foam push up bars fitness equipment men and women push ups home gym exercise - Black",
+        "description": "Made of high quality stainless steel, it is strong and durable enough to support any weight. The I-shape design of the push-up bar can protect your wrist from injury during exercise. Helps to stretch and train your abdominal muscles to get what you like.",
+        "detail_01": "Color: Black",
+        "detail_02": "Material: stainless steel and foam.",
+        "detail_03": "Dimensions: 11cm x 19cm x 14cm",
+        "old_price": "24.10",
+        "price": 20.0,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://cdn.manomano.com/images/images_products/20695545/T/38092576_1.jpg",
+        "image": "SALE05.jpg"
+    }
+}, {
+    "pk": 57,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113125",
+        "name": "New Balance Womens Core Fleece Full Zip Hoodie Navy",
+        "description": "New Balance relaxed fit long sleeve zip through brushback fleece hoodie.",
+        "detail_01": "60% cotton 40% polyester.",
+        "detail_02": "57% cotton 38% polyester 5% elastane rib.",
+        "detail_03": "Split pouch pocket.",
+        "price": 29.99,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": "https://resources.mandmdirect.com/Images/_default/n/b/2/nb2495_1_cloudzoom.jpg",
+        "image": "WOMHOOD05.jpg"
+    }
+}, {
+    "pk": 58,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020513",
+        "name": "Womens Under Armour Tech SSC Colour Block T-Shirt - Brown",
+        "description": "Taking you back to the era when gains were the heart, soul and blood of every iron pumper. Every rep, every pull mattered like there was no tomorrow. The Oversized Classic Body Building Cut is designed to show off those gains, because size does matter. With its Friction-free fine stitch and Super Soft Classic Cotton Feel, it will be a perfect addition for the most intense grinds, as well as the casual strolls on the streets.",
+        "detail_01": "100% Polyester",
+        "detail_02": "4-Way Stretch Fabrication",
+        "detail_03": "Branding to Chest",
+        "price": 9.99,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0516/3935/3510/products/ua-1351087-270_1_600x.jpg?v=1616582349",
+        "image": "WOMTEE03.jpg"
+    }
+}, {
+    "pk": 59,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113115",
+        "name": "Golds Gym Long Sleeve Hooded Top - Vintage White Marl",
+        "description": "The lightweight Golds Gym Hooded Top is perfect for in and out of the gym. This hot style is constructed in a lightweight stretch fabric, with a flattering athletic fit and a hood.",
+        "detail_01": "80% Cotton, 20% Polyester",
+        "detail_02": "Quality cotton fabric",
+        "detail_03": "Athletic fit",
+        "price": 22.0,
+        "category": 4,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/golds-gym-long-sleeve-hooded-top-vintage-white-marl-252946_1024x1024.jpg?v=1610386479",
+        "image": "MENHOOD05.jpg"
+    }
+}, {
+    "pk": 60,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967900",
+        "name": "Gorilla Wear Estelle Twisted Crop Top - Black",
+        "description": "Wearing the Estelle Twisted Crop Top is a great way to work out. It has a cropped length, is silky soft to the touch, and is made of stretch fabrics. This charming top gives you the ability to move without any restrictions. Thanks to the twisted front and the GW Signature logo, it looks super cute too. The Estelle Twisted Crop Top pairs well with shorts, leggings, and pants. Available in Black and Lilac, so you can alternate your gym outfits.",
+        "detail_01": "Twisted Front",
+        "detail_02": "GW Signature Logo",
+        "detail_03": "85% Polyester & 15% Spandexx",
+        "price": 25.0,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gorilla-wear-estelle-twisted-crop-top-black-828057_1024x1024.jpg?v=1624268646",
+        "image": "WOMVEST10.jpg"
+    }
+}, {
+    "pk": 61,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020517",
+        "name": "Nike Dri-FIT Women's Training T-Shirt",
+        "description": "Envelop yourself in breathable comfort. Enriched with Dri-FIT technology, the t-shirt provides exceptional moisture-wicking and breathable properties. Dri-FIT works by actively and efficiently wicking away the build-up of excess sweat and moisture, leaving you feeling cool, dry and comfortable as you strive for the best results and performance. Additionally, cool air is encouraged to circulate, creating a drier, healthier environment for your skin to thrive. The soft, lightweight jersey fabric has the perfect amount of stretch for moving comfortably, and the quick tie design is ideal for versatile training.",
+        "detail_01": "Lightweight construction with a crew neck collar",
+        "detail_02": "Dri-Fit technology helps wick sweat away from the skin ",
+        "detail_03": "Nike Swoosh branding.",
+        "price": 13.95,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://cdn.sportsshoes.com/product/N/NIK18372/NIK18372_1000_1.jpg",
+        "image": "WOMTEE07.jpg"
+    }
+}, {
+    "pk": 62,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000235",
+        "name": "Grid Foam Roller",
+        "description": "Our grid foam roller features a hollow plastic core and a three-dimensional grid massage system which is made from EPE foam.",
+        "detail_01": "Stretches and manipulates the fascia tissue to increase blood flow to the target area and loosen the tightest of muscle knots",
+        "detail_02": "Can also be used after a workout to relieve muscle pain and tension, boost your recovery time, and prepare you for your next workout",
+        "detail_03": "Grid system consists of bumps and ridges which act like the hands of a masseuse to deliver deeper penetrating myofascial release",
+        "old_price": "10.99",
+        "price": 8.99,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://media.corebalancefitness.co.uk/pub/media/catalog/product/cache/4beed3f7202012f146367a84605f41e5/4/7/470438_blue_foam_grid_roller_2.jpg",
+        "image": "SALE15.jpg"
+    }
+}, {
+    "pk": 63,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967895",
+        "name": "Better Bodies Performance Halter - White",
+        "description": "Better Bodies new Performance Halter is a feminine halter top that allows you to perform at your best during your workouts. It’s made out of a durable and flexible mix of polyester and elastane with a great fit. The fabric has a good moisture wicking ability as well as a short dry time, which keeps you dry and comfortable during intense gym sessions.",
+        "detail_01": "UV 40+ fabric",
+        "detail_02": "Good moisture wicking ability – keeps your dry!",
+        "detail_03": "93% polyester and 7% elastane",
+        "price": 27.90,
+        "category": 5,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/better-bodies-performance-halter-white-879941_1024x1024.jpg?v=1610385511",
+        "image": "WOMVEST05.jpg"
+    }
+}, {
+    "pk": 64,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456353",
+        "name": "TUNTURI FITNESSMAT PRO140 - BLACK",
+        "description": "This exercise mat is very comfortable, is anti-slip and you can neatly hang it up in the special storage rack. Floor exercises are even more fun on this Tunturi Pro – Fitnessmat..",
+        "detail_01": "The solid and thick material ensures a comfortable lying down posture during your floor exercises",
+        "detail_02": "Durable due to the high quality",
+        "detail_03": "Easy to hang with the integrated suspension eyes",
+        "price": 20.0,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "https://www.tunturi.org/website/Accessoires/14TUSFU265.jpg",
+        "image": "ACCESS13.jpg"
+    }
+}, {
+    "pk": 65,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776564",
+        "name": "Gym King Sport Power 3 Inch Short - Grey Marl",
+        "description": "Another great additon to the GK Sport collection is the 3 inch short, these look great for those intense days at the gym while at the same time they compliment your frame and come in the Greay Marl shade.",
+        "detail_01": "Compression short",
+        "detail_02": "Squat proof",
+        "detail_03": "73% Polyester, 24% Polyamide, 3% Elastane",
+        "price": 7.99,
+        "category": 6,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/SPORTPOWERSSSEAMLESSTEE_3INCHSHORT-GREYMARLWST-F244KWSR-F244L_06_700x.jpg?v=1612957067",
+        "image": "WOMSHORT04jpg"
+    }
+}, {
+    "pk": 66,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776556",
+        "name": "Gym Shark - Men's Arrival Shorts - Red",
+        "description": "A collection to help you realise everything you’re capable of, Arrival turns exercise into performance. Ensure maximum movement throughout your training in a lightweight, high-stretch material and stay revitalised through every action with sweat-wicking properties.",
+        "detail_01": "100% Polyester",
+        "detail_02": "Sweat-wicking",
+        "detail_03": "7-inch inseam",
+        "price": 18.0,
+        "category": 6,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/GMSH5380-SPRGMSH5636-SPR-Arrival7inchshortSportsRed.C-Edit_BK_885x.jpg?v=1617727690",
+        "image": "MENSHORT06.jpg"
+    }
+}, {
+    "pk": 67,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020507",
+        "name": "Gym King Origin Tee - White",
+        "description": "Slim fit and lightweight gives you a fitted yet breathable tee with an embroidered logo on the chest",
+        "detail_01": "Machine wash at 30°C.",
+        "detail_02": "95% Cotton, 5% Elastane.",
+        "detail_03": "Crew neck",
+        "price": 35.0,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/origin32_700x.jpg?v=1624009666",
+        "image": "MENTEE07.jpg"
+    }
+}, {
+    "pk": 68,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776562",
+        "name": "SikSilk Neon Tape Gym Shorts – Navy",
+        "description": "The SikSilk Neon Tape Gym Shorts in Navy are a new addition to the SS/20 Collection. Pair these Shorts with the SikSilk Neon Tape Bralette for a strong gym look!",
+        "detail_01": "Neon elasticated waistband",
+        "detail_02": "70% Cotton 30% Polyester",
+        "detail_03": "Embroidered SikSilk Logo",
+        "price": 19.50,
+        "category": 6,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0280/2529/0841/products/1573725551-37212800.jpg?v=1597358997",
+        "image": "WOMSHORT02.jpg"
+    }
+}, {
+    "pk": 69,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164440",
+        "name": "Gym + Coffee Blue Fleck Hoodie",
+        "description": "Classic design with a unique fleck fabric, unlike any other hoodie you own. Simple and sporty with warmth and comfort this fitted hoodie will stand out at gyms, cafes or wherever your passions take you.",
+        "detail_01": "Light stretch + high warmth",
+        "detail_02": "Thumbhole cuffs",
+        "detail_03": "High zip with drawstring hood",
+        "price": 65.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0492/7828/8032/products/hoodie-mens-blue-fleck-hoodie-gym-coffee-23612902277294_6a299420-092f-40bd-b2e6-5019e815f939_1200x.jpg?v=1627659118",
+        "image": "MENTOP10.jpg"
+    }
+}, {
+    "pk": 70,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020503",
+        "name": "Vanquish Triumph Charcoal Grey Tee",
+        "description": "Taking you back to the era when gains were the heart, soul and blood of every iron pumper. Every rep, every pull mattered like there was no tomorrow. The Oversized Classic Body Building Cut is designed to show off those gains, because size does matter. With its Friction-free fine stitch and Super Soft Classic Cotton Feel, it will be a perfect addition for the most intense grinds, as well as the casual strolls on the streets.",
+        "detail_01": "95% cotton and 5% elastane fabric blend",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Bold screen-print branding across the chest",
+        "price": 19.99,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/triumph_tee_charcoal_0292_0139_5000x.jpg?v=1616756875",
+        "image": "MENTEE03.jpg"
+    }
+}, {
+    "pk": 71,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020518",
+        "name": "Women's Short-Sleeve Running Top",
+        "description": "The Nike Run Top fits close to your body for a streamlined fit and feel during your run. It's got breathable mesh fabric that helps you stay cool on every mile.",
+        "detail_01": "100% polyester.",
+        "detail_02": "Not intended for use as Personal Protective Equipment (PPE)",
+        "detail_03": "Reflective design elements",
+        "price": 16.95,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9bc2cb99-4f69-4eed-9f8c-13140abb6647/run-short-sleeve-running-top-RQWKhj.png",
+        "image": "WOMTE08.jpg"
+    }
+}, {
+    "pk": 72,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000233",
+        "name": "Dumbbell Rack Holder Lifting Weight Dumbbell Rack Holder Exercise Equipment Indoor Sport Tools (Dumbbells are not included)",
+        "description": "Suitable for barbells up to 5lbv",
+        "detail_01": "Type: Barbell rack",
+        "detail_02": "Materials: Plastic",
+        "detail_03": "Type: With Hole, Triangle",
+        "old_price": "21.70",
+        "price": 18.0,
+        "category": 8,
+        "rating": 4.5,
+        "image_url": "https://cdn.manomano.com/images/images_products/18725656/T/32862077_1.jpg",
+        "image": "SALE13.jpg"
+    }
+}, {
+    "pk": 73,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334328",
+        "name": "Sole Ambition Men's Black Slim Joggers",
+        "description": "A versatile pair of black slim fit men’s joggers. The flattering fit & multiple zip pockets make these suitable for both the gym and the street.",
+        "detail_01": "Made from 100% organic cotton",
+        "detail_02": "Bottom hem is ribbed for added style",
+        "detail_03": "Unique black marl effect",
+        "price": 44.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0068/5716/2807/products/mens-skinny-fit-black-gym-joggers_720x.jpg?v=1588271815",
+        "image": "MENJOG08.jpg"
+    }
+}, {
+    "pk": 74,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334340",
+        "name": "Gym King Sport Animal Seamless Legging - Pink",
+        "description": "The all new animal print seamless leggings give you maximum comfort as well as a stand out statement, you'll feel as comfortable as you do stylish with a high rise fit and deep shaping waistband.",
+        "detail_01": "Gym King branding",
+        "detail_02": "Seamless knitted fabric",
+        "detail_03": "58% Polyamide, 34% Polyester, 85 Elastane.",
+        "price": 9.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/SPORTANIMALLEGGING_LSCROP-PINK-WLG-F242A_WLT-F242B_66_700x.jpg?v=1614358608",
+        "image": "WOMLEG10.jpg"
+    }
+}, {
+    "pk": 75,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776568",
+        "name": "RyderWear Women's Seamless Staples Shorts - Red Marl",
+        "description": "Whatever the workout, whatever the occasion, the Staples Seamless Originals Shorts have you covered. Featuring our signature seamless fabric, these lightweight shorts offer maximum movement, so you can crush your workout in ultimate comfort",
+        "detail_01": "Seamless knit technology",
+        "detail_02": "65% Nylon/25% Polyester/10% Spandex",
+        "detail_03": "Supportive seamless rib waistband",
+        "price": 13.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/2678/2688/products/seamless-staples-shorts-cherry-red-marl-clothing-ryderwear-452144_1000x1000.jpg?v=1626437122",
+        "image": "WOMSHORT08.jpg"
+    }
+}, {
+    "pk": 76,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456348",
+        "name": "Core Balance Foam Roller For Deep Tissue Muscle Massage",
+        "description": "Relieve aches, pains and muscle tension with a Core Balance Grid Foam Massage Roller. Roll muscles over the roller to break-up soft-tissue adhesions and target painful trigger points (muscle knots) that can develop after a workout.",
+        "detail_01": "The foam roller features a hollow plastic core with a foam grid exterior for deeper penetrating myofascial release.",
+        "detail_02": "The massage roller measures 33cm x 14cm x 14cm. ",
+        "detail_03": "The roller has been designed using EVA foam",
+        "price": 12.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://m.media-amazon.com/images/I/710V7ZUYIAL._AC_SL1500_.jpg",
+        "image": "ACCESS08.jpg"
+    }
+}, {
+    "pk": 77,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456359",
+        "name": "Meglio Anti-Burst Gym Ball Home Fitness, Yoga, Pilates, Core Strength. Antenatal and Postnatal Workouts - Grey",
+        "description": "They have everything you could want: an elasticated waistband, transparent panels for plenty of femininity, and loose, breathable fabrics. They're the obvious answer! As the ball is unstable to sit, lie or lean on, it pushes your core muscles into overdrive to help maintain your balance.",
+        "detail_01": "Comes with assembly fittings and a pump for quick inflation",
+        "detail_02": "Available size: 55cm - 5’5” and under",
+        "detail_03": "Made from thick, strong, durable PVC material.",
+        "price": 12.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1343/4847/products/GYM_BALL_0001_1C3A4359_1200x.jpg?v=1569103623",
+        "image": "ACCESS19.jpg"
+    }
+}, {
+    "pk": 78,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113124",
+        "name": "Gym Shark Training Zip Up Hoodie - Green",
+        "description": "Zip up and go with the Training Zip Up Hoodie. With a full zip down the front and a drawcord hood, this hoodie follows a truly classic design. Plus, a pair of open pockets to each side. Without a doubt, a staple for everyone’s locker.",
+        "detail_01": "70% Cotton 30% Polyester",
+        "detail_02": "Open pockets to front seams",
+        "detail_03": "Drawcords to hood",
+        "price": 35.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGZIPHOODIE-B1A1C-EBDQ-XS-BW1-STUDIOGREEN20.A-Edit_BK_885x.jpg?v=1628107672",
+        "image": "WOMHOOD04.jpg"
+    }
+}, {
+    "pk": 79,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164445",
+        "name": "Gym Shark Vital Seamless 2.0 Long Sleev Crop",
+        "description": "Endeavour to perform in the Vital Seamless 2.0 Long Sleeve Crop Top. Look and feel at your best in the gym with an elegant crop and form-enhancing fit combined with sweat-wicking technology and supportive fabrics.",
+        "detail_01": "Midriff crop",
+        "detail_02": "96% Nylon 4% Elastane",
+        "detail_03": "Detailed with figure-contouring shades",
+        "price": 30.0,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/VITALSEAMLESSCROPTOPB1A3D-BBF3-XS-AI1BLACKMARL43.D2_ZH_ZH_855x.jpg?v=1628755045",
+        "image": "WOMTOP05.jpg"
+    }
+}, {
+    "pk": 80,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020514",
+        "name": "Nike Womans Training Tee - White",
+        "description": "Break through the mundane with the Nike Sportswear T-Shirt. Made from our everyday cotton fabric, this top has a soft, smooth feel.",
+        "detail_01": "Odour-resistant finish helps the top stay fresh.",
+        "detail_02": "100% polyester",
+        "detail_03": "Machine washable",
+        "price": 17.47,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5619aa15-c782-4186-8d10-fd0c176dcfc8/sportswear-t-shirt-gc51wB.png",
+        "image": "WOMTEE04.jpg"
+    }
+}, {
+    "pk": 81,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000226",
+        "name": "GYMTIER Classic – Gym T-Shirt",
+        "description": "Fun motivational workout T-Shirts to get you pumped in the gym. Our low cost tees are printed in house with new designs released monthly. The chest and shoulder area have a snug fit while the bottom half is long and loose. An ideal casual gym top.",
+        "detail_01": "Snug fit around the arms and chest",
+        "detail_02": "Long and Loose fit around the bottom",
+        "detail_03": "100% Cotton (Grey is 35% Cotton, 65% Polyester)",
+        "old_price": "13.90",
+        "price": 10.0,
+        "category": 8,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/origin345_700x.jpg?v=1624009704",
+        "image": "SALE06.jpg"
+    }
+}, {
+    "pk": 82,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334334",
+        "name": "Gym King Sport Harmony Ombre Legging - Peach",
+        "description": "Squat proof, figure hugging leggings from the Ombre rnge at Gym King. These gorgeous leggings come with breathable fabric and reflective brandng to make a statement.",
+        "detail_01": "Figure contouring fit",
+        "detail_02": "56% Polyamide, 35% Polyester, 9% Elastane.",
+        "detail_03": "Branded deep shaping rib waistband",
+        "price": 19.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/ombre22_700x.jpg?v=1623855717",
+        "image": "WOMLEG04.jpg"
+    }
+}, {
+    "pk": 83,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967896",
+        "name": "Nebbia Rib Cut Out Top 678 - Black",
+        "description": "Comfort during workouts and a perfect design! You will ultimately fall in love with this top with a modern cut available in three colors! Nice flexible rib material, precise cuts on the front and back side, with a iconic NEBBIA lampas rubber on the chest. Thanks to the unique cut in the arms area will your arms and shoulders look just amazing!",
+        "detail_01": "Refined cuts in the front and the back",
+        "detail_02": "Lampas string with NEBBIA logo",
+        "detail_03": "88% polyamide, 12% elastane",
+        "price": 17.0,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/nebbia-rib-cut-out-top-678-black-300146_1024x1024.jpg?v=1625756095",
+        "image": "WOMVEST06.jpg"
+    }
+}, {
+    "pk": 84,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456344",
+        "name": "RDX W2 Weightlifting Straps",
+        "description": "RDX Training Weight Lifting Gym Straps inhibit the calluses, cuts, and relevant injuries during the gym workouts and provide hand safety. The Elite-Quality RDX gym straps are manufactured with the stretchable and durable material and are tested painstakingly for performance.",
+        "detail_01": "Approximately 23.5” length, 1.5” width",
+        "detail_02": "High-quality cotton-built",
+        "detail_03": "Include Grip Flex™ wrist pad",
+        "price": 10.99,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "https://media.rdxsports.com/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/w/2/w2_weightlifting_straps_1__2_1.jpg",
+        "image": "ACCESS04.jpg"
+    } 
+}, {
+    "pk": 85,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967893",
+        "name": "Gym Shark Women's Speed Tank - Tangerine",
+        "description": "Feel supported every step of the way in the Speed Tank. This lightweight top offers a high neckline and dropped front hem for coverage, with an angled seam for comfort that endures. Whatever your style, and whatever your reason for running, go ahead and show the world your speed.",
+        "detail_01": "100% Polyester",
+        "detail_02": "Reflective logo to chest and back",
+        "detail_03": "Angled seam",
+        "price": 20.0,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/SpeedTankHavanaOrange-TangerineTwistMarlGLTK5086.C_ZH_ZH_855x.jpg?v=1627378417",
+        "image": "WOMVEST03.jpg"
+    }
+}, {
+    "pk": 86,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967882",
+        "name": "Squatwolf Next Gen Stringer - Black",
+        "description": "Experience the perfection of leggings from the all-new Hera Collection. These leggings are designed to feel like a second skin, with its body-hugging fit to provide you with maximum comfort.",
+        "detail_01": "Premium Sweat-Wicking Fabric",
+        "detail_02": "3D Printed Logo",
+        "detail_03": "Fabric: 87% Nylon / 13% Spandex",
+        "price": 40.0,
+        "category": 5,
+        "rating": 4.5,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2018/09/8-min-7-2-510x510.jpg",
+        "image": "MANTANK02.jpg"
+    }
+}, {
+    "pk": 87,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113118",
+        "name": "Pursue Fitness Classic Hoodie 4.0 - Burgundy",
+        "description": "The classic hoodie returns with a new fabric and updated design for unparalleled comfort.",
+        "detail_01": "Stay warm in layers of premium brushed fleece",
+        "detail_02": "Kangaroo pocket",
+        "detail_03": "Classic logo print to front",
+        "price": 27.99,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/classic-hoodie-40-garnet.jpg?v=1628009959",
+        "image": "MENHOOD08.jpg"
+    }
+}, {
+    "pk": 88,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164435",
+        "name": "Gym King Sport Race 1/4 Zip Funnel Neck - Grey Marl",
+        "description": "Muscle fit effect with a raglan sleeve and made with underarm panelling for breathability",
+        "detail_01": "84% Polyester, 16% Elastane.",
+        "detail_02": "Machine wash at 30°C.",
+        "detail_03": "Moisture wicking",
+        "price": 11.99,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/JOSS-RACE-5_1299x1800.jpg?v=1613579428",
+        "image": "MENTOP05.jpg"
+    }
+}, {
+    "pk": 89,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113119",
+        "name": "Pursue Fitness Classic Hoodie 4.0 - Black",
+        "description": "The classic hoodie returns with a new fabric and updated design for unparalleled comfort.",
+        "detail_01": "Stay warm in layers of premium brushed fleece",
+        "detail_02": "Kangaroo pocket",
+        "detail_03": "Classic logo print to front",
+        "price": 27.99,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/classic-hoodie-40-black.jpg?v=1628009928",
+        "image": "MENHOOD09.jpg"
+    }
+}, {
+    "pk": 90,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334335",
+        "name": "Gym King Sport Harmony Ombre Legging - Denim Blue",
+        "description": "Squat proof, figure hugging leggings from the Ombre rnge at Gym King. These gorgeous leggings come with breathable fabric and reflective brandng to make a statement.",
+        "detail_01": "Figure contouring fit",
+        "detail_02": "56% Polyamide, 35% Polyester, 9% Elastane.",
+        "detail_03": "Branded deep shaping rib waistband",
+        "price": 19.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/ombre2_47d2e32f-7c6b-4963-8a2f-181dabbaea4b_700x.jpg?v=1623855688",
+        "image": "WOMLEG05.jpg"
+    }
+}, {
+    "pk": 91,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776563",
+        "name": "SikSilk Cartel Tape Gym Shorts – Black",
+        "description": "The SikSilk Cartel Tape Gym Shorts in Black are a new addition to the SS/20 Collection. Pair these Shorts with the SikSilk Tape Cuff Crop T-Shirt for a strong gym look!",
+        "detail_01": "70% Cotton 30% Polyester",
+        "detail_02": "Cartel elasticated waistband",
+        "detail_03": "Soft touch fabric",
+        "price": 12.50,
+        "category": 6,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0280/2529/0841/products/1574169060-52982800.jpg?v=1597379481",
+        "image": "WOMSHORT03.jpg"
+    }
+}, {
+    "pk": 92,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164443",
+        "name": " Firm Abs Swift 1/2 Zip Long Sleev Top",
+        "description": "Training feels so free with the Swift 1/2 Zip Long Sleeve. The body fit design gives freedom and support to any movement. And thanks to the comfortable, soft, stretchy, and sweat-wicking material, you can focus on the workout and enhance your performance in the gym.",
+        "detail_01": "Sweat-wicking",
+        "detail_02": "78% nylon 22% spandex",
+        "detail_03": "Raglan sleeves with thumbholes",
+        "price": 48.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0243/9315/4623/products/df1ab30b074c29d48d32dcea64f74684_22ebc7c9-81ee-4da3-8681-0fda4215c203_700x.jpg?v=1607484630",
+        "image": "WOMTOP03.jpg"
+    }
+}, {
+    "pk": 93,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000232",
+        "name": "RDX F22 WEIGHT LIFTING GYM GLOVES",
+        "description": "Comfort and durability, two elements that make a product of high-quality. RDX’s latest weightlifting gloves have redesigned their idea of gym gloves by making it more about the comfort rather than the grind, without sacrificing the gains. Make your grueling workout less daunting using our highly comfortable Lycra training gloves that can be used for more than just bodybuilding, you could use it for a range of fitness activity such as bicycling, rowing, or training.(SMALL & MEDIUM SIZES RECOMMENDED FOR UP TO 14 YEARS OF AGE)",
+        "detail_01": "Suede palm provides a no-slip grip while preventing blisters",
+        "detail_02": "Can be used for other fitness activities such as rowing, cycling, and training",
+        "detail_03": "Lycra weight lifting gloves conform to the hand’s intricacies for improved blood flow and max breathability",
+        "old_price": "10.99",
+        "price": 7.99,
+        "category": 8,
+        "rating": 5.0,
+        "image_url": "https://media.rdxsports.com/catalog/product/cache/69f3b2992c75192310a5e03d50a0d871/f/2/f22_weight_lifting_gym_gloves_orange_1.jpg",
+        "image": "SALE12.jpg"
+    }
+}, {
+    "pk": 94,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164436",
+        "name": "MP Men's Essentials 1/4 Zip - Black",
+        "description": "Featuring an embroidered logo to the chest and self-fabric colour, the Essentials 1/4 Zip is the perfect layer for those cooler days.",
+        "detail_01": "93% polyester 7% elastane",
+        "detail_02": "Embroidered logo to chest",
+        "detail_03": "¼ zip with auto lock zipper puller",
+        "price": 28.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12642253-2874821023542395.jpg",
+        "image": "MENTOP06.jpg"
+    }
+}, {
+    "pk": 95,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113130",
+        "name": "Gym King Womens Jenner Zip Hooded Top - Grey",
+        "description": "Gym King Womens Jenner Hooded Top in Grey. Move over Gym King, we want a Gym Queen!",
+        "detail_01": "50% Cotton, 50% Polyester.",
+        "detail_02": "Embroidered GK logo on chest",
+        "detail_03": "Fleece lining",
+        "price": 40.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/2372/0947/products/olvjhood1_1024x1024@2x.jpg?v=1549650817",
+        "image": "WOMHOOD10.jpg"
+    }
+}, {
+    "pk": 96,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776561",
+        "name": "SikSilk Tape Gym Shorts - Black",
+        "description": "Made with lightweight fabric, these shorts hug your curves with a tight fit.",
+        "detail_01": "92% Polyester 8% Elastane",
+        "detail_02": "Machine wash",
+        "detail_03": "Branded tape elasticated waist",
+        "price": 16.0,
+        "category": 6,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0280/2529/0841/products/1608556447-39118100.jpg?v=1611261249",
+        "image": "WOMSHORT01.jpg"
+    }
+}, {
+    "pk": 97,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456356",
+        "name": "Bulk Classic Shaker Bottle",
+        "description": "A large 750ml (25oz) capacity, make this bottle perfect for all cold drinks – whether you’re consuming a post-workout shake or keeping hydrated on the go.",
+        "detail_01": "Perfect for mixing all your supplements",
+        "detail_02": "Dishwasher safe",
+        "detail_03": "Leak-proof design",
+        "price": 4.99,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "https://www.bulk.com/media/catalog/product/cache/1500x1500/c/l/classic-shaker-bottle-750ml_bace-csbo-jbla-0750_main.jpg",
+        "image": "ACCESS16.jpg"
+    }
+}, {
+    "pk": 98,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456360",
+        "name": "Meglio Anti-Burst Gym Ball Home Fitness, Yoga, Pilates, Core Strength. Antenatal and Postnatal Workouts - Pink",
+        "description": "They have everything you could want: an elasticated waistband, transparent panels for plenty of femininity, and loose, breathable fabrics. They're the obvious answer! As the ball is unstable to sit, lie or lean on, it pushes your core muscles into overdrive to help maintain your balance.",
+        "detail_01": "Comes with assembly fittings and a pump for quick inflation",
+        "detail_02": "Available size: 65cm 5’6” - 6’0”",
+        "detail_03": "Made from thick, strong, durable PVC material.",
+        "price": 12.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1343/4847/products/PinkGymBall_1400x.jpg?v=1605096553",
+        "image": "ACCESS20.jpg"
+    }
+}, {
+    "pk": 99,
+    "model": "gym_gear.product",
+        "fields": {
+        "sku": "GTF000227",
+        "name": "GYMTIER Classic – Gym T-Shirt / Green",
+        "description": "Fun motivational workout T-Shirts to get you pumped in the gym. Our low cost tees are printed in house with new designs released monthly. The chest and shoulder area have a snug fit while the bottom half is long and loose. An ideal casual gym top.",
+        "detail_01": "Snug fit around the arms and chest",
+        "detail_02": "Long and Loose fit around the bottom",
+        "detail_03": "100% Cotton (Grey is 35% Cotton, 65% Polyester)",
+        "old_price": "13.90",
+        "price": 10.0,
+        "category": 8,
+        "rating": 4.7,
+        "image_url": "https://gymtier.com/wp-content/uploads/2021/01/gymtiercubed-green-1-960x960.jpg",
+        "image": "SALE07.jpg"
+    }
+}, {
+    "pk": 100,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334330",
+        "name": "Gym King Basis Jogger - Pale Mint",
+        "description": "Unique fleece lining joggers made with ribbed cuffs for extra comfort and an embroidered Gym King logo on the leg in bright white",
+        "detail_01": "Machine wash at 30°C.",
+        "detail_02": "70% Cotton, 30% Polyester.",
+        "detail_03": "2 pockets",
+        "price": 39.0,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/BASISOVERHEADHOODIE_JOGGER-MINTHDE-B24LUTSB-B24LV_262_700x.jpg?v=1617274735",
+        "image": "MENJOG10.jpg"
+    }
+}, {
+    "pk": 101,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164446",
+        "name": "Gym Shark Fraction Crop Top",
+        "description": "Whatever your workout, the Fraction Crop Top can be a part of your journey. With a loose fit and drop armholes to give you both breathability and ability to move without any restrictions.",
+        "detail_01": "95% Cotton, 5% Elastane",
+        "detail_02": "Round neckline",
+        "detail_03": "Cropped length",
+        "price": 25.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGCROPTEE-B1A6W-UBBB-XS-BI1-APLINEBLUE31.A-Edit_BK_03fe0c9d-4883-4d71-b6ab-d870c2953904_885x.jpg?v=1628755031",
+        "image": "WOMTOP06.jpg"
+    }
+}, {
+    "pk": 102,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020511",
+        "name": "Under Armour Womans Tech Twist Tee",
+        "description": "UA Tech™ is our original go-to training gear: loose, light, and it keeps you cool. It's everything you need.",
+        "detail_01": "Many UA Tech™ T's are made with recycled, traceable polyester & re-use about 5 bottles per shirt",
+        "detail_02": "4-way stretch construction moves better in every direction",
+        "detail_03": "Material wicks sweat & dries really fast",
+        "price": 14.97,
+        "category": 2,
+        "rating": 4.9,
+        "image_url": "https://underarmour.scene7.com/is/image/Underarmour/V5-1277206-660_FSF?rp=standard-0pad|pdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500",
+        "image": "WOMTEE01.jpg"
+    }
+}, {
+    "pk": 103,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113112",
+        "name": "VSX King Hoodie - Navy",
+        "description": "Combining a slim fit with ergonomic panelling, the KING hoodie bring together function and style. Combine with matching joggers for the complete look.",
+        "detail_01": "Ergonomic Panelling",
+        "detail_02": "70% Cotton, 30% Polyester",
+        "detail_03": "3D Embroidered Icon",
+        "price": 38.0,
+        "category": 4,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0854/0182/products/king-hoodie-navy-462039_2048x.jpg?v=1592696147",
+        "image": "MENHOOD02.jpg"
+    }
+}, {
+    "pk": 104,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334339",
+        "name": "Squatwolf Hera High Waisted Leggings - Purple",
+        "description": "Experience the perfection of leggings from the all-new Hera Collection. These leggings are designed to feel like a second skin, with its body-hugging fit to provide you with maximum comfort.",
+        "detail_01": "Performance Nylon + Spandex Mix",
+        "detail_02": "Moisture-wicking fabric",
+        "detail_03": "Custom SQUAT WOLF Fabric",
+        "price": 50.0,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2019/07/3-2-510x510.jpg",
+        "image": "WOMLEG09.jpg"
+    }
+}, {
+    "pk": 105,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776553",
+        "name": "Squat Wolf - Men's Warrior Shorts - Grey",
+        "description": "Don’t let anything hold you back, with the new SQUATWOLF Warrior Shorts. Whether you are going for a jog or just going hard on leg day, the warrior shorts will help you push yourself to the limit.",
+        "detail_01": "100% High-Performance Polyester",
+        "detail_02": "Quick Dry & Extremely Breathable",
+        "detail_03": "Stretchy and Ultra Light-Weight",
+        "price": 35.0,
+        "category": 6,
+        "rating": 4.5,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2019/11/Charcoal-Warrior-Shorts-Cover-510x510.jpg",
+        "image": "MENSHORT03.jpg"
+    }
+}, {
+    "pk": 106,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456346",
+        "name": "Edealing Barbell Pad Squat Pad Weight Pad Support Sponge",
+        "description": "Edealing Barbell Pad: Fits All Standard and Olympic Bars (Approx 35-38mm Diameter)",
+        "detail_01": "Distribute weight & relieves painful pressure on your neck, shouder or hips, allow you to perform the heaviest squats in comfort.",
+        "detail_02": "Advanced material ensures the pad will not shift or roll around from the bar, designed for upmost comfort, allows you to focus on your form without pain.",
+        "detail_03": "Light weight design, perfect for carrying in gym bags without extra weight.",
+        "price": 9.99,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://m.media-amazon.com/images/I/71wvpJB2G6L._AC_SL1024_.jpg",
+        "image": "ACCESS06.jpg"
+    }
+}, {
+    "pk": 107,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113129",
+        "name": "Gym Shark Apollo Graphic Oversized Hoodie",
+        "description": "Warm up, cool down, or rest in comfort with the Apollo Graphic Oversized Hoodie. The oversized fit and soft cotton-polyester blend keep you cosy, while the bold graphic shows you're part of the Gymshark family, and proud of it.",
+        "detail_01": "Ribbed hem and cuffs",
+        "detail_02": "69% Cotton, 31% Polyester",
+        "detail_03": "Screen-printed logo to chest",
+        "price": 35.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/EssentialsGraphicBoyfriendHoodieAshTealGLPO5726-ATKIRBY19.A_ZH_ZH_855x.jpg?v=1628107098",
+        "image": "WOMHOOD09.jpg"
+    }
+}, {
+    "pk": 108,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967883",
+        "name": "Vanquish Utility Men's Grey Tank",
+        "description": "When a military aesthetic meets clothing made to perform. This collection exclusively uses lightweight fabrics and technologies that raise these pieces to new heights.",
+        "detail_01": "92% polyester, 8% lycra.",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Lightweight perforated fabric",
+        "price": 19.99,
+        "category": 5,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Utility-Mens-Grey-Tank-Top-4_2000x.jpg?v=1603296985",
+        "image": "MANTANK03.jpg"
+    }
+}, {
+    "pk": 109,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164448",
+        "name": "Pursue Fitness Oversized Crop Hoodie",
+        "description": "Carefully constructed with an incredibly soft cotton blend brushed fleece and an oversized relaxed fit, featuring drop shoulders.",
+        "detail_01": "Ultra soft fleece fabric",
+        "detail_02": "Product colour: Slate/Dark Grey",
+        "detail_03": "Subtle grey on grey embroidered logo detail",
+        "price": 26.79,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/oversized-crop-hoodie-slate.jpg?v=1628011205",
+        "image": "WOMTOP08.jpg"
+    }
+}, {
+    "pk": 110,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020519",
+        "name": "Souluxe Grey Cross Back Gym T-Shirt",
+        "description": "Add this relaxed fit t-shirt by Souluxe to your sportswear lineup - in grey, it's got a stylish cross-over detail to the back. Layer it over your favourite sports bra and you'll be the style star of your next gym class.",
+        "detail_01": "80% Polyester 20% Viscose.",
+        "detail_02": "Machine Washable.",
+        "detail_03": "Stylish cross-over detail to the back",
+        "price": 7.0,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://matalan-content.imgix.net/uploads/asset_file/asset_file/194248/1539157977.2618794-S2688567_C228_Main.jpg?ixlib=rails-2.1.4&cs=tinysrgb&auto=compress%2Cformat&fm=pjpg&w=736&h=1030&fit=crop&dpr=2&s=d0c1fdcf03d14c1d53bf212d8c0966ac",
+        "image": "WOMTEE09.jpg"
+    }
+}, {
+    "pk": 111,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113117",
+        "name": "GASP L-S Thermal Hoodie - Maroon",
+        "description": "The L/S Thermal Hoodie is made out of our popular cotton and polyester blend. It has a cool lightweight design that works as well outside of the gym as it does during your workouts. It features a rounded bottom for a great fit and a classic GASP print on the front and back.",
+        "detail_01": "60% cotton and 40% polyester",
+        "detail_02": "Big GASP Industries print on the front and back",
+        "detail_03": "Rounded bottom",
+        "price": 69.0,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gasp-l-s-thermal-hoodie-maroon-238745_1024x1024.jpg?v=1610386315",
+        "image": "MENHOOD07.jpg"
+    }
+}, {
+    "pk": 112,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967884",
+        "name": "Vanquish Core Navy Sleeveless T-shirt",
+        "description": "The Core collection has been made with an extra soft fabric blend. The aesthetic is designed to perform in the gym and be perfect for everyday wear.",
+        "detail_01": "95% cotton and 5% elastane fabric blend.",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Tapered fit",
+        "price": 15.99,
+        "category": 5,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/VanquishMen_sNavyCoreSleevelessTeev2-1_2000x.jpg?v=1597051419",
+        "image": "MANTANK04jpg"
+    }
+}, {
+    "pk": 113,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776560",
+        "name": "Gym King Sport Pro Jersey Short - Rust",
+        "description": "The Gym King Sport range offers incredible comfort at an affordable price, giving you a great fitted feeling when doing those all important squats",
+        "detail_01": "Gym King branding, in White",
+        "detail_02": "Elasticated waist with drawstring",
+        "detail_03": "70% Polyester, 25% Cotton, 5% Elastane.",
+        "price": 21.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/GKSPORTLOGOTEE_JERSEYSHORT-RUSTSST-B24HWSHR-B24I0_244_700x.jpg?v=1626172637",
+        "image": "MENSHORT10.jpg"
+    }
+}, {
+    "pk": 114,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456351",
+        "name": "MIRAFIT 15mm Thick Exercise Floor Mat - Orange",
+        "description": "Floor Mats help you take care of your joints and cushion your body against hard floors while you stretch, strengthen and tone. Can be used both inside and outside for a range of activities.",
+        "detail_01": "Superior quality NBR foam",
+        "detail_02": "Lightweight - easy to roll up and take to gym classes",
+        "detail_03": "Keeps damp and cold out of sleeping bags for improved camping, hiking and mountaineering",
+        "price": 16.95,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://mirafit.co.uk/pub/media/catalog/product/cache/6df267142eb1a5be09111a0219f434bc/e/-/e-Floor-Mat-on-White-Background-a_2.jpg",
+        "image": "ACCESS11.jpg"
+    }
+}, {
+    "pk": 115,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967888",
+        "name": "GASP Ribbed T-Back - Greymelange",
+        "description": "Equipped with a bold GASP print across the chest, a small GASP print in the neck and a tighter fit this tank is designed to the dedicated bodybuilder..",
+        "detail_01": "95% cotton and 5% lycra",
+        "detail_02": "GASP print across the front and on the neck",
+        "detail_03": "Cotton and lycra rib",
+        "price": 29.0,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0258/7682/4122/products/gasp-ribbed-t-back-greymelange-571322_grande.jpg?v=1610386432",
+        "image": "MANTANK08.jpg"
+    }
+}, {
+    "pk": 116,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000228",
+        "name": "BARBELL PAD",
+        "description": "Okay, the Gymshark Barbell Pad probably doesn’t make squats easy. But it certainly makes them easier. With a soft, compressive Nitrile Rubber foam, this barbell accessory rests comfortably on the neck or hips to prevent undue pressure and abrasion through squats, hip thrusts and more.",
+        "detail_01": "Dense foam construction",
+        "detail_02": "100% Nitrile Rubber",
+        "detail_03": "Length: 44.5cm. Diameter: 10.5cm",
+        "old_price": "20.00",
+        "price": 15.99,
+        "category": 8,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/BARBELLPADBLACK.C-Edit_7419b737-1514-448d-83da-d1bba23df811_885x.jpg?v=1629986383",
+        "image": "SALE08.jpg"
+    }
+}, {
+    "pk": 117,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020512",
+        "name": "GymShark Over-sized Womans Training Tee",
+        "description": "Under Armour Tech SSC Colour Block Brown T-Shirt. The ladies t-shirt is designed be lightweight and comfortable running wear, offering full freedom of movement and soft fabric. The ladies gym top is super light and breathable. The top prevents overheating or excessive sweating during physical exercise.",
+        "detail_01": "100% cotton",
+        "detail_02": "We've cut down on our use of swing tags, so this product comes without one",
+        "detail_03": "Embroidered Sharkhead Logo",
+        "price": 20.0,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TrainingOversizedBoyfriendTeeRichMochaGLST5711.A-Edit_CM_ZH_ZH_855x.jpg?v=1624612224",
+        "image": "WOMTEE02.jpg"
+    }
+}, {
+    "pk": 118,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020505",
+        "name": "Squatwolf Statement Tee - Olive",
+        "description": "Designed with purpose, engineered for efficiancy, Statement Tees to reflect your desired goals. Crafted with our stretchy, soft, and comfortable fabric will let you go all-in and make a statement.",
+        "detail_01": "Ultimate sweat-absorption",
+        "detail_02": "Reflective logo on the back",
+        "detail_03": "3D statement print “Lead The Pack”",
+        "price": 35.0,
+        "category": 2,
+        "rating": 4.9,
+        "image_url": "https://squatwolf.com/wp-content/uploads/2018/09/IMG_0527.jpg",
+        "image": "MENTEE05.jpg"
+    }
+}, {
+    "pk": 119,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334337",
+        "name": "Womens Sculpt Purple Leggings",
+        "description": "The women’s multi-sport sculpt leggings are made with seamless technology ensuring comfort and freedom of movement whatever your sport.",
+        "detail_01": "Stretch fabric for enhanced movement",
+        "detail_02": "Stylish pattern",
+        "detail_03": "High waisted",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://www.gymtier.com/wp-content/uploads/2021/01/Sculptleggingspurple-sidefull-960x1208.jpg",
+        "image": "WOMLEG07.jpg"
+    }
+}, {
+    "pk": 120,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776565",
+        "name": "Gym King Sport Focus 3 Inch Short - Black/White",
+        "description": "Another great additon to the GK Sport collection is the 3 inch short, these look great for those intense days at the gym while at the same time they compliment your frame",
+        "detail_01": "Booty cut",
+        "detail_02": "High Build GK logo on leg",
+        "detail_03": "78% Nylon, 22% Elastane.",
+        "price": 19.99,
+        "category": 6,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/FOCUS4_900x_6e02ded2-cbbe-40a6-ba87-51ee42601545_700x.jpg?v=1627918152",
+        "image": "WOMSHORT05.jpg"
+    }
+}, {
+    "pk": 121,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456352",
+        "name": "MIRAFIT 15mm Thick Exercise Floor Mat - Black",
+        "description": "Floor Mats help you take care of your joints and cushion your body against hard floors while you stretch, strengthen and tone. Can be used both inside and outside for a range of activities.",
+        "detail_01": "Superior quality NBR foam",
+        "detail_02": "Lightweight - easy to roll up and take to gym classes",
+        "detail_03": "Keeps damp and cold out of sleeping bags for improved camping, hiking and mountaineering",
+        "price": 16.95,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://mirafit.co.uk/pub/media/catalog/product/cache/6df267142eb1a5be09111a0219f434bc/l/o/loor-Mat-Flat-on-White-Background_1.jpg",
+        "image": "ACCESS12.jpg"
+    }
+}, {
+    "pk": 122,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456357",
+        "name": "RDX P1 5-in-1 Pull Up Assist & Body Stretching Bands for Resistance Training",
+        "description": "5 levels of resistance and you are free to switch and choose the resistance level that suits you. With a total length of 2080cm, X-Light resistance band comes with 6.4mm width & can bear a weight of 5 to 10lbs. Light resistance band have 13mm width and 10-35lbs strength. Medium resistance band features 22mm width with 35-50lbs strength. Heavy resistance band for home gym have width of 32mm & 50-80lbs strength. X-Heavy resistance band comes with 45mm width & weight-bearing capacity of 80-100lbs.",
+        "detail_01": "Made of 100% natural latex, the resistance bands pull-ups are wear-resistant, environment friendly and non-toxic.",
+        "detail_02": "These pull up resistance bands have uniform thickness of 4.5mm.",
+        "detail_03": "Add more resistance to your workouts by using 2 or more squat bands at the same time at your home gym.",
+        "price": 48.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://contents.mediadecathlon.com/p1942099/k$8e3b5d0649e5f82ff015a8a0392e85d0/sq/2-in-1-anti-chafing-fitness-shorts.jpg?format=auto&f=969x969",
+        "image": "ACCESS17.jpg"
+    }
+}, {
+    "pk": 123,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164444",
+        "name": "Pursue Fitness Adapt Seamless Sleev Top",
+        "description": "Complete your outfit with the Pursue Fitness women's ADAPT seamless long sleeve crop top. Ready for your biggest workout or your well deserved rest day.",
+        "detail_01": "Subtle logo detailing to chest and back",
+        "detail_02": "59% Nylon, 33% polyester, 8% elastane",
+        "detail_03": "Midriff crop",
+        "price": 22.49,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/adapt-seamless-long-sleeve-crop-top-subtle-grey-2.jpg?v=1628010319",
+        "image": "WOMTOP04.jpg"
+    }
+}, {
+    "pk": 124,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020508",
+        "name": "Evo T-Shirt - Black",
+        "description": "With athletic cuts and sweat-wicking performance fabrics that move with you, Evo is set to become your go-to workout wear for whenever you want to evolve your training.",
+        "detail_01": "Quick-dry technology",
+        "detail_02": "Ventilating mesh panels",
+        "detail_03": "Main: 91% Polyester/9% Elastane. Mesh: 100% Polyester",
+        "price": 13.99,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/2678/2688/products/evo-t-shirt-black-clothing-ryderwear-470832_1000x1000.jpg?v=1626411429",
+        "image": "MENTEE08.jpg"
+    }
+}, {
+    "pk": 125,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164437",
+        "name": "Gym King Sport Race 1/4 Zip Funnel Neck - Black",
+        "description": "Muscle fit effect with a raglan sleeve and made with underarm panelling for breathability",
+        "detail_01": "84% Polyester, 16% Elastane.",
+        "detail_02": "Machine wash at 30°C.",
+        "detail_03": "Moisture wicking",
+        "price": 34.99,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/RACEFUNNEL32_700x.jpg?v=1613581364",
+        "image": "MENTOP07.jpg"
+    }
+}, {
+    "pk": 126,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334325",
+        "name": "Gym Shark Men's Studio Joggers - Black",
+        "description": "The Studio Joggers are designed for a full range of motion, so you can reach yours. Crafted with a super lightweight and stretchy nylon-elastane material blend and an elongated inseam gusset, these bottoms will follow you through every move in the studio, so you can stretch your mobility limits.",
+        "detail_01": "Lightweight, soft-stretch material",
+        "detail_02": "Heat-sealed Gymshark logo to ankle",
+        "detail_03": "78% Nylon, 22% Elastane",
+        "price": 40.0,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/StudioPantBlack2GMBT5334.A-Edit_BK_4b720256-49ab-4c83-9545-588aa2bf8ab6_885x.jpg?v=1628755083",
+        "image": "MENJOG05.jpg"
+    }
+}, {
+    "pk": 127,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF0205120",
+        "name": "Under Armour Twist Tech Short Sleeve Womens Running Top",
+        "description": "The Under Armour Twisted Tech Short Sleeve Tee features incredibly light UA Tech™ fabric which delivers a soft feel with classic UA performance, allowing you to run to the best of your ability.",
+        "detail_01": "Incredibly light UA Tech™ fabric delivers a soft feel with classic UA performance.",
+        "detail_02": "100% Polyester.",
+        "detail_03": "Lightweight stretch construction improves mobility for full range of motion.",
+        "price": 15.0,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://www.startfitness.co.uk/media/catalog/product/cache/5ce015e08683a78682d82e5ec7a60c2b/u/n/under-armour-twist-tech-short-sleeve-v-neck-1258568-001.jpg",
+        "image": "WOMTEE10.jpg"
+    }
+}, {
+    "pk": 128,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164438",
+        "name": "Gym + Coffee Men's Parker Pro in Sky Blue",
+        "description": "Built for performance; designed for pushing boundaries. The men’s long sleeve Parker Pro keeps you cool + dry when it counts through run, bike and sweat, session after session.",
+        "detail_01": "Thumbhole cuff for cooler mornings",
+        "detail_02": "Technical stretch fabric + reflective logo detailing",
+        "detail_03": "Slim fit style",
+        "price": 45.0,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0492/7828/8032/products/SS21-zip-UPDATE-MENS-PARKER-PRO-blue-2_28e1510f-2a3b-4ddd-a2bc-07ed83ccf568_1200x.jpg?v=1627659633",
+        "image": "MENTOP08.jpg"
+    }
+}, {
+    "pk": 129,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020515",
+        "name": "Nike Dry Fit Academy Tee",
+        "description": "Elevate your everyday training in the Nike Dri-FIT Academy Top.Its smooth, sweat-wicking fabric keeps you cool and helps prevent the top from clinging to your skin—so you can focus on playing your best. This product is made with 100% recycled polyester fibres.",
+        "detail_01": "Standard fit for a relaxed, easy feel",
+        "detail_02": "100% polyester",
+        "detail_03": "Machine washable",
+        "price": 16.95,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/245af03a-d59a-4a61-8b98-7a85b0156623/dri-fit-academy-football-top-6Q2H04.png",
+        "image": "WOMTEE05.jpg"
+    }
+}, {
+    "pk": 130,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020504",
+        "name": "Vanquish Throwback Mint Green Oversized Tee",
+        "description": "This short sleeved t-shirt has a streetwear-inspired oversized fit with a contrasting ribbed neckline detail, rubber badge and sleek mid-chest branding.",
+        "detail_01": "Mesh antibacterial coated fabric, retaining properties wash after wash",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Streetwear-inspired oversized fit",
+        "price": 34.99,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Throwback_Oversized_T-shirt_Mint_1356_256-Edit_5000x.jpg?v=1628510415",
+        "image": "MENTEE04.jpg"
+    }
+}, {
+    "pk": 131,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020509",
+        "name": "Ryderwear Active T-Shirt - Grey",
+        "description": "The Active T-Shirt features everything you need to take your workouts to the next level, and nothing less. No fuss, no trends, just high-performance fabrics and a physique-enhancing cut, this training tee belongs in your gym bag.",
+        "detail_01": "60% Polyester/35% Rayon/5% Elastane",
+        "detail_02": "Four way stretch",
+        "detail_03": "Recommended for gym training.",
+        "price": 14.0,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/2678/2688/products/active-t-shirt-grey-marl-clothing-ryderwear-558433_1000x1000.jpg?v=1626439391",
+        "image": "MENTEE09.jpg"
+    }
+}, {
+    "pk": 132,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000229",
+        "name": "Adapt Camo Seamless All In One",
+        "description": "You won't stay undercover for long in the eye-catching Adapt Camo Seamless All In One. The first one piece in the Adapt Range, the All In One offers more coverage and maximum breathability with minimum fuss, perfect for lifting. Whether you rock it on its own, or use it as a base to layer with, let the camo pattern do the talking.",
+        "detail_01": "Internal bust shelf with removable bra cups",
+        "detail_02": "79% Polyamide, 15% Polyester, 6% Elastane",
+        "detail_03": "Heat-sealed branding to front",
+        "old_price": "60.00",
+        "price": 55.0,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/AdaptCamoAllInOneBlack2GLOT5123.A-Edit_CM_885x.jpg?v=1620068476",
+        "image": "SALE09.jpg"
+    }
+}, {
+    "pk": 133,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776558",
+        "name": "Vanquish Triumph Red On Black Shorts",
+        "description": "Based on the popularity of the Triumph tracksuits, they have introduced Triumph shorts, providing the perfect addition to your Spring/ Summer training wardrobe.",
+        "detail_01": "95% cotton and 5% Lycra fabric blend",
+        "detail_02": "Machine wash inside out at 30°C",
+        "detail_03": "These shorts feature a classic straight leg fit and zipped side pockets ",
+        "price": 15.99,
+        "category": 6,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Triumph_RedonBlack_0267_126_2000x.jpg?v=1623754240",
+        "image": "MENSHORT08.jpg"
+    }
+}, {
+    "pk": 134,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456345",
+        "name": "AQF Neoprene Weight Lifting Gel Grips",
+        "description": "AQF Weight Lifting Neoprene Gel Grip is a great alternative to the conventional gloves. With these Palm Grips you will never have to deal with sweat while trying to maintain a firm grip during workouts.",
+        "detail_01": "One size fits all",
+        "detail_02": "3mm Neoprene Palm grips with innovative Gel Patterned palm",
+        "detail_03": "Great alternative to conventional gloves",
+        "price": 7.99,
+        "category": 7,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0045/7657/5591/products/1_f26461a9-6a88-4e56-bbf7-94641dfa86b8_900x.jpg?v=1569185812",
+        "image": "ACCESS05.jpg"
+    }
+}, {
+    "pk": 135,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334322",
+        "name": "Mens Vanquish Eclipse Strike Sweatpants - Navy",
+        "description": "The Eclipse Strike is made to stand out. With an updated fit, lighter drawstrings and a bold stripe along the outer leg.",
+        "detail_01": "Machine wash inside out at 30 degrees.",
+        "detail_02": "95% cotton and 5% elastane.",
+        "detail_03": "Zips on the side and back pockets",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Mens-Eclipse-Strike-Navy-Tapered-Sweatpeants-1_dafdaf62-838c-4d77-9e89-46789f816c76_2000x.jpg?v=1612876990",
+        "image": "MENJOG02.jpg"
+    }
+}, {
+    "pk": 136,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967894",
+        "name": "Gym Shark Women's Speed Tank - Gun Metal Grey",
+        "description": "Feel supported every step of the way in the Speed Tank. This lightweight top offers a high neckline and dropped front hem for coverage, with an angled seam for comfort that endures. Whatever your style, and whatever your reason for running, go ahead and show the world your speed.",
+        "detail_01": "100% Polyester",
+        "detail_02": "Reflective logo to chest and back",
+        "detail_03": "Angled seam",
+        "price": 20.0,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/SpeedTankBlack-CharcoalMarlGLTK5086.A-Edit_BK_855x.jpg?v=1627378415",
+        "image": "WOMVEST04.jpg"
+    }
+}, {
+    "pk": 137,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776570",
+        "name": "DOMYOS 2-in-1 Anti-Chafind Fitness Shorts",
+        "description": "They have everything you could want: an elasticated waistband, transparent panels for plenty of femininity, and loose, breathable fabrics. They're the obvious answer!",
+        "detail_01": "86% Polyester, 14% Elasthane",
+        "detail_02": "Machine wash - 30° max - normal",
+        "detail_03": "Feminine shorts thanks to the sheer details, floaty fabrics and sophisticated lines.",
+        "price": 14.99,
+        "category": 6,
+        "rating": 4.5,
+        "image_url": "https://contents.mediadecathlon.com/p1942099/k$8e3b5d0649e5f82ff015a8a0392e85d0/sq/2-in-1-anti-chafing-fitness-shorts.jpg?format=auto&f=969x969",
+        "image": "WOMSHORT10.jpg"
+    }
+}, {
+    "pk": 138,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456354",
+        "name": "PHD Nutrition 1000ml Shaker",
+        "description": "The PhD 1000ml super shaker is the ideal accompaniment to any of our PhD Mass and Strength shakes. It is particularly useful for our Advanced Mass shake, due to the large serving size.",
+        "detail_01": "Dishwasher safe",
+        "detail_02": "Tough durable plastic",
+        "detail_03": "Electro polished stainless steeel mixer ball",
+        "price": 4.99,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://www.phd.com/media/catalog/product/1/0/1000ml_super_shaker.jpg?quality=80&fit=bounds&height=700&width=700&canvas=700:700",
+        "image": "ACCESS14.jpg"
+    }
+}, {
+    "pk": 139,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF334326",
+        "name": "Gym Shark Men's Studio Joggers - Khaki",
+        "description": "The Studio Joggers are designed for a full range of motion, so you can reach yours. Crafted with a super lightweight and stretchy nylon-elastane material blend and an elongated inseam gusset, these bottoms will follow you through every move in the studio, so you can stretch your mobility limits.",
+        "detail_01": "Lightweight, soft-stretch material",
+        "detail_02": "Heat-sealed Gymshark logo to ankle",
+        "detail_03": "78% Nylon, 22% Elastane",
+        "price": 40.0,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/StudioPantTaupeGreyGMBT5334.A-Edit_BK_66355699-f3ad-4507-8f7a-df17d3c1a458_885x.jpg?v=1628755082",
+        "image": "MENJOG06.jpg"
+    }
+}, {
+    "pk": 140,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164447",
+        "name": "Pursue Fitness Oversized Crop Hoodie",
+        "description": "Carefully constructed with an incredibly soft cotton blend brushed fleece and an oversized relaxed fit, featuring drop shoulders.",
+        "detail_01": "Ultra soft fleece fabric",
+        "detail_02": "Product colour: Dusky Purple",
+        "detail_03": "Subtle purple on purple embroidered logo detail",
+        "price": 26.79,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0365/1893/products/oversized-crop-hoodie-dusky-purple.jpg?v=1628011254",
+        "image": "WOMTOP07.jpg"
+    }
+}, {
+    "pk": 141,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113122",
+        "name": "Gym + Coffee Classic Lilac Flec Hoodie",
+        "description": "Simple and sporty with warmth and comfort this fitted hoodie will stand out at gyms, cafes or wherever your passions take you..",
+        "detail_01": "High zip with drawstring hoo",
+        "detail_02": "Textured signature fleck fabric",
+        "detail_03": "Light stretch + high warmth",
+        "price": 65.0,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0492/7828/8032/products/hoodie-womens-lilac-fleck-hoodie-gym-coffee-23611457372334_2939ff0f-6303-47de-a774-e314d14d79bd_1200x.jpg?v=1627659053",
+        "image": "WOMHOOD02.jpg"
+    }
+}, {
+    "pk": 142,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF967891",
+        "name": "Womens Technical Vest - White",
+        "description": "This great technical vest is very complimentary for any female gym enthusiast, This vest is ideal for any woman who is regularly going to the gym or running.",
+        "detail_01": "Durable fit",
+        "detail_02": "100% Cotton",
+        "detail_03": "Comfortable back strap for comfort",
+        "price": 16.95,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://gymbeing.com/wp-content/uploads/2020/04/IMG_9753edlowres.jpg",
+        "image": "WOMVEST01.jpg"
+    }
+}, {
+    "pk": 143,
+    "model": "products.product",
+    "fields": {
+        "sku": "GTF776569",
+        "name": "RyderWear Women's Seamless Staples Shorts - Blue Marl",
+        "description": "Whatever the workout, whatever the occasion, the Staples Seamless Originals Shorts have you covered. Featuring our signature seamless fabric, these lightweight shorts offer maximum movement, so you can crush your workout in ultimate comfort",
+        "detail_01": "Seamless knit technology",
+        "detail_02": "65% Nylon/25% Polyester/10% Spandex",
+        "detail_03": "Supportive seamless rib waistband",
+        "price": 13.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/2678/2688/products/seamless-staples-shorts-denim-blue-marl-clothing-ryderwear-721498_1000x1000.jpg?v=1626446087",
+        "image": "WOMSHORT09.jpg"
+    }
+},  {
+    "pk": 144,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456347",
+        "name": "RDX 4 Inch Medium Golden Leather Weightlifting Belt",
+        "description": "Feel the power with this wide weight lifting back support belt, cut from an authentic suede cowhide leather for a tough design that lasts and lasts. The carbon fibre padding will cushion your back perfectly, the wide coverage ensures that you get both abdomen and back support when you need it, the expertly engineered lining will get rid of sweat to keep you nice and dry, whilst the hard as nails buckle will give you a secure fit when you’re lifting or stacking.",
+        "detail_01": "Made with authentic suede cowhide leather for durability and resilience",
+        "detail_02": "4” wide power belt for the perfect back and abdomen coverage during your workout",
+        "detail_03": "Special carbon fibre padding for improved support and stress reduction",
+        "price": 22.99,
+        "category": 7,
+        "rating": 5.0,
+        "image_url": "https://media.rdxsports.com/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/4/_/4_inch_leather_weightlifting_belt_black_1__3.jpg",
+        "image": "ACCESS07.jpg"
+    }
+}, {
+    "pk": 145,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF776557",
+        "name": "Vanquish Strike Yellow On Black Shorts",
+        "description": "The evolution of our signature Exodus shorts - The same great fit and fabric blend with a bold contrast stripe feature along the outer edge.",
+        "detail_01": "Cotton/ Polyester blend",
+        "detail_02": "Machine wash inside out at 30°C",
+        "detail_03": "Dynamic Yellow On Black Contrasting",
+        "price": 15.99,
+        "category": 6,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Strike_YellowonBlack_0103_090_2000x.jpg?v=1623749645",
+        "image": "MENSHORT07.jpg"
+    }
+}, {
+    "pk": 146,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020516",
+        "name": "Womens Gym King Boyfriend Script Tee - Black",
+        "description": "This classic oversized tee will make a statement both on and off the gym floor. Made with soft touch fabric and a classic oversized look.",
+        "detail_01": "Machine wash at 30°C.",
+        "detail_02": "96% Cotton, 4% Polyester.",
+        "detail_03": "Embroidered Gym King branding, in script text",
+        "price": 24.99,
+        "category": 2,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/SCRIPT-BF-TEE3_700x.jpg?v=1627469665",
+        "image": "WOMTEE06.jpg"
+    }
+}, {
+    "pk": 147,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000230",
+        "name": "Adapt Camo Seamless All In One Green",
+        "description": "You won't stay undercover for long in the eye-catching Adapt Camo Seamless All In One. The first one piece in the Adapt Range, the All In One offers more coverage and maximum breathability with minimum fuss, perfect for lifting. Whether you rock it on its own, or use it as a base to layer with, let the camo pattern do the talking.",
+        "detail_01": "Internal bust shelf with removable bra cups",
+        "detail_02": "79% Polyamide, 15% Polyester, 6% Elastane",
+        "detail_03": "Heat-sealed branding to front",
+        "old_price": "£60.00",
+        "price": 55.0,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/AdaptCamoAllInOneCamoGreenGLOT5123.A-Edit_BK_ZH_ZH_New_885x.jpg?v=1620202570",
+        "image": "SALE10.jpg"
+    }
+}, {
+    "pk": 148,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113114",
+        "name": "Vanquish Eclipse Navy Pullover Hoodie",
+        "description": "The Eclipse hoodies boast Vanquish' most refined fit to date. The perfect taper and length",
+        "detail_01": "Crafted from a 95% cotton 5% lycra blend",
+        "detail_02": "Created with high-quality YKK zips",
+        "detail_03": "Featuring a tonal stripe and quarter zip alongside the iconic VQ logo.",
+        "price": 34.99,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__047_5000x.jpg?v=1623418087",
+        "image": "MENHOOD04.jpg"
+    }
+}, {
+    "pk": 149,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020502",
+        "name": "Vanquish Utility Mens Black Tee",
+        "description": "When a military aesthetic meets clothing made to perform. The lightweight perforated fabric allows this piece to be very breathable and comfortable.",
+        "detail_01": "92% polyester, 8% lycra.",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Perforated fabric",
+        "price": 24.99,
+        "category": 2,
+        "rating": 5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Utility-Mens-Black-T-Shirt-4_5000x.jpg?v=1603296853",
+        "image": "MENTEE02.jpg"
+    }
+}, {
+    "pk": 150,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164439",
+        "name": "Men's UA Streaker Run ½ Zip",
+        "description": "Longer distances and faster runs start with incredible comfort, perfect stretch, and a lightweight feel. That's what you get with UA Streaker. It basically feels like you're wearing nothing.",
+        "detail_01": "Reflective details for low-light runs",
+        "detail_02": "UA Microthread fabric dries fast, won't cling, stretches without absorbing sweat & is recyclable",
+        "detail_03": "93% Polyester/7% Elastarel",
+        "price": 45.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://underarmour.scene7.com/is/image/Underarmour/V5-1361474-001_FSF?rp=standard-0pad|pdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500",
+        "image": "MENTOP09.jpg"
+    }
+}, {
+    "pk": 151,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF113121",
+        "name": "Gym + Coffee Classic Lilac Hoodie",
+        "description": "This fitted hoodie gives a sleek silhouette and is made for flexible use. With minimalist features, this simple and comfortable hoodie is perfect to wear every day.",
+        "detail_01": "Fitted style",
+        "detail_02": "Cotton/Elastane material for flexibility",
+        "detail_03": "Signature G+C thumbholes",
+        "price": 60.0,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0492/7828/8032/products/hoodie-classic-lilac-hoodie-women-lilac-xxl-gym-coffee-xxl-lilac-28433904533678_741bfa11-079b-41d3-a831-6db199bccfd1_1200x.jpg?v=1627658588",
+        "image": "WOMHOOD01.jpg"
+    }
+}, {
+    "pk": 152,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF164431",
+        "name": "Vanquish Essential Men's Black Long Sleeved Top",
+        "description": "Our Essential SP collection is the evolution of our best selling Essential line. Crafted from a lightweight cotton and elastane blend, the Essential SP pieces allow for maximum breathability and comfort both in and out of the gym.",
+        "detail_01": "95% cotton and 5% elastane fabric blend",
+        "detail_02": "Machine wash inside out at 30°C",
+        "detail_03": "Features a screen-print VQ logo on the left chest",
+        "price": 35.0,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/essentialsp_longsleeve_black_1229_0209_2000x.jpg?v=1617875662",
+        "image": "MENTOP01.jpg"
+    }
+}, {
+    "pk": 153,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF020506",
+        "name": "Gym King Origin Tee - Grey",
+        "description": "Slim fit and lightweight gives you a fitted yet breathable tee with an embroidered logo on the chest",
+        "detail_01": "Machine wash at 30°C.",
+        "detail_02": "95% Cotton, 5% Elastane.",
+        "detail_03": "Crew neck",
+        "price": 22.0,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/origin345_700x.jpg?v=1624009704",
+        "image": "MENTEE06.jpg"
+    }
+}, {
+    "pk": 154,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF456355",
+        "name": "Primal Strength Alpha Bottle XXL – 2400ml",
+        "description": "The Alpha Bottle XXL is made from FDA approved 100% food-safe PET plastic, unlike a lot of similar bottles on the market. The Alpha Bottle XXL features a silicone seal which ensures the Alpha Bottle XXL is 100% leak-proof",
+        "detail_01": "New Metallic Primal Strength Gold Logo",
+        "detail_02": "100% leak-proof, combined with a heavy duty rubber strap and it’s huge 2400ml capacity",
+        "detail_03": "Heavy duty rubber carry handle",
+        "price": 9.99,
+        "category": 7,
+        "rating": 4.9,
+        "image_url": "https://primalstrength.com/wp-content/uploads/2019/11/Primal-Strength-Alpha-Bottle-Gold.jpg",
+        "image": "ACCESS15.jpg"
+    }
+}, {
+    "pk": 155,
+    "model": "gym_gear.product",
+    "fields": {
+        "sku": "GTF000231",
+        "name": "Gym King Webed Tonal Gym Bag - Black",
+        "description": "Holds all the essential euqipment you need for your workout",
+        "detail_01": "One size",
+        "detail_02": "External front pouch",
+        "detail_03": "Internal and external storage pockets",
+        "old_price": "29.00",
+        "price": 25.0,
+        "category": 8,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/WEBEDTONALGYMBAG-BLACK-BAG-B24PG_113_700x.jpg?v=1629819492",
+        "image": "SALE11.jpg"
+    }
+}]
