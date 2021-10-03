@@ -16,7 +16,7 @@
     }
 }, {
     "pk": 2,
-    "model": "products.product",
+    "model": "products.productproducts.product",
     "fields": {
         "sku": "GTF113111",
         "name": "VSX Apex Hoodie",
@@ -1569,7 +1569,7 @@
 }, {
     "pk": 99,
     "model": "products.product",
-    "fields": {
+        "fields": {
         "sku": "GTF000227",
         "name": "GYMTIER Classic – Gym T-Shirt / Green",
         "description": "Fun motivational workout T-Shirts to get you pumped in the gym. Our low cost tees are printed in house with new designs released monthly. The chest and shoulder area have a snug fit while the bottom half is long and loose. An ideal casual gym top.",
