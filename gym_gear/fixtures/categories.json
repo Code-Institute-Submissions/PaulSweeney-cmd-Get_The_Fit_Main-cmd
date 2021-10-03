@@ -1,0 +1,57 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "joggers_leggings",
+        "friendly_name": "Joggers & Leggings"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "tshirts",
+        "friendly_name": "Tshirts"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "tops",
+        "friendly_name": "Tops"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "hoodies",
+        "friendly_name": "Hoodies"
+    }
+}, {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "vests_tanks",
+        "friendly_name": "Vests & Tanks"
+    }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "shorts",
+        "friendly_name": "Shorts"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "accessories",
+        "friendly_name": "Accessories"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "sale",
+        "friendly_name": "Sale"
+    }
+}]
