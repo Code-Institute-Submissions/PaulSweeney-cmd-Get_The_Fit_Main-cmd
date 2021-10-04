@@ -134,8 +134,17 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     opacity: 0.75;
 }
 
+/* ---------------Home Page--------------- */
+/* Page Title */
+h2.page-title {
+    letter-spacing: 1px;
+    font-family: 'Almarai', sans-serif;
+    font-size: 46px;
+}
 
 
+
+/* Media Queries */
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
