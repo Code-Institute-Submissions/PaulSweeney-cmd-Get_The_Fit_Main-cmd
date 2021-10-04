@@ -22,7 +22,8 @@ body {
     opacity: 1;
 }
 
-/* Nav Bar */
+/* ---------------Nav Bar--------------- */
+
 h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -38,7 +39,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 20px;
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dropdown-item {
@@ -53,6 +54,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     white-space: nowrap;
     background-color: black;
 }
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -73,13 +75,14 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     border-radius: .25rem;
 }
 
-/* Mobile header */
+/* ---------------Mobile header--------------- */
+
 .navbar-dark .navbar-toggler {
     color: white;
     border: black !important;
 }
 
-/* Nav Toggle */
+/* ---------------Nav Toggle--------------- */
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -117,7 +120,8 @@ input.form-control.border.border-black.rounded-0 {
     font-size: 25px;
 }
 
-/* Home Page */
+/* ---------------Home Page--------------- */
+
 h1.home-main-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -138,16 +142,22 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
 
 h2.page-title {
     letter-spacing: 1px;
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 46px;
     background-color: #000;
     color: #fafafa;
     font-weight: lighter;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+}
 
 
-/* Media Queries */
+/* ---------------Media Queries--------------- */
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -172,6 +182,8 @@ h2.page-title {
     body {
         height: calc(100vh - 116px);
     }
+
+
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
@@ -209,5 +221,3 @@ h2.page-title {
         padding: .25rem .5rem !important;
     }
 }
-
-
