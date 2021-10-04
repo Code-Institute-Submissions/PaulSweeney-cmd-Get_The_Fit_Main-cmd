@@ -1,5 +1,4 @@
 from django.db import models
-from decimal import Decimal
 
 
 class Category(models.Model):
@@ -17,8 +16,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey(
-        'Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=25, null=True, blank=True)
     name = models.CharField(max_length=50)
     description = models.TextField()
@@ -26,8 +24,7 @@ class Product(models.Model):
     detail_02 = models.CharField(max_length=100, default='some detail')
     detail_03 = models.CharField(max_length=100, default='some detail')
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True)
+    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1500, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
