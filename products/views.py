@@ -5,7 +5,7 @@ from .models import Product
 def site_products(request):
     """
     Render the products page,
-    this incldes sorting by preference and searching.
+    this includes sorting by preference and searching.
     """
 
     products = Product.objects.all()
