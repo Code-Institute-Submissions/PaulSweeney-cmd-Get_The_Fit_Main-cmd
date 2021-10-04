@@ -8,8 +8,18 @@ body {
     height: calc(100vh - 164px);
     font-family: 'Almarai', sans-serif;
     background-color: black;
-    opacity: 0.75;
     color: #000;
+}
+
+.overlay {
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
 }
 
 /* Nav Bar */
