@@ -3,7 +3,7 @@ from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
-    field_list_display = (
+    list_display = (
         'sku',
         'name',
         'description',
@@ -20,7 +20,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    field_list_display = (
+    list_display = (
         'friendly_name',
         'name',
     )
