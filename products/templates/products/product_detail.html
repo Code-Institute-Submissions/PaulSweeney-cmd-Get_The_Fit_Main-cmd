@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-left mt-4">
+            <h2 class="page-title">insert jinja template for category</h2>
+            <hr class="page-breaker">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="image-container my-5">
+                {% if product.image %}
+                    <a href="{{ product.image.url }}" target="_blank">
+                         <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
+                    {% else %}
+                    <a href="">
+                        <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="details-container mb-5 mt-md-5">
+                    <p class="product_name">{{ product.name }}</p>
+                    {% if product.rating %}
+                        <small class="product_rating"><i class="fas fa-thumbs-up mr-1"></i>{{ product.rating }}/5</small>
+                    {% else %}
+                        <small class="text-muted">No Rating</small>
+                    {% endif %}
+                    <p class="product_price text-left">£{{ product.price }}</p>
+                    <p class="product_description mt-3">{{ product.description }}</p>
+                    <hr class="page-breaker">
+                    <p class="details-header">Product Details</p>
+                    <ul>
+                        <li>
+                            <p class="detail_01">{{ product.detail_01 }}</p>
+                            <p class="detail_02">{{ product.detail_02 }}</p>
+                            <p class="detail_03">{{ product.detail_03 }}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
