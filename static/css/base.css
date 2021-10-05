@@ -155,6 +155,56 @@ h2.page-title {
     object-fit: contain;
 }
 
+/* ---------------Individual Products Page--------------- */
+
+p.product_name {
+    color: #fafafa;
+    font-size: 24px;
+    font-family: 'Almarai';
+}
+
+small.product_rating {
+    color: #fafafa;
+    font-size: 19px;
+    font-family: 'Almarai';
+}
+
+p.product_price.text-left {
+    color: #f0f005;
+    font-size: 36px;
+    font-family: 'Almarai';
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+p.product_description.mt-3 {
+    color: #fafafa;
+    font-size: 19px;
+    font-family: 'Almarai';
+}
+
+hr.page-breaker {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #fafafa;
+}
+
+p.details-header {
+    color: #fafafa;
+    font-size: 22px;
+    font-family: 'Almarai';
+}
+
+p.detail_01,
+p.detail_02,
+p.detail_03 {
+
+    color: #fafafa;
+    font-size: 17px;
+    font-family: 'Almarai';
+}
+
 
 /* ---------------Media Queries--------------- */
 
