@@ -16,6 +16,12 @@
         <div class="col text-left mt-4">
             <h2 class="page-title">View Our Full Range Here</h2>
             <hr>
+            <!-- for loop to display all products within the current selected category -->
+            {% for c in current_categories %}
+                <a href="">
+                    <h2 class="page-title">{{ c.friendly_name }}</h2>
+                </a>
+            {% endfor %}
         </div>
     </div>
     <div class="row">
