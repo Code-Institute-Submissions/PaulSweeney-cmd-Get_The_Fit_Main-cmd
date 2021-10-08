@@ -19,15 +19,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF113111",
-        "name": "VANQUISH ECLIPSE OFF WHITE PULLOVER HOODIE",
-        "description": "The Eclipse hoodies boast our most refined fit to date. The perfect taper and length.",
-        "detail_01": "Eclipse hoodies feature a quarter length zip and our iconic VQ logo",
-        "detail_02": "Machine wash inside out at 30 degrees.",
-        "detail_03": "95% cotton and 5% elastane.",
-        "price": 35.99,
+        "name": "VSX Apex Hoodie",
+        "description": "APEX Hoodie brings stand-out design, fitted to perfection. A fitted hoodie with unique panelling made with premium materials",
+        "detail_01": "Drawstring hood",
+        "detail_02": "Straight hem",
+        "detail_03": "80% Polyester 15% Rayon 5% Elastane",
+        "price": 45.0,
         "category": 7,
         "rating": 4.7,
-        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__015-2_2000x.jpg?v=1623765063",
+        "image_url": "https://cdn.shopify.com/s/files/1/0854/0182/products/apex-hoodie-391411_600x.jpg?v=1598013357",
         "image": "MENHOOD01.jpg"
     }
 }, {
@@ -675,15 +675,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF020501",
-        "name": "VANQUISH AGILITY BLACK SHORT SLEEVED T SHIRT",
-        "description": "The Agility T-Shirt has an athletic tapered fit, featuring an outlined box logo on the chest and a straight hem",
-        "detail_01": "Machine wash inside out at 30 degrees.",
-        "detail_02": "Polyester/ Elastane construction",
-        "detail_03": "Lightweight fabric construction, providing ultra comfort both in and out of the gym.",
+        "name": "Squatwolf Classic Over-sized Bodybuilding Tee",
+        "description": "Taking you back to the era when gains were the heart, soul and blood of every iron pumper. Every rep, every pull mattered like there was no tomorrow. The Oversized Classic Body Building Cut is designed to show off those gains, because size does matter. With its Friction-free fine stitch and Super Soft Classic Cotton Feel, it will be a perfect addition for the most intense grinds, as well as the casual strolls on the streets.",
+        "detail_01": "Dry-Fit and Moisture Wicking",
+        "detail_02": "Super Soft Classic Cotton Feel",
+        "detail_03": "Side Splits",
         "price": 35.0,
         "category": 3,
         "rating": 4.7,
-        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Agility_Tshirt_Black__0350_2000x.jpg?v=1631784482",
+        "image_url": "https://squatwolf.com/wp-content/uploads/2019/11/3-48-510x510.jpg",
         "image": "MENTEE01.jpg"
     }
 }, {
@@ -1036,7 +1036,7 @@
         "category": 12,
         "rating": 5.0,
         "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGLOOSEFITSHORTS-BLACK21.A_ZH_ZH_885x.jpg?v=1627382132",
-        "image": "WOMSHORT04jpg"
+        "image": "WOMSHORT04.jpg"
     }
 }, {
     "pk": 66,
@@ -1132,7 +1132,7 @@
         "category": 2,
         "rating": 4.7,
         "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/amber-black-sport-tee-logo_700x.jpg?v=1610631389",
-        "image": "WOMTEE08.jpg"
+        "image": "WOMTE08.jpg"
     }
 }, {
     "pk": 72,
@@ -2028,7 +2028,7 @@
         "category": 4,
         "rating": 4.8,
         "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/SCRIPT-TEE3_700x.jpg?v=1630575008",
-        "image": "WOMTEE10.jpg"
+        "image": "WOMTEE06.jpg"
     }
 }, {
     "pk": 128,
@@ -2371,15 +2371,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF020502",
-        "name": "Gym King Sport Energy Tee - White",
-        "description": "The lightweight perforated fabric allows this piece to be very breathable and comfortable.",
-        "detail_01": "Reflective branding",
-        "detail_02": "Underarm mesh panel for breathability",
-        "detail_03": "Set in sleeves",
+        "name": "Vanquish Utility Mens Black Tee",
+        "description": "When a military aesthetic meets clothing made to perform. The lightweight perforated fabric allows this piece to be very breathable and comfortable.",
+        "detail_01": "92% polyester, 8% lycra.",
+        "detail_02": "Machine wash inside out at 30°C.",
+        "detail_03": "Perforated fabric",
         "price": 24.99,
         "category": 3,
         "rating": 5,
-        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/JOSSENERGY-TEE_700x.jpg?v=1613579168",
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Utility-Mens-Black-T-Shirt-4_2000x.jpg?v=1603296853",
         "image": "MENTEE02.jpg"
     }
 }, {
@@ -2478,7 +2478,7 @@
         "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/WEBEDTONALGYMBAG-BLACK-BAG-B24PG_113_700x.jpg?v=1629819492",
         "image": "SALE11.jpg"
     }
-},  {
+},   {
     "pk": 156,
     "model": "products.product",
     "fields": {
@@ -2488,11 +2488,11 @@
         "detail_01": "Machine wash inside out at 30 degrees.",
         "detail_02": "95% cotton and 5% elastane.",
         "detail_03": "Zips on side and back pockets",
-        "old_price": "29.00",
         "price": 23.99,
         "category": 1,
         "rating": 4.9,
         "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__087-2_2000x.jpg?v=1623418330",
         "image": "MENJOG03.jpg"
-    }
+        }
+
 }]

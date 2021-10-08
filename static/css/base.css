@@ -177,6 +177,12 @@ p.product_price.text-left {
     padding-bottom: 13px;
 }
 
+a.size-guide-text {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 p.product_description.mt-3 {
     color: #fafafa;
     font-size: 19px;
