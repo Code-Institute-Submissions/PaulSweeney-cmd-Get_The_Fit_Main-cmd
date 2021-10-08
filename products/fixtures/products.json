@@ -16,7 +16,7 @@
     }
 }, {
     "pk": 2,
-    "model": "products.productproducts.product",
+    "model": "products.product",
     "fields": {
         "sku": "GTF113111",
         "name": "VANQUISH ECLIPSE OFF WHITE PULLOVER HOODIE",
@@ -2478,7 +2478,7 @@
         "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/WEBEDTONALGYMBAG-BLACK-BAG-B24PG_113_700x.jpg?v=1629819492",
         "image": "SALE11.jpg"
     }
-},   {
+},  {
     "pk": 156,
     "model": "products.product",
     "fields": {
@@ -2486,7 +2486,7 @@
         "name": "VANQUISH ECLIPSE STRIKE KHAKI TAPERED SWEATPANTS",
         "description": "The Eclipse Strike is made to stand out. With an updated fit, lighter drawstrings and a bold stripe along the outer leg.",
         "detail_01": "Machine wash inside out at 30 degrees.",
-         "detail_02": "95% cotton and 5% elastane.",
+        "detail_02": "95% cotton and 5% elastane.",
         "detail_03": "Zips on side and back pockets",
         "old_price": "29.00",
         "price": 23.99,
