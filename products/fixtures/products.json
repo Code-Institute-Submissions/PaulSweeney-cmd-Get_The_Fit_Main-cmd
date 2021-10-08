@@ -19,15 +19,15 @@
     "model": "products.productproducts.product",
     "fields": {
         "sku": "GTF113111",
-        "name": "VSX Apex Hoodie",
-        "description": "APEX Hoodie brings stand-out design, fitted to perfection. A fitted hoodie with unique panelling made with premium materials",
-        "detail_01": "Drawstring hood",
-        "detail_02": "Straight hem",
-        "detail_03": "80% Polyester 15% Rayon 5% Elastane",
-        "price": 45.0,
+        "name": "VANQUISH ECLIPSE OFF WHITE PULLOVER HOODIE",
+        "description": "The Eclipse hoodies boast our most refined fit to date. The perfect taper and length.",
+        "detail_01": "Eclipse hoodies feature a quarter length zip and our iconic VQ logo",
+        "detail_02": "Machine wash inside out at 30 degrees.",
+        "detail_03": "95% cotton and 5% elastane.",
+        "price": 35.99,
         "category": 7,
         "rating": 4.7,
-        "image_url": "https://cdn.shopify.com/s/files/1/0854/0182/products/apex-hoodie-391411_600x.jpg?v=1598013357",
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__015-2_2000x.jpg?v=1623765063",
         "image": "MENHOOD01.jpg"
     }
 }, {
@@ -675,15 +675,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF020501",
-        "name": "Squatwolf Classic Over-sized Bodybuilding Tee",
-        "description": "Taking you back to the era when gains were the heart, soul and blood of every iron pumper. Every rep, every pull mattered like there was no tomorrow. The Oversized Classic Body Building Cut is designed to show off those gains, because size does matter. With its Friction-free fine stitch and Super Soft Classic Cotton Feel, it will be a perfect addition for the most intense grinds, as well as the casual strolls on the streets.",
-        "detail_01": "Dry-Fit and Moisture Wicking",
-        "detail_02": "Super Soft Classic Cotton Feel",
-        "detail_03": "Side Splits",
+        "name": "VANQUISH AGILITY BLACK SHORT SLEEVED T SHIRT",
+        "description": "The Agility T-Shirt has an athletic tapered fit, featuring an outlined box logo on the chest and a straight hem",
+        "detail_01": "Machine wash inside out at 30 degrees.",
+        "detail_02": "Polyester/ Elastane construction",
+        "detail_03": "Lightweight fabric construction, providing ultra comfort both in and out of the gym.",
         "price": 35.0,
         "category": 3,
         "rating": 4.7,
-        "image_url": "https://squatwolf.com/wp-content/uploads/2019/11/3-48-510x510.jpg",
+        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Agility_Tshirt_Black__0350_2000x.jpg?v=1631784482",
         "image": "MENTEE01.jpg"
     }
 }, {
@@ -1027,15 +1027,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF776564",
-        "name": "Gym King Sport Power 3 Inch Short - Grey Marl",
-        "description": "Another great additon to the GK Sport collection is the 3 inch short, these look great for those intense days at the gym while at the same time they compliment your frame and come in the Greay Marl shade.",
-        "detail_01": "Compression short",
-        "detail_02": "Squat proof",
-        "detail_03": "73% Polyester, 24% Polyamide, 3% Elastane",
-        "price": 7.99,
+        "name": "TRAINING LOOSE FIT SHORTS",
+        "description": "The Training Loose Fit Shorts are a different take on the typical workout short. Made from woven material with a casual cut and relaxed high-waisted style making them a versatile addition to any locker.",
+        "detail_01": "Stretch fabric side panel",
+        "detail_02": "100% Polyester. Side Panels: 88% Polyester, 12% Elastane",
+        "detail_03": "Contrast Logo on Left side",
+        "price": 20.0,
         "category": 12,
         "rating": 5.0,
-        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/POERRRR_700x.jpg?v=1617963483",
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/TRAININGLOOSEFITSHORTS-BLACK21.A_ZH_ZH_885x.jpg?v=1627382132",
         "image": "WOMSHORT04jpg"
     }
 }, {
@@ -1132,7 +1132,7 @@
         "category": 2,
         "rating": 4.7,
         "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/amber-black-sport-tee-logo_700x.jpg?v=1610631389",
-        "image": "WOMTE08.jpg"
+        "image": "WOMTEE08.jpg"
     }
 }, {
     "pk": 72,
@@ -1779,15 +1779,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF967884",
-        "name": "Vanquish Core Navy Sleeveless T-shirt",
-        "description": "The Core collection has been made with an extra soft fabric blend. The aesthetic is designed to perform in the gym and be perfect for everyday wear.",
-        "detail_01": "95% cotton and 5% elastane fabric blend.",
-        "detail_02": "Machine wash inside out at 30°C.",
-        "detail_03": "Tapered fit",
-        "price": 15.99,
+        "name": "RECESS TANK",
+        "description": "When rest days call for something cooler, the Recess Tank is here to help. This soft cotton tank boasts dropped armholes, a high neck and a range of shades perfect for any occasion, complete with contrast stitching at the armholes and hem.",
+        "detail_01": "Heat-sealed logo to upper back",
+        "detail_02": "Contrast stitching at armholes and hem",
+        "detail_03": "Regular fit",
+        "price": 25.0,
         "category": 10,
         "rating": 4.6,
-        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/VanquishMen_sNavyCoreSleevelessTeev2-13_2000x.jpg?v=1604620708",
+        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/RECESSDROPARMTANK-BLACK38.B_ZH_885x.jpg?v=1630573024",
         "image": "MANTANK04jpg"
     }
 }, {
@@ -2019,15 +2019,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF0205120",
-        "name": "VITAL SEAMLESS 2.0 T-SHIRT",
-        "description": "The Vital Seamless T-Shirt, you're go-to in your endeavour to perform. Boasting a supportive structure, form-enhancing fabric and stylish fit, it’s the workout top your wardrobe needs.",
-        "detail_01": "Supportive and covering fit",
-        "detail_02": "96% Nylon 4% Elastane",
-        "detail_03": "Figure-contouring shades",
-        "price": 25.0,
+        "name": "Gym King Boyfriend Script Tee - Black",
+        "description": "Boasting a form-enhancing fabric and stylish fit, it’s the workout top your wardrobe needs.",
+        "detail_01": "Embroidered Gym King branding, in script text",
+        "detail_02": "96% Responsibly Sourced Cotton, 4% Polyester.",
+        "detail_03": "Crew neck",
+        "price": 24.99,
         "category": 4,
         "rating": 4.8,
-        "image_url": "https://cdn.shopify.com/s/files/1/0098/8822/products/VITALSEAMLESST-SHIRTSAFFRONYELLOWv2MARL.A-Edit-Edit_ZH_ZH_885x.jpg?v=1613736767",
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/SCRIPT-TEE3_700x.jpg?v=1630575008",
         "image": "WOMTEE10.jpg"
     }
 }, {
@@ -2371,15 +2371,15 @@
     "model": "products.product",
     "fields": {
         "sku": "GTF020502",
-        "name": "Vanquish Utility Mens Black Tee",
-        "description": "When a military aesthetic meets clothing made to perform. The lightweight perforated fabric allows this piece to be very breathable and comfortable.",
-        "detail_01": "92% polyester, 8% lycra.",
-        "detail_02": "Machine wash inside out at 30°C.",
-        "detail_03": "Perforated fabric",
+        "name": "Gym King Sport Energy Tee - White",
+        "description": "The lightweight perforated fabric allows this piece to be very breathable and comfortable.",
+        "detail_01": "Reflective branding",
+        "detail_02": "Underarm mesh panel for breathability",
+        "detail_03": "Set in sleeves",
         "price": 24.99,
         "category": 3,
         "rating": 5,
-        "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/Vanquish-Utility-Mens-Black-T-Shirt-4_2000x.jpg?v=1603296853",
+        "image_url": "https://cdn.shopify.com/s/files/1/1659/8997/products/JOSSENERGY-TEE_700x.jpg?v=1613579168",
         "image": "MENTEE02.jpg"
     }
 }, {
@@ -2486,13 +2486,13 @@
         "name": "VANQUISH ECLIPSE STRIKE KHAKI TAPERED SWEATPANTS",
         "description": "The Eclipse Strike is made to stand out. With an updated fit, lighter drawstrings and a bold stripe along the outer leg.",
         "detail_01": "Machine wash inside out at 30 degrees.",
-        "detail_02": "95% cotton and 5% elastane.",
+         "detail_02": "95% cotton and 5% elastane.",
         "detail_03": "Zips on side and back pockets",
+        "old_price": "29.00",
         "price": 23.99,
         "category": 1,
         "rating": 4.9,
         "image_url": "https://cdn.shopify.com/s/files/1/0585/3653/products/headshots__087-2_2000x.jpg?v=1623418330",
         "image": "MENJOG03.jpg"
-        }
-
+    }
 }]
