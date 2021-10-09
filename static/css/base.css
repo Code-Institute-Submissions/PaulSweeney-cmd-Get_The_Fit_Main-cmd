@@ -270,6 +270,25 @@ i.fas.fa-chevron-left {
     margin-right: 3px;
 }
 
+
+/* ---------------Toast messages --------------- */
+
+.site-message-container {
+    position: fixed;
+    top: 13px;
+    right: 13px;
+    z-index: 99999999999;
+    background-color: black;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 17px;
+    background-color: #ba2121;
+}
 /* ---------------Media Queries--------------- */
 
 /* fixed top navbar only on medium and up */
