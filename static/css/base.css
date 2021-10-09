@@ -206,6 +206,7 @@ i.fas.fa-minus {
     color: #fafafa;
 }
 /* ------------ */
+
 small.product_rating {
     color: #fafafa;
     font-size: 19px;
@@ -252,6 +253,23 @@ p.detail_03 {
     font-family: 'Almarai';
 }
 
+/* Buttons */
+span.text-uppercase {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 10px;
+}
+
+input.btn.btn-black.text-uppercase {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 7px;
+}
+
+i.fas.fa-chevron-left {
+    color: #fafafa;
+    margin-right: 3px;
+}
 
 /* ---------------Media Queries--------------- */
 
