@@ -36,7 +36,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="details-container mb-5 mt-md-5">
-                    <p class="product_name">{{ product.name }}</p>
+                    <p class="product_name mb-0">{{ product.name }}</p>
                     {% if product.rating %}
                         <small class="product_rating"><i class="fas fa-thumbs-up mr-1"></i>{{ product.rating }}/5</small>
                     {% else %}
@@ -45,7 +45,7 @@
                     <p class="product_price text-left">£{{ product.price }}</p>
                     <!-- Selectng a size -->
                         <a class="size-guide-text" href="https://cdn.shopify.com/s/files/1/0040/5251/6910/files/Craft_size_guide_1024x1024.jpg?v=1595333114" 
-                        target="_blank"><i class="fas fa-ruler-combined"></i><br>  Size Guide</a>
+                            target="_blank"><i class="fas fa-ruler-combined"></i><br>  Size Guide</a>
                         <select class="form-control rounded-0" name="product_size" id="id_product_size">
                             <option value="extra small">Extra Small</option>
                             <option value="small">Small</option>
@@ -55,15 +55,11 @@
                         </select>
                     <p class="product_description mt-4 mb-4">{{ product.description }}</p>
                     <hr class="page-breaker">
-                    <p class="details-header">Product Details</p>
-                    <ul>
-                        <li>
-                            <p class="detail_01">{{ product.detail_01 }}</p>
-                            <p class="detail_02">{{ product.detail_02 }}</p>
-                            <p class="detail_03">{{ product.detail_03 }}</p>
-                        </li>
-                    </ul>
-                </div>
+                    <p class="details-header mb-4">Product Details</p>
+                        <p class="detail_01">{{ product.detail_01 }}</p>
+                        <p class="detail_02">{{ product.detail_02 }}</p>
+                        <p class="detail_03">{{ product.detail_03 }}</p>
+                    </div>
                 <!-- Quantity selector -->
                 <form class="form" action="" method="POST"></form>
                     {% csrf_token %}
