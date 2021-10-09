@@ -197,8 +197,6 @@ p.product_price.text-left {
     color: #f0f005;
     font-size: 36px;
     font-family: 'Almarai';
-    padding-top: 13px;
-    padding-bottom: 13px;
 }
 
 a.size-guide-text {
@@ -247,13 +245,37 @@ p.detail_03 {
         left: 0;
         z-index: 1030;
     }
-
     .header-container {
         padding-top: 164px;
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* iPhone4 + ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    select#id_product_size {
+        width: 40%;
+        background-color: black;
+        color: #fafafa;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    select#id_product_size {
+        width: 20%;
+        background-color: black;
+        color: #fafafa;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Padding top when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -262,8 +284,6 @@ p.detail_03 {
     body {
         height: calc(100vh - 116px);
     }
-
-
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
