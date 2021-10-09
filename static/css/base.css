@@ -22,7 +22,7 @@ body {
     opacity: 1;
 }
 
-/* ---------------Nav Bar--------------- */
+/*--------------- Nav Bar ---------------*/
 
 h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
@@ -75,14 +75,12 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     border-radius: .25rem;
 }
 
-/* ---------------Mobile header--------------- */
+/*--------------- Nav Bar - Mobile View ---------------*/
 
 .navbar-dark .navbar-toggler {
     color: white;
     border: black !important;
 }
-
-/* ---------------Nav Toggle--------------- */
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -94,22 +92,19 @@ i.fas.fa-bars {
     display: block;
 }
 
-/* Search Box */
+/*---------- Search Box ----------*/
+
 input.form-control.search-bar.text-white.rounded-0 {
     background-color: #000;
     text-transform: capitalize;
-}
-
-/* Search Box - Mobile View */
-input.form-control.border.border-black.rounded-0 {
-    background-color: black;
 }
 
 .fa-search {
     color: white;
 }
 
-/* Delivery banner */
+/*---------- Delivery banner ----------*/
+
 .col.delivery-offer {
     background-color: #f0f005;
     font-weight: bolder;
@@ -120,9 +115,11 @@ input.form-control.border.border-black.rounded-0 {
     font-size: 25px;
 }
 
-/* ---------------Home Page--------------- */
+/*--------------- Home Page ---------------*/
 
 h1.home-main-text {
+    color: #f0f005;
+    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #f0f005;
@@ -130,7 +127,8 @@ h1.home-main-text {
     margin-top: 21px;
 }
 
-/* Shop Button */
+/*---------- Home Page - Shop Button ----------*/
+
 a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     font-family: 'Almarai', sans-serif;
     border: 2px solid #fafafa;
@@ -138,7 +136,7 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     opacity: 0.75;
 }
 
-/* ---------------Products Page--------------- */
+/*--------------- Products Page ---------------*/
 
 h2.page-title {
     letter-spacing: 1px;
@@ -166,46 +164,43 @@ select#sort-selector {
     color: #fafafa;
 }
 
-/* p.product-price {
-    font-size: 25px;
-    font-weight: 600;
+/*---------- Toast messages ----------*/
+
+.site-message-container {
+    position: fixed;
+    top: 13px;
+    right: 13px;
+    z-index: 99999999999;
+    background-color: black;
+}
+.custom-toast {
+    overflow: visible;
 }
 
-p.product-name.mb-0 {
-    font-size: 20px;
+span.exit.button {
+    font-size: 27px;
+    text-decoration: underline;
 }
 
-p.product-category-bottom {
-    font-size: 18px;
-} */
+.bg-white {
+    color: black;
+    font-size: 15px;
+}
 
-/* ---------------Individual Products Page--------------- */
+/* Danger toast, Danger toast, does whatever a Danger toast does */
+
+.w-100.toast-capper.danger {
+    background-color: #ba2121;
+    height: 13px;
+}
+
+/*--------------- Individual Products Page ---------------*/
 
 p.product_name {
     color: #fafafa;
     font-size: 24px;
     font-family: 'Almarai';
 }
-
-/* Product increment - decrement  */
-p.quantity-header-text{
-    color: #fafafa;
-}
-
-input.form-control.qty_input {
-    background-color: black;
-    color: #fafafa;
-    width: 30%;
-}
-
-i.fas.fa-plus {
-    color: #fafafa;
-}
-
-i.fas.fa-minus {
-    color: #fafafa;
-}
-/* ------------ */
 
 small.product_rating {
     color: #fafafa;
@@ -256,7 +251,28 @@ p.detail_03 {
     font-family: 'Almarai';
 }
 
-/* Buttons */
+/*---------- Individual Products Page - Product increment//decrement ----------*/
+
+p.quantity-header-text{
+    color: #fafafa;
+}
+
+input.form-control.qty_input {
+    background-color: black;
+    color: #fafafa;
+    width: 30%;
+}
+
+i.fas.fa-plus {
+    color: #fafafa;
+}
+
+i.fas.fa-minus {
+    color: #fafafa;
+}
+
+/*---------- Individual Products Page - Buttons ----------*/
+
 span.text-uppercase {
     color: #fafafa;
     border: 1px solid #fafafa;
@@ -274,36 +290,7 @@ i.fas.fa-chevron-left {
     margin-right: 3px;
 }
 
-
-/* ---------------Toast messages --------------- */
-
-.site-message-container {
-    position: fixed;
-    top: 13px;
-    right: 13px;
-    z-index: 99999999999;
-    background-color: black;
-}
-.custom-toast {
-    overflow: visible;
-}
-
-span.exit.button {
-    font-size: 27px;
-    text-decoration: underline;
-}
-
-.bg-white {
-    color: black;
-    font-size: 15px;
-}
-
-/* Danger toast, Danger toast, does whatever a Danger toast does */
-.w-100.toast-capper.danger {
-    background-color: #ba2121;
-    height: 13px;
-}
-/* ---------------Media Queries--------------- */
+/*--------------- Media Queries ---------------*/
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
