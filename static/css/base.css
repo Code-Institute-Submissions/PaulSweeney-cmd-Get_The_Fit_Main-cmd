@@ -188,7 +188,7 @@ p.product_name {
 }
 
 /* Product increment - decrement  */
-p.quantity-header-text.mt-3 {
+p.quantity-header-text{
     color: #fafafa;
 }
 
@@ -225,7 +225,7 @@ a.size-guide-text {
     background-color: transparent;
 }
 
-p.product_description.mt-3 {
+p.product_description.mt-4.mb-4 {
     color: #fafafa;
     font-size: 19px;
     font-family: 'Almarai';
