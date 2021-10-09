@@ -45,9 +45,9 @@
                  <div class="col-12 col-md-6 order-md-first">
                     <p class="text-muted mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                            <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                            <span><a class="product-count" href="{% url 'products' %}">All Products / </span>
                         {% endif %}
-                            {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+                            {{ products|length }} {% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
                     </div>
                 </div>
@@ -66,14 +66,14 @@
                             {% endif %}
                             <!-- Product detail -->
                             <div class="card-body">
-                                <p class="mb-0">{{ product.name }}</p>
+                                <p class="product-name mb-0">{{ product.name }}</p>
                             </div>
                             <div class="card-footer bg-white pt-0 border-0 text-left">
                                 <div class="row">
                                     <div class="col">
-                                        <p>£{{ product.price }}</p>
+                                        <p class="product-price">£{{ product.price }}</p>
                                         {% if product.rating %}
-                                            <small><i class="fas fa-thumbs-up mr-1"></i>{{ product.rating }} / 5</small>
+                                            <p><i class="fas fa-thumbs-up mr-1"></i>{{ product.rating }} / 5</p>
                                         {% else %}
                                             <small>No Rating</small>
                                         {% endif %}
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <p>{{ product.category.friendly_name }}</p>
+                                        <p class="product-category-bottom">{{ product.category.friendly_name }}</p>
                                     </div>
                                 </div>
                             </div>

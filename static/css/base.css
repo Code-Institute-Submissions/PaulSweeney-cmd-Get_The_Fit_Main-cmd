@@ -155,6 +155,30 @@ h2.page-title {
     object-fit: contain;
 }
 
+a.product-count {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+select#sort-selector {
+    background-color: black;
+    border-color: #fafafa !important;
+    color: #fafafa;
+}
+
+/* p.product-price {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.product-name.mb-0 {
+    font-size: 20px;
+}
+
+p.product-category-bottom {
+    font-size: 18px;
+} */
+
 /* ---------------Individual Products Page--------------- */
 
 p.product_name {
