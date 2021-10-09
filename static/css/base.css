@@ -75,6 +75,49 @@ nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
     border-radius: .25rem;
 }
 
+/*---------- Nav Link styling ----------*/
+
+a#all-products-link {
+    color: #fafafa;
+    font-weight: 600;
+}
+a#all-products-link:hover {
+    color: #f0f005;
+}
+
+a#mens-link {
+    color: #fafafa;
+    font-weight: 600;
+}
+a#mens-link:hover {
+    color: #f0f005;
+}
+
+a#womens-link {
+    color: #fafafa;
+    font-weight: 600;
+}
+a#womens-link:hover {
+    color: #f0f005;
+}
+
+a#accessories-link {
+    color: #fafafa;
+    font-weight: 600;
+}
+a#accessories-link:hover {
+    color: #f0f005;
+}
+
+a#sales-link {
+    color: #fafafa;
+    font-weight: 600;
+}
+a#sales-link:hover {
+    color: #f0f005;
+}
+
+
 /*--------------- Nav Bar - Mobile View ---------------*/
 
 .navbar-dark .navbar-toggler {
