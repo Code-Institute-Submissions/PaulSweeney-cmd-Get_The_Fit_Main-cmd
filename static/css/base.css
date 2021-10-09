@@ -225,6 +225,10 @@ a.size-guide-text {
     background-color: transparent;
 }
 
+a.size-guide-text:hover {
+    color: #f0f005;
+}
+
 p.product_description.mt-4.mb-4 {
     color: #fafafa;
     font-size: 19px;
@@ -280,14 +284,24 @@ i.fas.fa-chevron-left {
     z-index: 99999999999;
     background-color: black;
 }
-
 .custom-toast {
     overflow: visible;
 }
 
-.toast-capper {
-    height: 17px;
+span.exit.button {
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.bg-white {
+    color: black;
+    font-size: 15px;
+}
+
+/* Danger toast, Danger toast, does whatever a Danger toast does */
+.w-100.toast-capper.danger {
     background-color: #ba2121;
+    height: 13px;
 }
 /* ---------------Media Queries--------------- */
 
