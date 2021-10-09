@@ -187,12 +187,18 @@ span.exit.button {
     font-size: 15px;
 }
 
-/* Danger toast, Danger toast, does whatever a Danger toast does */
-
+/*---------- Danger toast ----------*/
 .w-100.toast-capper.danger {
     background-color: #ba2121;
     height: 13px;
 }
+
+/*---------- Warning toast ----------*/
+.w-100.toast-capper.warning {
+    background-color: #e2970f;
+    height: 13px;
+}
+
 
 /*--------------- Individual Products Page ---------------*/
 
