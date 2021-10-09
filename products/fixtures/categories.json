@@ -16,43 +16,43 @@
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "tshirts",
-        "friendly_name": "Tshirts"
+        "name": "mens_tshirts",
+        "friendly_name": "Men's Tshirts"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "tshirts",
-        "friendly_name": "Tshirts"
+        "name": "womens_tshirts",
+        "friendly_name": "Women's Tshirts"
     }
 },{
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "tops",
-        "friendly_name": "Tops"
+        "name": "mens_tops",
+        "friendly_name": "Men's Tops"
     }
 }, {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "tops",
-        "friendly_name": "Tops"
+        "name": "womens_tops",
+        "friendly_name": "Women's Tops"
     }
 },{
     "pk": 7,
     "model": "products.category",
     "fields": {
-        "name": "hoodies",
-        "friendly_name": "Hoodies"
+        "name": "mens_hoodies",
+        "friendly_name": "Men's Hoodies"
     }
 }, {
     "pk": 8,
     "model": "products.category",
     "fields": {
-        "name": "hoodies",
-        "friendly_name": "Hoodies"
+        "name": "womens_hoodies",
+        "friendly_name": "Women's Hoodies"
     }
 },{
     "pk": 9,
@@ -72,15 +72,15 @@
     "pk": 11,
     "model": "products.category",
     "fields": {
-        "name": "shorts",
-        "friendly_name": "Shorts"
+        "name": "mens_shorts",
+        "friendly_name": "Men's Shorts"
     }
 }, {
     "pk": 12,
     "model": "products.category",
     "fields": {
-        "name": "shorts",
-        "friendly_name": "Shorts"
+        "name": "womens_shorts",
+        "friendly_name": "Women's Shorts"
     }
 },  {
     "pk": 13,

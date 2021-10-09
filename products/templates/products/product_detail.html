@@ -15,8 +15,8 @@
     <div class="row">
         <div class="col text-left mt-4">
             <a href="{{ product.category }}">
-            <h2 class="page-title text-capitalize"> {{ product.category }}</h2>
-        </a>
+                <h2 class="page-title text-capitalize"> {{ product.category }}</h2>
+            </a>
             <hr class="page-breaker">
         </div>
     </div>
@@ -64,7 +64,7 @@
                         </li>
                     </ul>
                 </div>
-                <!-- Add to shopping bag -->
+                <!-- Quantity selector -->
                 <form class="form" action="" method="POST"></form>
                     {% csrf_token %}
                     <div class="form-row">
@@ -95,6 +95,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Add to shopping bag & keep shopping button -->
                         <div class="col{% if s %}-12 mt-2{% endif %}">
                             <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-4">
                                 <span class="icon">
