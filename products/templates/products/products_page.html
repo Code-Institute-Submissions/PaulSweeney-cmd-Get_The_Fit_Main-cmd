@@ -76,32 +76,34 @@
                                         {% endif %}
                                     </div>
                                 </div>
+                                {% if product.category %}
                                 <div class="row">
                                     <div class="col">
-                                        <p class="product-category-bottom">{{ product.category.friendly_name }}</p>
+                                        <a class="product-category-bottom" href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a>
                                     </div>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
                     {% if forloop.counter|divisibleby:1 %}
                         <div class="col-12 d-sm-none">
-                            <hr>
+                            <hr class="page-breaker">
                         </div>
                     {% endif %}                        
                     {% if forloop.counter|divisibleby:2 %}
-                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                            <hr>
+                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-3">
+                            <hr class="page-breaker">
                         </div>
                     {% endif %}
                     {% if forloop.counter|divisibleby:3 %}
-                        <div class="col-12 d-none d-lg-block d-xl-none mb-5">
-                            <hr>
+                        <div class="col-12 d-none d-lg-block d-xl-none mb-3">
+                            <hr class="page-breaker">
                         </div>
                     {% endif %}
                     {% if forloop.counter|divisibleby:4 %}
-                        <div class="col-12 d-none d-xl-block mb-5">
-                            <hr>
+                        <div class="col-12 d-none d-xl-block mb-3">
+                            <hr class="page-breaker">
                         </div>
                     {% endif %}
                 {% endfor %}
@@ -109,6 +111,30 @@
         </div>
     </div>
 </div>
-</div>
+{% endblock %}
 
+<!-- JS for product filtering -->
+{% block postloadjs %}
+<script type="text/javascript">
+    $('#sort-selector').change(function() {
+        var selector = $(this);
+        var currentUrl = new URL(window.location);
+
+        var selectedVal = selector.val();
+        if(selectedVal != "reset"){
+            var sort = selectedVal.split("_")[0];
+            var direction = selectedVal.split("_")[1];
+
+            currentUrl.searchParams.set("sort", sort);
+            currentUrl.searchParams.set("direction", direction);
+
+            window.location.replace(currentUrl);
+        } else {
+            currentUrl.searchParams.delete("sort");
+            currentUrl.searchParams.delete("direction");
+
+            window.location.replace(currentUrl);
+        }
+    })
+</script>
 {% endblock %}
