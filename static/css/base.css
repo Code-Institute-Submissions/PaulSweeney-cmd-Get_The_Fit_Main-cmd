@@ -29,6 +29,9 @@ h1.company-name-font.text-white.my-0 {
     font-size: 50px;
 }
 
+h1.company-name-font.text-white.my-0:hover {
+    text-decoration: none;
+}
 div#topnav {
     background-color: black !important;
 }
@@ -248,6 +251,19 @@ span.exit.button {
 
 /*--------------- Individual Products Page ---------------*/
 
+a.category-title {
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    color: #fafafa;
+    font-weight: lighter;
+}
+
+a.category-title:hover {
+    text-decoration: none;
+    color: #f0f005;
+}
+
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -306,7 +322,7 @@ hr.page-breaker {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid #fafafa;
+    border-top: 1px solid #f0f005;
 }
 
 p.details-header.mb-4 {

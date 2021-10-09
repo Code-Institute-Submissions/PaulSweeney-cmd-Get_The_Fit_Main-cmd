@@ -79,7 +79,7 @@
                                 {% if product.category %}
                                 <div class="row">
                                     <div class="col">
-                                        <a class="product-category-bottom" href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a>
+                                        {{ product.category.friendly_name }}
                                     </div>
                                 </div>
                                 {% endif %}

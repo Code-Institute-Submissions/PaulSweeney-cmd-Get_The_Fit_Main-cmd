@@ -14,9 +14,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col text-left mt-4">
-            <a href="{{ product.category }}">
-                <h2 class="page-title text-capitalize"> {{ product.category }}</h2>
-            </a>
+            {% if product.category %}
+                <div class="row">
+                    <div class="col">
+                        <a class="category-title" href="{% url 'products' %}?category={{ product.category.name }}">For All {{ product.category.friendly_name }} Click Here</a>
+                    </div>
+                </div>
+            {% endif %}
             <hr class="page-breaker">
         </div>
     </div>
@@ -36,7 +40,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="details-container mb-5 mt-md-5">
-                    <p class="product_name mb-0">{{ product.name }}</p>
+                    <p class="product_name mb-0 text-capitalize">{{ product.name }}</p>
                     {% if product.rating %}
                         <small class="product_rating"><i class="fas fa-thumbs-up mr-1"></i>{{ product.rating }}/5</small>
                     {% else %}
