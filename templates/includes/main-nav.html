@@ -35,13 +35,13 @@
                 Womenswear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="womens-link">
-                <a href="" class="dropdown-item">Leggings</a>
-                <a href="" class="dropdown-item">Tshirts</a>
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">Hoodies</a>
-                <a href="" class="dropdown-item">Vests</a>
-                <a href="" class="dropdown-item">Shorts</a>
-                <a href="" class="dropdown-item">All Womens</a>
+                <a href="{% url 'products' %}?category=leggings" class="dropdown-item">Leggings</a>
+                <a href="{% url 'products' %}?category=tshirts" class="dropdown-item">Tshirts</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=hoodies" class="dropdown-item">Hoodies</a>
+                <a href="{% url 'products' %}?category=vests" class="dropdown-item">Vests</a>
+                <a href="{% url 'products' %}?category=shorts" class="dropdown-item">Shorts</a>
+                <a href="{% url 'products' %}?category=leggings,tshirts,tops,hoodies,vests,shorts" class="dropdown-item">All Womens</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -49,7 +49,7 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">All Accessories</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -57,7 +57,7 @@
                 Sale
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">All Sales</a>
+                <a href="{% url 'products' %}?category=sale" class="dropdown-item">All Sales</a>
             </div>
         </li>
     </ul>
