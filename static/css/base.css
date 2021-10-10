@@ -450,6 +450,10 @@ and (max-device-width : 480px) {
         margin-bottom: 15px;
     }
 
+    .image-container.w-25 {
+        width: 100% !important;
+    }
+
     
 }
 
