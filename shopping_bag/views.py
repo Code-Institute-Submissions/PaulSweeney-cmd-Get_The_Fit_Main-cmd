@@ -12,7 +12,7 @@ def add_item(request, item_id):
 
     item_quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
-    bag = request.session.get('bag', {})
+    bag = request.session.get('items', {})
 
     if item_id in list(bag.keys()):
         bag[item_id] += item_quantity
@@ -20,4 +20,5 @@ def add_item(request, item_id):
         bag[item_id] = item_quantity
 
     request.session['bag'] = bag
+    print(request.session['bag'])
     return redirect(redirect_url)
