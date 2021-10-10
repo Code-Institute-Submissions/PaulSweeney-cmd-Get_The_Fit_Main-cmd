@@ -375,44 +375,84 @@ input.btn.btn-black.text-uppercase {
 
 /*---------- Shopping bag page ----------*/
 
+.table-responsive.rounded {
+    display: flex;
+}
+
 @media (max-width: 300px) {
-    p.product-name.my-0,
-    p.product-code.my-0,
-    p.product-price.my-0,
-    p.product-quantity.my-0   { 
+    p.bag-product-name,
+    p.product-code,
+    p.product-price,
+    p.product-quantity { 
         font-size: 70%;
-        color: #fafafa; 
     }
 }
 
 @media (min-width: 500px) {
-    p.product-name.my-0,
-    p.product-code.my-0,
-    p.product-price.my-0,
-    p.product-quantity.my-0 { 
+    p.bag-product-name,
+    p.product-code,
+    p.product-price,
+    p.product-quantity { 
         font-size: 80%;
-        color: #fafafa;
     }
 }
 
 @media (min-width: 700px) {
-    p.product-name.my-0,
-    p.product-code.my-0,
-    p.product-price.my-0,
-    p.product-quantity.my-0 { 
-        font-size: 120%;
-        color: #fafafa;
+    p.bag-product-name,
+    p.product-code,
+    p.product-price,
+    p.product-quantity { 
+        font-size: 120%; 
     }
 }
 
 @media (min-width: 1200px) {
-    p.product-name.my-0,
-    p.product-code.my-0,
-    p.product-price.my-0,
-    p.product-quantity.my-0 { 
+    p.bag-product-name,
+    p.product-code,
+    p.product-price,
+    p.product-quantity { 
         font-size: 200%;
-        color: #fafafa; 
     }
+}
+
+p.bag-product-name {
+    color: #fafafa;
+    font-size: 33px;
+    margin-left: 18px;
+}
+
+p.bag-product-code {
+    color: #fafafa;
+    margin-left: 18px;
+    font-size: 17px;
+}
+
+p.bag-product-price {
+    color: #fafafa;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+p.bag-product-quantity {
+    color: #fafafa;
+    margin-left: 18px;
+    font-size: 17px;
+}
+
+h6.bag-total {
+    color: #fafafa;
+}
+
+h6.bag-delivery {
+    color: #fafafa;
+}
+
+h4.bag-total {
+    color: #fafafa;
+}
+
+a.btn.btn-black.rounded-0.btn-lg {
+    display: inline-table;
 }
 
 /*--------------- Media Queries ---------------*/
@@ -449,12 +489,25 @@ and (max-device-width : 480px) {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-
     .image-container.w-25 {
         width: 100% !important;
     }
+    .table-responsive.rounded {
+        display: block !important;
+    }
+    p.bag-product-name,
+    p.bag-product-code,
+    p.bag-product-price,
+    p.bag-product-quantity {
+        margin-left: 0 !important;
+    }
 
-    
+    span.text-uppercase {
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        padding: 10px;
+        display: inline-table !important;
+    }
 }
 
 /* Desktops and laptops ----------- */
