@@ -14,10 +14,10 @@
 <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col mb-5">
                 <hr>
-                <h2 class="page-title text-center">Your shopping bag</h2>
-                <hr>
+                <h2 class="page-title text-center mb-4">Your shopping bag</h2>
+                <hr class="page-breaker">
             </div>
         </div>
         <div class="container main-shopping-container">
@@ -28,10 +28,7 @@
                     {% else %}
                         <p class="text-white">No items currently in your shopping bag</p>
                         <a href="{% url 'products' %" class="btn btn-black rounded-0 text-uppercase mt-4">
-                            <span class="icon">
-                                <i class="fas fa-chevron-left"></i>
-                            </span>
-                            <span class="text-uppercase">Keep Shopping</span>
+                            <span class="text-uppercase">Continue Shopping</span>
                         </a>
                     {% endif %}
                     </div>
