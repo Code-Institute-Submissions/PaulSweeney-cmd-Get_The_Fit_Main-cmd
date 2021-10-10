@@ -5,7 +5,7 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col"></div>
+            <div class="col">
         </div>
     </div>
 {% endblock %}
@@ -27,25 +27,25 @@
                         <table class="table table-sm table-borderless">
                             {% for item in bag_items %}
                                 <tr>
-                                    <td class="p-3 w-25">
+                                    <div class="image-container w-25">
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
-                                    </td>
                                     <td class="py-3">
-                                        <p class="product-name my-0">{{ item.product.name }}
-                                        <p class="product-code my-0">Code: {{ item.product.sku|upper }}</p>
-                                        <p class="product-price my-0">£ {{ item.product.price }}</p>
-                                        <p class="product-quantity my-0">Qty: {{ item.quantity }}</p>
+                                        <p class="bag-product-name">{{ item.product.name }}
+                                            <hr class="page-breaker">
+                                        <p class="bag-product-price">£ {{ item.product.price }}</p>
+                                        <p class="bag-product-code">Code: {{ item.product.sku|upper }}</p>
+                                        <p class="bag-product-quantity">Qty: {{ item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    <h6>Bag Total: ${{ total|floatformat:2 }}</h6>
-                                    <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                                    <h4 class="mt-4">Grand Total: ${{ grand_total|floatformat:2 }}</h4>
+                                    <h6 class="bag-total">Bag Total: £{{ total|floatformat:2 }}</h6>
+                                    <h6 class="bag-delivery">Delivery: £{{ delivery|floatformat:2 }}</h6>
+                                    <h4 class="bag-total mt-4">Grand Total: £{{ grand_total|floatformat:2 }}</h4>
                                     {% if free_delivery_delta > 0 %}
-                                        <p class="mb-1 text-danger">
-                                            You could get free delivery by spending just £{{ free_delivery_delta }} more!
+                                        <p class="mb-1 text-info">
+                                            You could get free delivery by spending just £{{ free_delivery_delta }} more.
                                         </p>
                                     {% endif %}
                                 </td>
@@ -53,16 +53,10 @@
                             <tr>
                                 <td colspan="5" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                                        <span class="icon">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </span>
-                                        <span class="text-uppercase">Keep Shopping</span>
+                                        <span class="text-uppercase">Continue Shopping</span>
                                     </a>
                                     <a href="" class="btn btn-black rounded-0 btn-lg">
-                                        <span class="text-uppercase">Secure Checkout</span>
-                                        <span class="icon">
-                                            <i class="fas fa-lock"></i>
-                                        </span>
+                                        <span class="text-uppercase">Checkout</span>
                                     </a>
                                 </td>
                             </tr>
@@ -79,5 +73,6 @@
                 {% endif %}
             </div>
         </div>
+    </div>
     </div>
 {% endblock %}
