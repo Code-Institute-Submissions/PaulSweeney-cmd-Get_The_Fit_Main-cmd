@@ -97,11 +97,8 @@
                         </div>
                         <!-- Add to shopping bag & keep shopping button -->
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-4">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span class="text-uppercase">Keep Shopping</span>
+                            <a href="{% url 'products' %}" class="continue-shopping-button mt-4">
+                                <span class="text-uppercase">Continue Shopping</span>
                             </a>
                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-4" value="Add to Bag">
                         </div>
