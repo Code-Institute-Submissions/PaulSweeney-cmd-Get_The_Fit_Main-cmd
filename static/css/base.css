@@ -375,8 +375,45 @@ input.btn.btn-black.text-uppercase {
 
 /*---------- Shopping bag page ----------*/
 
+@media (max-width: 300px) {
+    p.product-name.my-0,
+    p.product-code.my-0,
+    p.product-price.my-0,
+    p.product-quantity.my-0   { 
+        font-size: 70%;
+        color: #fafafa; 
+    }
+}
 
+@media (min-width: 500px) {
+    p.product-name.my-0,
+    p.product-code.my-0,
+    p.product-price.my-0,
+    p.product-quantity.my-0 { 
+        font-size: 80%;
+        color: #fafafa;
+    }
+}
 
+@media (min-width: 700px) {
+    p.product-name.my-0,
+    p.product-code.my-0,
+    p.product-price.my-0,
+    p.product-quantity.my-0 { 
+        font-size: 120%;
+        color: #fafafa;
+    }
+}
+
+@media (min-width: 1200px) {
+    p.product-name.my-0,
+    p.product-code.my-0,
+    p.product-price.my-0,
+    p.product-quantity.my-0 { 
+        font-size: 200%;
+        color: #fafafa; 
+    }
+}
 
 /*--------------- Media Queries ---------------*/
 
@@ -412,6 +449,8 @@ and (max-device-width : 480px) {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+    
 }
 
 /* Desktops and laptops ----------- */
@@ -432,6 +471,8 @@ and (min-width : 1224px) {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+    
 }
 
 /* Padding top when navbar is collapsed on mobile */
