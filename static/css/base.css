@@ -379,12 +379,23 @@ input.btn.btn-black.text-uppercase {
     display: flex;
 }
 
+span.text-uppercase {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 13px;
+}
+
 @media (max-width: 300px) {
     p.bag-product-name,
     p.product-code,
     p.product-price,
     p.product-quantity { 
         font-size: 70%;
+    }
+    span.text-uppercase {
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        padding: 10px;
     }
 }
 
@@ -425,12 +436,14 @@ p.bag-product-code {
     color: #fafafa;
     margin-left: 18px;
     font-size: 17px;
+    margin-bottom: 5px;
 }
 
 p.bag-product-price {
     color: #fafafa;
     margin-left: 18px;
-    font-size: 25px;
+    font-size: 32px;
+    margin-bottom: 16px;
 }
 
 p.bag-product-quantity {
@@ -453,6 +466,11 @@ h4.bag-total {
 
 a.btn.btn-black.rounded-0.btn-lg {
     display: inline-table;
+}
+
+.text-info {
+    color: #17a2b8!important;
+    font-weight: 600;
 }
 
 /*--------------- Media Queries ---------------*/
@@ -505,8 +523,8 @@ and (max-device-width : 480px) {
     span.text-uppercase {
         color: #fafafa;
         border: 1px solid #fafafa;
-        padding: 10px;
-        display: inline-table !important;
+        padding: 9px;
+        
     }
 }
 
