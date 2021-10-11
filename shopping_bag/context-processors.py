@@ -4,7 +4,6 @@ from django.shortcuts import get_object_or_404
 from products.models import Product
 
 
-# Function to return a dictionary instead of a template
 def bag_items(request):
 
     bag_items = []
@@ -12,15 +11,27 @@ def bag_items(request):
     product_count = 0
     bag = request.session.get('bag', {})
 
-    for item_id, quantity in bag.items():
-        product = get_object_or_404(Product, pk=item_id)
-        bag_total += quantity * product.price
-        product_count += quantity
-        bag_items.append({
-            'item_id': item_id,
-            'quantity': quantity,
-            'product': product,
-        })
+    for item_id, item_data in bag.items():
+        if isinstance(item_data, int):
+            product = get_object_or_404(Product, pk=item_id)
+            bag_total += item_data * product.price
+            product_count += item_data
+            bag_items.append({
+                'item_id': item_id,
+                'item_quantity': item_data,
+                'product': product,
+            })
+        else:
+            product = get_object_or_404(Product, pk=item_id)
+            for size, item_quantity in item_data['items_by_size'].items():
+                bag_total += item_quantity * product.price
+                product_count += item_quantity
+                bag_items.append({
+                    'item_id': item_id,
+                    'item_quantity': item_data,
+                    'product': product,
+                    'size': size,
+                })
 
     if bag_total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = bag_total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)

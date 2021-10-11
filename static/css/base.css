@@ -378,6 +378,8 @@ input.btn.btn-black.text-uppercase {
     padding: 7px;
 }
 
+
+
 /*---------- Shopping bag page ----------*/
 
 .table-responsive.rounded {
@@ -485,6 +487,12 @@ a.btn.btn-black.rounded-0.btn-lg {
     font-weight: 600;
 }
 
+td.image.w-25.mr-5.mt-3 {
+    padding-top: 17px;
+    margin-bottom: 10px;
+}
+
+
 /*--------------- Media Queries ---------------*/
 
 /* fixed top navbar only on medium and up */
@@ -526,20 +534,29 @@ and (max-device-width : 480px) {
     .table-responsive.rounded {
         display: block !important;
     }
-    p.bag-product-name,
     p.bag-product-code,
     p.bag-product-price,
-    p.bag-product-quantity {
-        margin-left: 0 !important;
+    p.bag-product-quantity,
+    p.bag-product-price {
+        color: #fafafa;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    p.bag-product-name {
+        font-size: 20px;
     }
 
     span.text-uppercase {
         color: #fafafa;
         border: 1px solid #fafafa;
         padding: 9px;
-        
     }
-}
+
+    td.image.w-25.mr-5.mt-3 {
+        padding-top: 12px;
+        margin-bottom: 10px;
+    }
 
 /* Desktops and laptops ----------- */
 @media only screen 
@@ -560,6 +577,8 @@ and (min-width : 1224px) {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+
 
     
 }
@@ -609,4 +628,4 @@ and (min-width : 1224px) {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-}
+}}
