@@ -490,8 +490,17 @@ a.btn.btn-black.rounded-0.btn-lg {
 td.image.w-25.mr-5.mt-3 {
     padding-top: 17px;
     margin-bottom: 10px;
+    padding-top: 17px;
+    margin-bottom: 10px;
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 16px;
 }
 
+td.products-table-data {
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
 
 /*--------------- Media Queries ---------------*/
 
