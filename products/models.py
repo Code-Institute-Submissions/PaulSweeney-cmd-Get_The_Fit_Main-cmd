@@ -20,6 +20,7 @@ class Product(models.Model):
     sku = models.CharField(max_length=25, null=True, blank=True)
     name = models.CharField(max_length=50)
     description = models.TextField()
+    product_sizes = models.BooleanField(default=False, null=True, blank=True)
     detail_01 = models.CharField(max_length=100, default='some detail')
     detail_02 = models.CharField(max_length=100, default='some detail')
     detail_03 = models.CharField(max_length=100, default='some detail')
