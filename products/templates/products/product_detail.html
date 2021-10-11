@@ -47,16 +47,6 @@
                         <small class="text-muted">No Rating</small>
                     {% endif %}
                     <p class="product_price text-left">£{{ product.price }}</p>
-                    <!-- Selectng a size -->
-                        <a class="size-guide-text" href="https://cdn.shopify.com/s/files/1/0040/5251/6910/files/Craft_size_guide_1024x1024.jpg?v=1595333114" 
-                            target="_blank"><i class="fas fa-ruler-combined"></i><br>  Size Guide</a>
-                        <select class="form-control rounded-0" name="product_size" id="id_product_size">
-                            <option value="extra small" selected>Extra Small</option>
-                            <option value="small">Small</option>
-                            <option value="medium">Medium</option>
-                            <option value="large">Large</option>
-                            <option value="extra large">Extra Large</option>
-                        </select>
                     <p class="product_description mt-4 mb-4">{{ product.description }}</p>
                     <hr class="page-breaker">
                     <p class="details-header mb-4">Product Details</p>
@@ -68,6 +58,19 @@
                 <form class="form" action="{% url 'add_item' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
+                        <!-- Selectng a size -->
+                            {% with product.product_sizes as s %}
+                            {% if s %}
+                            <a class="size-guide-text" href="https://cdn.shopify.com/s/files/1/0040/5251/6910/files/Craft_size_guide_1024x1024.jpg?v=1595333114" 
+                            target="_blank"><i class="fas fa-ruler-combined"></i><br>  Size Guide</a>
+                            <select class="form-control rounded-0" name="product_size" id="id_product_size">
+                                <option value="extra small" selected>Extra Small</option>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                                <option value="extra large">Extra Large</option>
+                            </select>
+                            {% endif %}
                         <div class="col-12">
                             <p class="quantity-header-text">Quantity:</p>
                             <div class="form-group quantity-box">
@@ -100,6 +103,7 @@
                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-4" value="Add to Bag">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                        {% endwith %}
                         </div>
                     </form>
                 </div>
