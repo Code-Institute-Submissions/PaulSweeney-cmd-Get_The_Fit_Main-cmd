@@ -249,6 +249,11 @@ span.exit.button {
     height: 13px;
 }
 
+.w-100.toast-capper.success {
+    background-color: #208a05;
+    height: 13px;
+}
+
 /*--------------- Individual Products Page ---------------*/
 
 a.category-title {
