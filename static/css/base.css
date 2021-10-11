@@ -444,6 +444,13 @@ p.bag-product-code {
     margin-bottom: 5px;
 }
 
+p.bag-product-size {
+    color: #fafafa;
+    margin-left: 18px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
 p.bag-product-price {
     color: #fafafa;
     margin-left: 18px;
@@ -504,6 +511,7 @@ and (max-device-width : 480px) {
         color: #fafafa;
         margin-top: 15px;
         margin-bottom: 15px;
+        margin-left: 15px;
     }
     .form-group.quantity-box {
         width: 40%;
@@ -542,6 +550,7 @@ and (min-width : 1224px) {
         color: #fafafa;
         margin-top: 15px;
         margin-bottom: 15px;
+        margin-left: 15px;
     }
 
     .form-group.quantity-box {
