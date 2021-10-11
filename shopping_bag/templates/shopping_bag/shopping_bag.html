@@ -33,6 +33,7 @@
                                         <p class="bag-product-name">{{ item.product.name }}
                                             <hr class="page-breaker">
                                         <p class="bag-product-price">£ {{ item.product.price }}</p>
+                                        <p class="bag-product-size">Size: {% if item.product_sizes %}{{ item.size|upper }}{% else %}{% endif %}</p>
                                         <p class="bag-product-code">Code: {{ item.product.sku|upper }}</p>
                                         <p class="bag-product-quantity">Qty: {{ item.quantity }}</p>
                                     </td>
