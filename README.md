@@ -26,3 +26,12 @@ I hereby state that the site creator shall not re-use or re-publish such content
 
 ## Media:
 Ivan Samkov @ pexels for home cover image
+
+
+## Production bugs:
+
+
+## Testing:
+# Rendering product size:
+## Dictionary renders instead of just the size chosen
+## solution: appended key/value pair for quantity in bag items context processor else statement - with thanks to scott from tutor support
