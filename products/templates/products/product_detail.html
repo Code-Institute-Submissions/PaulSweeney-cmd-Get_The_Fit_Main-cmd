@@ -72,14 +72,13 @@
                             </select>
                             {% endif %}
                         <div class="col-12">
-                            <p class="quantity-header-text">Quantity:</p>
                             <div class="form-group quantity-box">
-                                <div class="input-group">
+                                <div class="input-group quantity">
                                     <div class="input-group-prepend">
                                         <button class="decrement-qty btn btn-black rounded-0" 
                                             data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-minus"></i>
+                                                <i class="fas fa-chevron-down text-white"></i>
                                             </span>
                                         </button>
                                     </div>
@@ -88,7 +87,7 @@
                                         <button class="increment-qty btn btn-black rounded-0"
                                             data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-plus"></i>
+                                                <i class="fas fa-chevron-up text-white"></i>
                                             </span>
                                         </button>
                                     </div>
@@ -97,10 +96,10 @@
                         </div>
                         <!-- Add to shopping bag & keep shopping button -->
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="continue-shopping-button mt-5">
-                                <span class="text-uppercase mt-5">Continue Shopping</span>
+                            <a href="{% url 'products' %}" class="continue-shopping-button">
+                                <span class="product-detail text-uppercase mt-5">Continue Shopping</span>
                             </a>
-                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-4" value="Add to Bag">
+                            <input type="submit" class="btn btn-black rounded-0 text-uppercase" value="Add to Bag">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
