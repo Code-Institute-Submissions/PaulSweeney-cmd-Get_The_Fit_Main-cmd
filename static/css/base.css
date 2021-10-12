@@ -518,7 +518,7 @@ td.products-table-data {
 
 /*--------------- Media Queries ---------------*/
 
-/* fixed top navbar only on medium and up */
+/*--------------- fixed top navbar only on medium and up ---------------*/
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -532,12 +532,13 @@ td.products-table-data {
     }
 }
 
-/* iPhone4 + ----------- */
+/*--------------- iPhone ---------------*/
     @media only screen and (min-device-width: 320px) 
     and (max-device-width: 480px) {
     .form-group.quantity-box {
         width: 315px;
     }
+
     select#id_product_size {
         width: 45%;
         background-color: black;
@@ -546,6 +547,7 @@ td.products-table-data {
         margin-bottom: 15px;
         margin-left: 15px;
     }
+
     .form-group.quantity-box {
         width: 107%;
         background-color: black;
@@ -553,12 +555,15 @@ td.products-table-data {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
     .image-container.w-25 {
         width: 100% !important;
     }
+
     .table-responsive.rounded {
         display: block !important;
     }
+
     p.bag-product-code,
     p.bag-product-price,
     p.bag-product-quantity,
@@ -583,33 +588,6 @@ td.products-table-data {
         margin-bottom: 10px;
     }
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-    select#id_product_size {
-        width: 20%;
-        background-color: black;
-        color: #fafafa;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 15px;
-    }
-
-    .form-group.quantity-box {
-        width: 40%;
-        background-color: black;
-        color: #fafafa;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-
-
-    
-}
-
-/* Padding top when navbar is collapsed on mobile */
-@media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
@@ -653,4 +631,12 @@ and (min-width : 1224px) {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-}}
+
+    input.btn.btn-black.text-uppercase {
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        padding: 7px;
+        margin-top: 17px;
+        margin-left: 7px;
+    }
+}
