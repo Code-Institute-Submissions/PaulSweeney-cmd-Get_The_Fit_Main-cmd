@@ -28,7 +28,7 @@ def bag_items(request):
                 product_count += item_quantity
                 bag_items.append({
                     'item_id': item_id,
-                    'item_quantity': item_data,
+                    'item_quantity': item_quantity,
                     'product': product,
                     'size': size,
                 })
