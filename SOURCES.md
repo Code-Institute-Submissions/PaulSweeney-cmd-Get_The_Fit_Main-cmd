@@ -53,3 +53,12 @@
 - Primal Strength
 - Bulk
 - Meglio
+- Physiq Apparel
+- Fashion Loft
+---
+- PRIX Gymwear
+- Gorilla Wear
+- Better Bodies
+- Roleur
+- LNDR
+
