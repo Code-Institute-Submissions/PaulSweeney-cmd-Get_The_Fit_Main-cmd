@@ -112,8 +112,6 @@
 {% endblock %}
 
 {% block postloadjs %}
-{{ block.super }}
-
-{% include 'products/includes/product_quantity_js.html' %}
-
+    {{ block.super }}
+    {% include 'products/includes/product_quantity_js.html' %}
 {% endblock %}
