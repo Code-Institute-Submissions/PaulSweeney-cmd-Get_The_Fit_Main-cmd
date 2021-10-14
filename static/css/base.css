@@ -283,12 +283,12 @@ a.category-title:hover {
     color: #fafafa;
 }
 
-p.product_name.mb-0 {
+p.product-name.mb-0 {
     color: #fafafa;
-    font-size: 27px;
+    font-size: 20px;
 }
 
-p.product_price.text-left {
+p.product-price.text-left {
     color: #fafafa;
     font-size: 33px;
 }
