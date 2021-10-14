@@ -10,9 +10,9 @@
     }
 
     // Enabling inputs on page
-    var allQtyInputs = $('.qty_input');
-    for(var i = 0; i < allQtyInputs.length; i++){
-        var productId = $(allQtyInputs[i]).data('item_id');
+    var productQuantityInputs = $('.qty_input');
+    for(var i = 0; i < productQuantityInputs.length; i++){
+        var productId = $(productQuantityInputs[i]).data('item_id');
         handleEnableDisable(productId);
     }
 
