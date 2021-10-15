@@ -13,13 +13,14 @@
 {% block content %}
     <div class="overlay"></div>
     <div class="container mb-2">
+        <!------------------ Page title ------------------>
         <div class="row">
             <div class="col">
-
                 <h2 class="page-title mt-5 text-center">Shopping Bag</h2>
                 <hr>
             </div>
         </div>
+        <!------------------ Main Content ------------------>
         <div class="row">
             <div class="col">
                 {% if bag_items %}
@@ -27,6 +28,7 @@
                     <div class="table-responsive rounded">
                         <table class="data-table table table-sm table-borderless">
                             {% for item in bag_items %}
+                            <!------------------ Table template for products data ------------------>
                                 <tr>
                                     <td class="image w-25 mr-5 mt-3">
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
@@ -38,35 +40,45 @@
                                             <p class="bag-product-size">Size: {% if item.product.product_sizes %}{{ item.size|lower }}{% endif %}</p>
                                         {% endif %}
                                         <p class="bag-product-code">Code: {{ item.product.sku|upper }}</p>
-                                        <form class="form update-quantity-form" method="POST" action="" >
+                                        <!------------------ Product quantity form ------------------>
+                                        <form class="form update-quantity-form" method="POST" action="{% url 'update_bag' item.item_id %}">
                                             {% csrf_token %}
                                             <div class="form-group quantity-box">
                                                 <div class="input-group quantity">
                                                     <div class="input-group-prepend">
-                                                        <button class="decrement-qty btn btn-black rounded-0" 
-                                                            data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                                            <span class="icon">
-                                                                <i class="fas fa-chevron-down text-white"></i>
+                                                        <button class="decrement-qty btn btn-sm btn-black rounded-0" 
+                                                            data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                                            <!------------------ Product decrease button ------------------>
+                                                            <span>
+                                                                <i class="fas fa-chevron-down text-white fa-sm"></i>
                                                             </span>
                                                         </button>
                                                     </div>
-                                                    <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="9" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                                    <!------------------ Product quantity input ------------------>
+                                                    <input class="form-control form-control-sm qty_input text-white" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="9" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
-                                                        <button class="increment-qty btn btn-black rounded-0"
-                                                            data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
-                                                            <span class="icon">
-                                                                <i class="fas fa-chevron-up text-white"></i>
+                                                        <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                                            data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                                            <!------------------ Product increase button ------------------>
+                                                            <span>
+                                                                <i class="fas fa-chevron-up text-white fa-sm"></i>
                                                             </span>
                                                         </button>
                                                     </div>
+                                                    <!------------------ Only show size drop down if products have a size ------------------>
+                                                    {% if item.product.product_sizes %}
+                                                        <input type="hidden" name="product_size" value="{{ item.size }}">
+                                                    {% endif %}
                                                 </div>
                                             </div>
                                         </form>
+                                        <!------------------ Update bag and delete products ------------------>
                                         <a class="update-button text-info float-right">Update Bag</a>
                                         <a class="remove-button text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}">Remove Item</a>
                                     </td>
                                 </tr>
                             {% endfor %}
+                            <!------------------ Total cost fields and delivery calculations ------------------>
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
                                     <h6 class="bag-total">Bag Total: £{{ bag_total|floatformat:2 }}</h6>
@@ -79,6 +91,7 @@
                                     {% endif %}
                                 </td>
                             </tr>
+                            <!------------------ Continue shopping and checkout ------------------>
                             <tr>
                                 <td colspan="5" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
@@ -92,12 +105,13 @@
                         </table>
                     </div>
                 {% else %}
+                <!------------------ Bag empty message and continue shopping ------------------>
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <span class="text-uppercase">Keep Shopping</span>
+                        <span class="shopping-bag text-uppercase mt-5">Continue Shopping</span>
                     </a>
                 {% endif %}
             </div>
@@ -109,7 +123,6 @@
 {% block postloadjs %}
     {{ block.super }}
     {% include 'products/includes/product_quantity_js.html' %}
-
     <script type="text/javascript">
         // Update the product quantity on click
         $('.update-button').click(function(e) {
