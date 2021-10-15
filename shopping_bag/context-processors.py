@@ -11,6 +11,8 @@ def bag_items(request):
     product_count = 0
     bag = request.session.get('bag', {})
 
+    # iterating through current item data
+    # and calculating costs and appending empty bag_items list
     for item_id, item_data in bag.items():
         if isinstance(item_data, int):
             product = get_object_or_404(Product, pk=item_id)
@@ -32,7 +34,8 @@ def bag_items(request):
                     'product': product,
                     'size': size,
                 })
-
+    # checking for total and calculating delivery
+    # as per thresholds set in settings.py
     if bag_total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = bag_total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
         free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - bag_total
@@ -42,6 +45,8 @@ def bag_items(request):
 
     grand_total = delivery + bag_total
 
+    # updating context variable with data assigned to
+    # key:value pairs and then returning context
     context = {
         'bag_items': bag_items,
         'bag_total': bag_total,
