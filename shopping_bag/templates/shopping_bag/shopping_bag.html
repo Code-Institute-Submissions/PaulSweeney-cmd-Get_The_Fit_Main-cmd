@@ -116,5 +116,19 @@
             var updateForm = $(this).prev('.update-quantity-form');
             updateForm.submit();
         });
+
+        // Remove the product quantity on click and reload the page
+        $('.remove-button').click(function(e) {
+            var getCsrfToken = "{{ csrf_token }}";
+            var getItemId = $(this).attr('id').split('remove_')[1];
+            var getItemSize = $(this).data('size');
+            var url = `/shopping_bag/remove/${itemId}`;
+            var sendData = {'csrfmiddlewaretoken': getCsrfToken, 'size': getItemSize};
+
+            $.post(url, sendData)
+            .done(function() {
+                location.reload();
+            });
+        })
     </script>
 {% endblock %}
