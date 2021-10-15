@@ -90,8 +90,13 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Dictionary renders [{ Product Name: Size }] in the size field on the shopping bag page instead of just the size chosen.
 ### FIX: 
 * Appended key/value pair for quantity in bag items context processor else statement - with thanks to scott from Tutor Support @ [Code Institute](https://codeinstitute.net/) for pointing out the typo.
-#
 
+### BUG
+### Quantity input:
+* Quantity input box not working when I click on the chevron buttons to increase or decrease product quantity in the shopping bag.
+### FIX: 
+* Syntax error: When I copied and pasted input box code from my product detail page I didn't include the closing div tag.
+#
 
 
 
