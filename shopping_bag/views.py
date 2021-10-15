@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 
 
 def bag(request):
@@ -8,15 +8,20 @@ def bag(request):
 
 
 def add_item(request, item_id):
-    """ Adding a product quantity to the shopping bag """
+    """ Add a quantity of the specified product to the shopping bag """
 
     item_quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
+
+    # checking if product_size exists in the request
+    # and if it does, assign it to the size variable declared above
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     current_bag = request.session.get('bag', {})
 
+    # if the product id has a size or doesnt,
+    # update the quantity of the products in the current session bag
     if size:
         if item_id in list(current_bag.keys()):
             if size in current_bag[item_id]['items_by_size'].keys():
@@ -31,5 +36,38 @@ def add_item(request, item_id):
         else:
             current_bag[item_id] = item_quantity
 
+    # updating the session bag with the new product quantity
     request.session['bag'] = current_bag
     return redirect(redirect_url)
+
+
+def update_bag(request, item_id):
+    """ Updating the product amounts """
+
+    item_quantity = int(request.POST.get('quantity'))
+    size = None
+
+    # checking if product_size exists in the request-
+    # and if it does, assign it to the size variable declared above
+    if 'product_size' in request.POST:
+        size = request.POST['product_size']
+    current_bag = request.session.get('bag', {})
+
+    # if product has a size update bag accordingly-
+    # if a quantity is more than zero and delete if not
+    if size:
+        if item_quantity > 0:
+            current_bag[item_id]['items_by_size'][size] = item_quantity
+        else:
+            del current_bag[item_id]['items_by_size'][size]
+
+    # if product has no size and a quantity exists update bag-
+    # if not then remove with the pop function
+    else:
+        if item_quantity > 0:
+            current_bag[item_id] = item_quantity
+        else:
+            current_bag.pop(item_id)
+
+    request.session['bag'] = current_bag
+    return redirect(reverse('bag'))
