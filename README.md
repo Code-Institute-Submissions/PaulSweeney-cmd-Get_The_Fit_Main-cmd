@@ -83,8 +83,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 
 ## 4. Third Party End User Testing
 
-#
-## 5. Bugs & Fixes
+# 5. Bugs & Fixes
 ## Production
 ### BUG
 ### Rendering product size:
