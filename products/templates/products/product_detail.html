@@ -75,22 +75,25 @@
                             <div class="form-group quantity-box">
                                 <div class="input-group quantity">
                                     <div class="input-group-prepend">
-                                        <button class="decrement-qty btn btn-black rounded-0" 
-                                            data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                            <span class="icon">
-                                                <i class="fas fa-chevron-down text-white"></i>
+                                        <button class="decrement-qty btn btn-sm btn-black rounded-0" 
+                                            data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                            <spanitem.item_id>
+                                                <i class="fas fa-chevron-down text-white fa-sm"></i>
                                             </span>
                                         </button>
                                     </div>
-                                    <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="9" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                    <input class="form-control form-control-sm qty_input text-white" type="number" name="quantity" value="{{ item.item_quantity }}" min="1" max="9" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                     <div class="input-group-append">
-                                        <button class="increment-qty btn btn-black rounded-0"
-                                            data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
-                                            <span class="icon">
-                                                <i class="fas fa-chevron-up text-white"></i>
+                                        <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                            data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                            <span>
+                                                <i class="fas fa-chevron-up text-white fa-sm"></i>
                                             </span>
                                         </button>
                                     </div>
+                                    {% if item.product.product_sizes %}
+                                        <input type="hidden" name="product_size" value="{{ item.size }}">
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
