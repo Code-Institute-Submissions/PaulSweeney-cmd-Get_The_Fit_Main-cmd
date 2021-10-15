@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 
 def bag(request):
@@ -60,6 +60,8 @@ def update_bag(request, item_id):
             current_bag[item_id]['items_by_size'][size] = item_quantity
         else:
             del current_bag[item_id]['items_by_size'][size]
+            if not current_bag[item_id]['items_by_size'][size]:
+                current_bag.pop(item_id)
 
     # if product has no size and a quantity exists update bag-
     # if not then remove with the pop function
@@ -71,3 +73,31 @@ def update_bag(request, item_id):
 
     request.session['bag'] = current_bag
     return redirect(reverse('bag'))
+
+
+def delete_item(request, item_id):
+    """ A view to remove selected products fro the shopping bag """
+
+    try:
+        size = None
+
+        # checking if product size exists in the request-
+        # and if it does, assign it to the size variable
+        if 'product_size' in request.POST:
+            size = request.POST['product_size']
+        current_bag = request.session.get('bag', {})
+
+        # if item has size or not delete bag and return a successful response
+        # or return an internal server error if request didn't go through
+        if size:
+            del current_bag[item_id]['items_by_size'][size]
+            if not current_bag[item_id]['items_by_size'][size]:
+                current_bag.pop(item_id)
+        else:
+            current_bag.pop(item_id)
+
+        request.session['bag'] = current_bag
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        return HttpResponse(status=500)
