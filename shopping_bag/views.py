@@ -80,7 +80,6 @@ def delete_item(request, item_id):
 
     try:
         size = None
-
         # checking if product size exists in the request-
         # and if it does, assign it to the size variable
         if 'product_size' in request.POST:
