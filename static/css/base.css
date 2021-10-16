@@ -238,6 +238,13 @@ select#sort-selector {
     right: 13px;
     z-index: 99999999999;
 }
+
+.toast-body {
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-top: 0;
+}
 .custom-toast {
     overflow: visible;
 }
@@ -248,8 +255,14 @@ span.exit.button {
 }
 
 .toast-header {
-    color: black;
+    background-color: black;
     font-size: 15px;
+    border-bottom: none;
+    border: 1px solid #fafafa;
+    border-top: 0;
+    border-bottom: 0;
+    color: #fafafa;
+    font-weight: 100;
 }
 
 /*---------- Toast - cappers ----------*/
@@ -257,21 +270,29 @@ span.exit.button {
 .w-100.toast-capper.danger {
     background-color: #ba2121;
     height: 13px;
+    border: 1px solid #fafafa;
+    border-bottom: 0;
 }
 
 .w-100.toast-capper.warning {
     background-color: #e2970f;
     height: 13px;
+    border: 1px solid #fafafa;
+    border-bottom: 0;
 }
 
 .w-100.toast-capper.info {
     background-color: #063ebb;
     height: 13px;
+    border: 1px solid #fafafa;
+    border-bottom: 0;
 }
 
 .w-100.toast-capper.success {
     background-color: #208a05;
     height: 13px;
+    border: 1px solid #fafafa;
+    border-bottom: 0;
 }
 
 /*--------------- Individual Products Page ---------------*/
