@@ -98,6 +98,20 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Syntax error: When I copied and pasted input box code from my product detail page I didn't include the closing div tag and didn't update value field to {{ item.item_quantity }}.
 #
 
+### BUG
+### Delete Product:
+* Delete function not working, print statement in except Exception returns "POST /shopping_bag/delete/26/ HTTP/1.1" 500 0 'extra small'
+### FIX: 
+* Fixed typo in delete function in views.py removed [size] from line 63, 93. delete function now works
+#
+
+### BUG
+### Products deleting in shopping bag when :
+* Delete function not working, print statement in except Exception returns "POST /shopping_bag/delete/26/ HTTP/1.1" 500 0 'extra small'
+### FIX: 
+* Fixed typo in delete function in views.py removed [size] from line 63, 93. delete function now works
+#
+
 
 
 

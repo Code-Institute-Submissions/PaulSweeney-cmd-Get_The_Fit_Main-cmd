@@ -450,6 +450,7 @@ a.remove-button.text-danger.float-right {
     cursor: pointer;
 }
 
+
 p.bag-product-name {
     color: #fafafa;
     font-size: 33px;
@@ -475,6 +476,11 @@ p.bag-product-price {
     margin-left: 18px;
     font-size: 32px;
     margin-bottom: 16px;
+}
+
+p.product-subtotal {
+    color: #fafafa;
+    margin-left: 18px;
 }
 
 p.bag-product-quantity {

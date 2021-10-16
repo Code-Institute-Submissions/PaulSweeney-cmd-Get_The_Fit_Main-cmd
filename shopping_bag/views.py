@@ -60,7 +60,7 @@ def update_bag(request, item_id):
             current_bag[item_id]['items_by_size'][size] = item_quantity
         else:
             del current_bag[item_id]['items_by_size'][size]
-            if not current_bag[item_id]['items_by_size'][size]:
+            if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
 
     # if product has no size and a quantity exists update bag-
@@ -90,7 +90,7 @@ def delete_item(request, item_id):
         # or return an internal server error if request didn't go through
         if size:
             del current_bag[item_id]['items_by_size'][size]
-            if not current_bag[item_id]['items_by_size'][size]:
+            if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
         else:
             current_bag.pop(item_id)
