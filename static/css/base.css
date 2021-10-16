@@ -158,7 +158,8 @@ input.form-control.search-bar.text-white.rounded-0 {
 }
 
 #delivery-banner h4 {
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /*--------------- Home Page ---------------*/
@@ -171,6 +172,20 @@ h1.home-main-text {
     color: #f0f005;
     font-size: 60px;
     margin-top: 21px;
+}
+
+h1.company-name-font.text-white.my-0:hover {
+    color: #f0f005 !important;
+}
+
+
+a {
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #f0f005;
 }
 
 /*---------- Home Page - Shop Button ----------*/
@@ -202,6 +217,11 @@ h2.page-title {
 a.product-count {
     color: #fafafa;
     font-size: 20px;
+    text-decoration: none;
+}
+
+a.product-count:hover {
+    color: #f0f005;
 }
 
 select#sort-selector {
@@ -472,7 +492,7 @@ h6.bag-delivery {
 }
 
 h4.bag-total {
-    color: #fafafa;
+    color: #f0f005;
 }
 
 a.btn.btn-black.rounded-0.btn-lg {
@@ -489,14 +509,14 @@ td.image.w-25.mr-5.mt-3 {
     margin-bottom: 10px;
     padding-top: 17px;
     margin-bottom: 10px;
-    border-top: 1px solid yellow;
-    border-bottom: 1px solid yellow;
+    border-top: 1px solid #f0f005;
+    border-bottom: 1px solid #f0f005;
     padding-bottom: 16px;
 }
 
 td.products-table-data {
-    border-bottom: 1px solid yellow;
-    border-top: 1px solid yellow;
+    border-bottom: 1px solid #f0f005;
+    border-top: 1px solid #f0f005;
 }
 
 

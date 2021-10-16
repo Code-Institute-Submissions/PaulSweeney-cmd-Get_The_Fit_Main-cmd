@@ -15,12 +15,13 @@
     <div class="row">
         <div class="col text-left mt-4">
             <hr>
-            <!-- for loop to display all products within the current selected category -->
+            <!------------------ Current category product page title ------------------>
             {% for c in current_categories %}
-                <h2 class="page-title">{{ c.friendly_name }}</h2>
+                <h2 class="page-title text-center">{{ c.friendly_name }}</h2>
             {% endfor %}
         </div>
     </div>
+    <!------------------ Product filtering and sorting ------------------>
     <div class="row">   
         <div class="dropdown-container col-10 offset-1">
             <div class="row mt-1 mb-2">
@@ -28,26 +29,28 @@
                     <div class="sort-select-wrapper w-50">
                         <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                             <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                            <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
+                            <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
+                            <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+                            <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
                             <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
                             <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
                             <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
                             <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
-                            <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
-                            <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
-                            <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
-                            <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
                         </select>
                     </div>
                 </div>
+                <!------------------ Current products counter and link back to all products ------------------>
                 <div class="col-12 col-md-6 order-md-first">
-                    <p class="text-muted mt-3 text-center text-md-left">
+                    <p class="mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                            <span><a class="product-count" href="{% url 'products' %}">All Products / </span>
+                            <span><a class="product-count" href="{% url 'products' %}">Back to All Products page / </span>
                         {% endif %}
                             {{ products|length }} {% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
                     </div>
                 </div>
+            <!------------------ Product card and details ------------------>
             <div class="row">
                 {% for product in products %}
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -61,7 +64,6 @@
                                 <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                             </a>
                             {% endif %}
-                            <!-- Product detail -->
                             <div class="card-body">
                                 <p class="product-name mb-0">{{ product.name }}</p>
                             </div>
@@ -86,6 +88,7 @@
                             </div>
                         </div>
                     </div>
+                    <!------------------ Page breaker hr positioning for screen sizes ------------------>
                     {% if forloop.counter|divisibleby:1 %}
                         <div class="col-12 d-sm-none">
                             <hr class="page-breaker">
@@ -113,7 +116,7 @@
 </div>
 {% endblock %}
 
-<!-- JS for product filtering -->
+<!------------------ Product filtering js script ------------------>
 {% block postloadjs %}
 <script type="text/javascript">
     $('#sort-selector').change(function() {
@@ -135,6 +138,6 @@
 
             window.location.replace(currentUrl);
         }
-    })
+    });
 </script>
 {% endblock %}
