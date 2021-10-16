@@ -30,7 +30,7 @@ def add_item(request, item_id):
             if size in current_bag[item_id]['items_by_size'].keys():
                 # updating product with size quantity
                 current_bag[item_id]['items_by_size'][size] += item_quantity
-                messages.success(request, f'You have just updated {size.lower()} {product.name} quantity to {current_bag[item_id]["items_by_size"]}')
+                messages.success(request, f'You have just updated {size.lower()} {product.name} quantity to {current_bag[item_id]["items_by_size"][size]}')
             else:
                 # adding new product with size to cart
                 current_bag[item_id]['items_by_size'][size] = item_quantity
@@ -62,7 +62,7 @@ def update_bag(request, item_id):
     size = None
 
     # checking if product_size exists in the request-
-    # and if it does, assign it to the size variable declared above
+    # and if it does, assign it to the size variable
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     current_bag = request.session.get('bag', {})

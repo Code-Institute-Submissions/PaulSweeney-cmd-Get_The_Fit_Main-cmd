@@ -254,17 +254,6 @@ span.exit.button {
     text-decoration: underline;
 }
 
-.toast-header {
-    background-color: black;
-    font-size: 15px;
-    border-bottom: none;
-    border: 1px solid #fafafa;
-    border-top: 0;
-    border-bottom: 0;
-    color: #fafafa;
-    font-weight: 100;
-}
-
 /*---------- Toast - cappers ----------*/
 
 .w-100.toast-capper.danger {
@@ -546,6 +535,57 @@ td.products-table-data {
     border-top: 1px solid #f0f005;
 }
 
+/*---------- Shopping bag pop-up ----------*/
+
+.shopping-bag-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fafafa;
+}
+
+.toast-header {
+    background-color: black;
+    font-size: 15px;
+    border-bottom: none;
+    border: 1px solid #fafafa;
+    border-top: 0;
+    border-bottom: 0;
+    color: #fafafa;
+    font-weight: 100;
+}
+
+.toast-body {
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-top: 0;
+    padding-bottom: 2px;
+}
+
+p.logo-font.bg-white.text-black.py-1 {
+    background-color: black !important;
+    color: #fafafa;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Montserrat';
+}
+
+p.mb-0.p-2.text-center {
+    background-color: #17a2b8;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+span.bag-pop-checkout.text-uppercase {
+    display: inline-block;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    width: 66%;
+    font-size: 14px;
+    padding: 7px;
+}
 
 /*--------------- Media Queries ---------------*/
 
