@@ -13,11 +13,11 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col text-left mt-4">
+        <div class="col text-center mt-4">
             {% if product.category %}
                 <div class="row">
                     <div class="col">
-                        <a class="category-title" href="{% url 'products' %}?category={{ product.category.name }}">For All {{ product.category.friendly_name }} Click Here</a>
+                        <a class="category-title text-center" href="{% url 'products' %}?category={{ product.category.name }}">Back to all {{ product.category.friendly_name }}</a>
                     </div>
                 </div>
             {% endif %}
