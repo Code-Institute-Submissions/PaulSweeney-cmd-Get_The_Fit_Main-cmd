@@ -95,7 +95,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 ### Quantity input:
 * Quantity input box not working when I click on the chevron buttons to increase or decrease product quantity in the shopping bag.
 ### FIX: 
-* Syntax error: When I copied and pasted input box code from my product detail page I didn't include the closing div tag.
+* Syntax error: When I copied and pasted input box code from my product detail page I didn't include the closing div tag and didn't update value field to {{ item.item_quantity }}.
 #
 
 
