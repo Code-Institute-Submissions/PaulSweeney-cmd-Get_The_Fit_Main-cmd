@@ -61,6 +61,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [JQuery](https://en.wikipedia.org/wiki/JQuery)
 
 ## 2. Libararies, Frameworks & Additional Programmes
+* Main site apps: [DJango](https://www.djangoproject.com/)
 * Font icon kit sourced from [Font Awesome](https://fontawesome.com/)
 * Containers, inline margin styling and colours using [Bootstrap 4.4.1](https://blog.getbootstrap.com/2019/11/28/bootstrap-4-4-1/)
 * Montserrat & Almarai were sourced from [Google Fonts](https://fonts.google.com/)
@@ -96,20 +97,18 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Quantity input box not working when I click on the chevron buttons to increase or decrease product quantity in the shopping bag.
 ### FIX: 
 * Syntax error: When I copied and pasted input box code from my product detail page I didn't include the closing div tag and didn't update value field to {{ item.item_quantity }}.
-#
 
 ### BUG
 ### Delete Product:
 * Delete function not working, print statement in except Exception returns "POST /shopping_bag/delete/26/ HTTP/1.1" 500 0 'extra small'
 ### FIX: 
-* Fixed typo in delete function in views.py removed [size] from line 63, 93. delete function now works
-#
+* Fixed typo in delete function in views removed [size] from line 63, 93. delete function now works
 
 ### BUG
 ### Products deleting in shopping bag when :
 * Delete function not working, print statement in except Exception returns "POST /shopping_bag/delete/26/ HTTP/1.1" 500 0 'extra small'
 ### FIX: 
-* Fixed typo in delete function in views.py removed [size] from line 63, 93. delete function now works
+* Fixed typo in delete function in views removed [size] from line 63, 93. delete function now works
 #
 
 
