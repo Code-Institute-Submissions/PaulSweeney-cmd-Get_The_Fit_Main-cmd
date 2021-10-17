@@ -34,20 +34,33 @@
                         {{ new_order_form.first_name | as_crispy_field }}
                         {{ new_order_form.last_name | as_crispy_field }}
                         {{ new_order_form.email_address | as_crispy_field }}
+                        {{ new_order_form.phone_number | as_crispy_field }}
                     </fieldset>
                     <!------------------ Checkout form delivery fields ------------------>
                     <fieldset class="rounded px-3 mb-5">
                         <legend class="fieldset-lable small text-white px-2 w-auto">Deivery Info</legend>
-                            {{ new_order_form.phone_number | as_crispy_field }}
                             {{ new_order_form.address1 | as_crispy_field }}
                             {{ new_order_form.address2 | as_crispy_field }}
                             {{ new_order_form.town_or_city | as_crispy_field }}
                             {{ new_order_form.county | as_crispy_field }}
                             {{ new_order_form.postcode| as_crispy_field }}
                             {{ new_order_form.country | as_crispy_field }}
-                        <legend class="fieldset-lable small text-white px-2 w-auto">Details</legend>   
+                        <div class="form-check form-check-inline float-right mr-0">
+                            <!------------------ Accout signup/login/save info buttons and inputs ------------------>
+                            {% if user.is_authenticated %}
+                                <label class="form-check-label" for="id-save-info">Save info</label>
+                                <input class="form-check-input ml-2 mr-0" type="checkbox"  id="id-save-info" name="save-info" checked>
+                            {% else %}
+                                <label class="form-check-label" for="id-save-info">
+                                    <a class="text-info"  href="">Create an account here</a>
+                                    <a class="text-info"  href="">Login</a>
+                                </label>
+                            {% endif %}
+                        </div>
                     </fieldset>
-                    <fieldset class="px-3"></fieldset>
+                    <fieldset class="px-3">
+
+                    </fieldset>
                 </form>
             </div>
         </div>
