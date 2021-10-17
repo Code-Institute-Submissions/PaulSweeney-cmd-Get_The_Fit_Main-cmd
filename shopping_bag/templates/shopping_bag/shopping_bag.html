@@ -80,9 +80,9 @@
                             <!------------------ Total cost fields and delivery calculations ------------------>
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    <h6 class="bag-total">Bag Total: £{{ bag_total|floatformat:2 }}</h6>
-                                    <h6 class="bag-delivery">Delivery: £{{ delivery|floatformat:2 }}</h6>
-                                    <h4 class="bag-total mt-4">Grand Total: £{{ grand_total|floatformat:2 }}</h4>
+                                    <h6 class="bag-total">Bag Total: £{{ bag_total | floatformat:2 }}</h6>
+                                    <h6 class="bag-delivery">Delivery: £{{ delivery_total | floatformat:2 }}</h6>
+                                    <h4 class="bag-total mt-4">Grand Total: £{{ grand_total | floatformat:2 }}</h4>
                                     {% if free_delivery_delta > 0 %}
                                         <p class="mb-1 text-info">
                                             You could get free delivery by spending just £{{ free_delivery_delta }} more.
