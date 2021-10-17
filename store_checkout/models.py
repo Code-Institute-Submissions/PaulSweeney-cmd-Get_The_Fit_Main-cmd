@@ -35,7 +35,7 @@ class Order(models.Model):
 
     # updates grand total when new item is added
     def update_grand_total(self):
-        self.bag_total = self.lineitems.aggregate(Sum('item_total'))['item_total__sum']
+        self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
@@ -52,6 +52,7 @@ class Order(models.Model):
     def __str__(self):
         return self.order_number
 
+
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
@@ -66,4 +67,4 @@ class OrderItem(models.Model):
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f'sku: {self.product.sku} on following order: {self.ordfer.order_number}'
+        return f'sku: {self.product.sku} on following order: {self.order.order_number}'

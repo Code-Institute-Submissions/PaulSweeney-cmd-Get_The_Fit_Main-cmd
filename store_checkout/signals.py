@@ -14,7 +14,7 @@ def update_when_saved(sender, instance, created, **kwargs):
 
 # handling signals from the post_delete event
 @receiver(post_delete, sender=OrderItem)
-def update_when_saved(sender, instance, **kwargs):
+def update_when_deleted(sender, instance, **kwargs):
 
     # updating order total on line item delete
     instance.order.update_total()
