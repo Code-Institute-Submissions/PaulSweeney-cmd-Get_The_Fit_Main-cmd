@@ -23,10 +23,32 @@
                 <hr>
             </div>
         </div>
-        <!------------------ Main content ------------------>
         <div class="row">
             <div class="col-12 col-lg-6">
                 <p class="text-white">Fill out the details below and you're good to go</p>
+                <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+                    {% csrf_token %}
+                    <!------------------ Checkout form contact fields ------------------>
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-lable small text-white px-2 w-auto">Details</legend>
+                        {{ new_order_form.first_name | as_crispy_field }}
+                        {{ new_order_form.last_name | as_crispy_field }}
+                        {{ new_order_form.email_address | as_crispy_field }}
+                    </fieldset>
+                    <!------------------ Checkout form delivery fields ------------------>
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-lable small text-white px-2 w-auto">Deivery Info</legend>
+                            {{ new_order_form.phone_number | as_crispy_field }}
+                            {{ new_order_form.address1 | as_crispy_field }}
+                            {{ new_order_form.address2 | as_crispy_field }}
+                            {{ new_order_form.town_or_city | as_crispy_field }}
+                            {{ new_order_form.county | as_crispy_field }}
+                            {{ new_order_form.postcode| as_crispy_field }}
+                            {{ new_order_form.country | as_crispy_field }}
+                        <legend class="fieldset-lable small text-white px-2 w-auto">Details</legend>   
+                    </fieldset>
+                    <fieldset class="px-3"></fieldset>
+                </form>
             </div>
         </div>
     </div>
