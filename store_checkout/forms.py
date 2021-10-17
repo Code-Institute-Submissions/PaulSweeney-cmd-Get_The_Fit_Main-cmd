@@ -2,7 +2,7 @@ from django import forms
 from .models import Order
 
 
-class NewOrderForm(froms.ModelForm):
+class NewOrderForm(forms.ModelForm):
     class Meta:
         model = Order
         fields = (
@@ -12,7 +12,9 @@ class NewOrderForm(froms.ModelForm):
         )
 
     # removing auto labels, adding placeholders and classes
-    def __init__(*args, **kwargs):
+    def __init__(self, *args, **kwargs):
+
+        super().__init__(*args, **kwargs)
         placeholders = {
             'first_name': 'First Name',
             'last_name': 'Last Name',
@@ -26,4 +28,14 @@ class NewOrderForm(froms.ModelForm):
             'country': 'Country'
         }
 
+        # setting autofocus to first and last name
         self.fields['first_name', 'last_name'].widget.attrs['autofocus'] = True
+        # iterating through fields and setting a requirement to be filled in
+        for field in self.fields:
+            if self.fields[field].required:
+                placeholder = f'{placeholders[field]} *'
+            else:
+                placeholder = placeholders[field]
+            self.fields[field].widget.attrs['placeholder'] = placeholder
+            self.fields[field].widget.attrs['class'] = 'stripe-style-input'
+            self.fields[field].label = False
