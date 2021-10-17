@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'checkout_form/css/checkout_form.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <!------------------ Page title ------------------>
+        <div class="row">
+            <div class="col">
+                <h2 class="page-title mt-5 text-center">Checkout</h2>
+                <hr>
+            </div>
+        </div>
+        <!------------------ Main content ------------------>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <p class="text-white">Fill out the details below and you're good to go</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
