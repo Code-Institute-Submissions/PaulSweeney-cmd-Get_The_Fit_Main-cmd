@@ -7,7 +7,7 @@ from products.models import Product
 
 class Order(models.Model):
     order_number = models.CharField(max_length=30, null=False, editable=False)
-    first_name = models.CharField(max_length=40, null=False, editable=False)
+    first_name = models.CharField(max_length=40, null=False, blank=False)
     last_name = models.CharField(max_length=40, null=False, blank=False)
     email_address = models.EmailField(max_length=300, null=False, blank=False)
     phone_number = models.CharField(max_length=25, null=False, blank=False)
@@ -35,7 +35,7 @@ class Order(models.Model):
 
     # updates grand total when new item is added
     def update_grand_total(self):
-        self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
+        self.bag_total = self.lineitems.aggregate(Sum('item_total'))['item_total__sum']
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
