@@ -24,21 +24,22 @@
                 <hr>
             </div>
         </div>
-        <div class="row">
+            <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
+                <p class="summary-text">Order Summary ({{ product_count }})</p>
                 <div class="row">
                     <div class="col-7 offset-2">
-                        <p class="mb-1 mt-0 small text-muted">Item</p>
+                        <p class="item-text mb-1 mt-0 small">Item</p>
                     </div>
                     <div class="col-3 text-right">
-                        <p class="mb-1 mt-0 small text-muted">Subtotal</p>
+                        <p class="subtotal-text mb-1 mt-0 small">Subtotal</p>
                     </div>
                 </div>
                 {% for item in bag_items %}
                 <!------------------ Image links ------------------>
                 <div class="row">
-                    <div class="com-2 mb-1">
-                        <a href="{% url 'product_detail' item.product.id %}">
+                    <div class="col-2 mb-1">
+                        <a href="{% url 'individual_product' item.product.id %}">
                             {% if item.product.image %}
                                 <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product_name }}">
                             {% else %}
@@ -48,13 +49,13 @@
                     </div>
                     <!------------------ Product detail ------------------>
                     <div class="col-7">
-                        <p class="bag-product-name">{{ item.product.name }}
-                        <p class="bag-product-size">Size: {% if item.product.product_sizes %}{{ item.size|lower }}{% endif %}</p>
-                        <p class="bag-product-name">Qty: {{ item.item_quantity }}
+                        <p class="checkout-product-name">{{ item.product.name }}
+                        <p class="checkout-product-size">Size: {% if item.product.product_sizes %}{{ item.size|lower }}{% endif %}</p>
+                        <p class="checkout-product-quantity">Qty: {{ item.item_quantity }}
                     </div>
                     <!------------------ Product price calculation ------------------>
                     <div class="col-3 text-right">
-                        <p class="bag-product-price">£ {{ item.product.price | calc_subtotal:item.item_quantity }}</p>
+                        <p class="checkout-product-price">£ {{ item.product.price | calc_subtotal:item.item_quantity }}</p>
                     </div>
                 </div>
                 {% endfor %}
@@ -62,16 +63,17 @@
                 <!------------------ Order cost & delivery ------------------>
                 <div class="row text-white text-right">
                     <div class="col-7 offset-2">
-                        <p class="text-white my-0">Bag Total:</p>
-                        <p class="text-white my-0">Delivery Charges:</p>
-                        <p class="text-white my-0">Grand Total:</p>
+                        <p class="checkout-bag-total">Bag Total:</p>
+                        <p class="checkout-delivery-charge">Delivery Charges:</p>
+                        <p class="checkout-grand-total">Grand Total:</p>
                     </div>
                     <div class="col-3">
-                        <p class="text-white my-0">£ {{ bag_total | floatformat:2 }}</p>
-                        <p class="text-white my-0">£ {{ delivery_total | floatformat:2 }}</p>
-                        <p class="text-white my-0">£ {{ grand_total | floatformat:2 }}</p>
+                        <p class="checkout-bag-total">£ {{ bag_total | floatformat:2 }}</p>
+                        <p class="checkout-delivery-charge">£ {{ delivery | floatformat:2 }}</p>
+                        <p class="checkout-grand-total">£ {{ grand_total | floatformat:2 }}</p>
                     </div>
                 </div>
+            </div>
             <div class="col-12 col-lg-6">
                 <p class="text-white">Fill out the details below and you're good to go</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
@@ -100,8 +102,8 @@
                                     <input class="form-check-input ml-2 mr-0" type="checkbox"  id="id-save-info" name="save-info" checked>
                                 {% else %}
                                     <label class="form-check-label" for="id-save-info">
-                                        <a class="text-info"  href="">Create an account here</a>
-                                        <a class="text-info"  href="">Login</a>
+                                        <a class="checkout-create" href="">Create Account</a>
+                                        <a class="checkout-login" href="">Login</a>
                                     </label>
                                 {% endif %}
                             </div>
@@ -115,8 +117,29 @@
                         <!-- Form errors -->
                         <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
                     </fieldset>
+                    <div class="submit-button text-right mt-5 mb-2">                    
+						<a href="{% url 'bag' %}" class="adjust btn btn-outline-black rounded-0">
+							<span class="icon">
+								<i class="fas fa-chevron-left"></i>
+							</span>
+							<span>Adjust Bag</span>
+						</a>
+						<button id="complete-order" class="btn btn-black rounded-0">
+							<span>Complete Order</span>
+							<span class="icon">
+								<i class="fas fa-lock"></i>
+							</span>
+						</button>
+						<p class="charge-text small text-danger my-0">
+							<span class="icon">
+								<i class="fas fa-exclamation-circle"></i>
+							</span>
+							<span><strong class="text-white">£{{ grand_total|floatformat:2 }}</strong> will be charged to your card.</span>
+						</p>
+					</div>
                 </form>
             </div>
         </div>
     </div>
 {% endblock %}
+

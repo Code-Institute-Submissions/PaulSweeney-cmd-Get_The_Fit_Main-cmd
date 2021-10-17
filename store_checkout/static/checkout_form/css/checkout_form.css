@@ -1,0 +1,116 @@
+p.checkout-product-name {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+p.checkout-product-size {
+    color: #fafafa;
+}
+
+p.checkout-product-quantity {
+    color: #fafafa;
+}
+
+p.checkout-product-price {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+p.summary-text {
+    color: #f0f005;
+}
+
+p.item-text.mb-1.mt-0.small {
+    color: #17a2b8;
+}
+
+p.subtotal-text.mb-1.mt-0.small {
+    color: #17a2b8;
+}
+
+/*---------- form fields ----------*/
+input#id_first_name {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_last_name {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_email_address {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_phone_number {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_address1 {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_address2 {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_town_or_city {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_county {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_postcode {
+    background-color: black;
+    color: #fafafa;
+}
+input#id_country {
+    background-color: black;
+    color: #fafafa;
+}
+
+/*---------- Buttons ----------*/
+
+a.checkout-login {
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+a.checkout-create {
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+button#complete-order {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    margin-bottom: 12px;
+}
+
+a.adjust.btn.btn-outline-black.rounded-0 {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+/*---------- Charges ----------*/
+p.checkout-grand-total {
+    color: #17a2b8;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p.charge-text.small.text-danger.my-0 {
+    color: #ba2121!important;
+    font-size: 15px;
+    font-weight: 600;
+}

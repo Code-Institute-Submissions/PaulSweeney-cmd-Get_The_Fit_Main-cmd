@@ -29,7 +29,7 @@ class NewOrderForm(forms.ModelForm):
         }
 
         # setting autofocus to first and last name
-        self.fields['first_name', 'last_name'].widget.attrs['autofocus'] = True
+        self.fields['first_name'].widget.attrs['autofocus'] = True
         # iterating through fields and setting a requirement to be filled in
         for field in self.fields:
             if self.fields[field].required:
