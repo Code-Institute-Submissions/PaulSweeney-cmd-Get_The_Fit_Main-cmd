@@ -67,6 +67,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Montserrat & Almarai were sourced from [Google Fonts](https://fonts.google.com/)
 * Frameworks were constructed using [Balsamiq](https://balsamiq.com/)
 * Version control and to make good use of my git pod terminal to push my code from Git to [GitHub](https://git-scm.com/)
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
 
 # Site Testing
 ## 1. Code Checking & Validation
