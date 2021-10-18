@@ -28,47 +28,6 @@ p.subtotal-text.mb-1.mt-0.small {
     color: #17a2b8;
 }
 
-/*---------- form fields ----------*/
-input#id_first_name {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_last_name {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_email_address {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_phone_number {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_address1 {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_address2 {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_town_or_city {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_county {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_postcode {
-    background-color: black;
-    color: #fafafa;
-}
-input#id_country {
-    background-color: black;
-    color: #fafafa;
-}
 
 /*---------- Buttons ----------*/
 
@@ -113,4 +72,54 @@ p.charge-text.small.text-danger.my-0 {
     color: #ba2121!important;
     font-size: 15px;
     font-weight: 600;
+}
+
+/*---------- Stripe ----------*/
+.StripeElement,
+.stripe-style-input,
+ #card-element
+ {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background-color: #000;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus,
+.stripe-style-input:focus,
+.stripe-style-input:active {
+  box-shadow: 0 1px 3px 0 #000;
+  background-color: #000;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fafafa !important;
+}
+
+.stripe-style-input::placeholder {
+    color: #fafafa;
+}
+.fieldset-label {
+    position: relative;
+    right: 5rem;
+}
+
+#payment-form .form-control,
+#card-element {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+select,
+select option {
+    color: #fafafa;
+}
+select:invalid,
+select option[value=""] {
+  color: #fafafa !important;
 }
