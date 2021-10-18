@@ -1,5 +1,9 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
+from django.conf import settings
+import stripe
+from shopping_bag.contexts import bag_items
+
 from .forms import NewOrderForm
 
 
@@ -8,6 +12,11 @@ def checkout(request):
     if not shopping_bag:
         messages.error(request, 'Sorry, your bag seems to be empty, nothing to display.')
         return redirect(reverse('products'))
+    
+    current_bag = bag_items(request)
+    total = current_bag['grand_total']
+    stripe_total = round(total * 100)
+
     # importing the order form created in forms.py,
     # assigning html to template and creating a context
     # to contain all details and then rendering it all back.
