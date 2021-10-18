@@ -80,7 +80,7 @@
                     {% csrf_token %}
                     <!------------------ Checkout form contact fields ------------------>
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-lable small text-white px-2 w-auto">Details</legend>
+                        <legend class="fieldset-label small text-white px-2 w-auto">Details</legend>
                         {{ new_order_form.first_name | as_crispy_field }}
                         {{ new_order_form.last_name | as_crispy_field }}
                         {{ new_order_form.email_address | as_crispy_field }}
@@ -88,7 +88,7 @@
                     </fieldset>
                     <!------------------ Checkout form delivery fields ------------------>
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-lable small text-white px-2 w-auto">Deivery Info</legend>
+                        <legend class="fieldset-label small text-white px-2 w-auto">Deivery Info</legend>
                             {{ new_order_form.address1 | as_crispy_field }}
                             {{ new_order_form.address2 | as_crispy_field }}
                             {{ new_order_form.town_or_city | as_crispy_field }}
@@ -115,7 +115,7 @@
                         <div class="mb-3" id="card-element"></div>
 
                         <!-- Form errors -->
-                        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                        <div class="mb-3 text-danger" id="card-invalid" role="alert"></div>
                     </fieldset>
                     <div class="submit-button text-right mt-5 mb-2">                    
 						<a href="{% url 'bag' %}" class="adjust btn btn-outline-black rounded-0">
@@ -141,5 +141,12 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+        {{ stripe_publishable_key|json_script:"id_stripe_publishable_key" }}
+        {{ stripe_secret_key|json_script:"id_stripe_secret_key" }}
+        <script src="{% static 'checkout_form/stripe/stripe.js' %}"></script>
 {% endblock %}
 
