@@ -20,7 +20,7 @@ def checkout(request):
         return redirect(reverse('products'))
 
     # getting the current bag contents and grand total from contexts.py
-    total = current_user_bag = bag_items(request)
+    current_user_bag = bag_items(request)
     total = current_user_bag['grand_total']
     stripe_total = round(total * 100)
 
