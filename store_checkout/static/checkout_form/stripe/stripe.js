@@ -47,6 +47,7 @@ var formSubmit = document.getElementById('payment-form');
 
 formSubmit.addEventListener('submit', function(ev) {
     ev.preventDefault();
+
     // diabling buttons to prevent issues incase of multiple submissions
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);

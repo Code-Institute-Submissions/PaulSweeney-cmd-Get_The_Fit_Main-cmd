@@ -58,7 +58,7 @@ class OrderItem(models.Model):
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
     product_size = models.CharField(max_length=3, null=True, blank=True)
     item_quantity = models.IntegerField(null=False, blank=False, default=0)
-    item_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, editable=False)
+    item_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
 
     # a default function to set line item total and update order total
     def save_order(self, *args, **kwargs):
