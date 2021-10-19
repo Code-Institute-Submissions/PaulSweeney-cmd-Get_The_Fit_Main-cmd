@@ -37,7 +37,6 @@ a.checkout-login {
     padding: 5px;
     text-transform: uppercase;
     margin-left: 10px;
-    border-radius: 5px;
 }
 
 a.checkout-create {
@@ -45,13 +44,11 @@ a.checkout-create {
     color: #fafafa;
     padding: 5px;
     text-transform: uppercase;
-    border-radius: 5px;
 }
 
 button#complete-order {
     color: #fafafa;
     border: 1px solid #fafafa;
-    margin-bottom: 12px;
 }
 
 a.adjust.btn.btn-outline-black.rounded-0 {
