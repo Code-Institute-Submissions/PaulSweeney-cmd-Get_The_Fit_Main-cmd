@@ -587,6 +587,11 @@ span.bag-pop-checkout.text-uppercase {
     padding: 7px;
 }
 
+p.text-white.text-center,
+span.here-button-text {
+    font-size: 23px;
+}
+
 /*--------------- Media Queries ---------------*/
 
 @media (min-width: 300px) {
@@ -636,6 +641,15 @@ span.bag-pop-checkout.text-uppercase {
 and (max-device-width: 480px) {
 .form-group.quantity-box {
     width: 315px;
+}
+
+/*---------- Post checkout success styling ----------*/
+p.text-white.text-center {
+    color: #fff!important;
+    font-size: 16px;
+}
+span.here-button-text {
+    font-size: 16px;
 }
 
 select#id_product_size {
