@@ -29,13 +29,13 @@ class Order(models.Model):
     )
 
     # a function to generate an order number using uuid
-    def _create_order_number(self):
+    def _generate_order_number(self):
 
         return uuid.uuid4().hex.upper()
 
     # updates grand total when new item is added
-    def update_grand_total(self):
-        self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
+    def update_total(self):
+        self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
@@ -44,9 +44,9 @@ class Order(models.Model):
         self.save()
 
     # a default function incase the original order number hasnt been generated
-    def save_order(self, *args, **kwargs):
+    def save(self, *args, **kwargs):
         if not self.order_number:
-            self.order_number = self._create_order_number
+            self.order_number = self._generate_order_number()
         super().save(*args, **kwargs)
 
     def __str__(self):
@@ -56,14 +56,14 @@ class Order(models.Model):
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
-    product_size = models.CharField(max_length=3, null=True, blank=True)
+    product_size = models.CharField(max_length=15, null=True, blank=True)
     item_quantity = models.IntegerField(null=False, blank=False, default=0)
-    item_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
+    lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=False, editable=False)
 
     # a default function to set line item total and update order total
     def save_order(self, *args, **kwargs):
 
-        self.item_total = self.product.price * self.item_quantity
+        self.lineitem_total = self.product.price * self.item_quantity
         super().save(*args, **kwargs)
 
     def __str__(self):

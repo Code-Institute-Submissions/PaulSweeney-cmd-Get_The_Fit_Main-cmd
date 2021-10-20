@@ -17,4 +17,5 @@ def update_when_saved(sender, instance, created, **kwargs):
 def update_when_deleted(sender, instance, **kwargs):
 
     # updating order total on line item delete
+    print('delete signal')
     instance.order.update_total()
