@@ -28,6 +28,10 @@ p.subtotal-text.mb-1.mt-0.small {
     color: #17a2b8;
 }
 
+span.here-button-text {
+    color: #17a2b8 !important;
+}
+
 
 /*---------- Buttons ----------*/
 
