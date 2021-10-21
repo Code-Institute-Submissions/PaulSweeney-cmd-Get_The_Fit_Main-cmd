@@ -115,6 +115,13 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Delete function not working, print statement in except Exception returns "POST /shopping_bag/delete/26/ HTTP/1.1" 500 0 'extra small'
 ### FIX: 
 * Fixed typo in delete function in views removed [size] from line 63, 93. delete function now works
+
+### BUG
+### Webhooks :
+* Payment-intent not working: test webhook charge succeeded but internal server error stated there was an issue with a typo as follows....order = Order.object.create() whereas it should have been order = Order.objects.create().
+### FIX: 
+* Issue rectified, new endpoint set up and re-tested.
+
 #
 
 
