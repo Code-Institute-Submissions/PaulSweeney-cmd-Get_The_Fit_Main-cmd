@@ -72,25 +72,27 @@ formSubmit.addEventListener('submit', function(ev) {
                 card: card,
                 billing_details: {
                     name: $.trim(formSubmit.first_name.value),
-                    name: $.trim(formSubmit.last_name.value),
+                    phone: $.trim(formSubmit.phone_number.value),
                     email: $.trim(formSubmit.email_address.value),
-                    address: {
+                    address:{
                         line1: $.trim(formSubmit.address1.value),
                         line2: $.trim(formSubmit.address2.value),
                         city: $.trim(formSubmit.town_or_city.value),
                         country: $.trim(formSubmit.country.value),
+                        state: $.trim(formSubmit.county.value),
                     }
                 }
             },
             shipping: {
-                    name: $.trim(formSubmit.first_name.value),
-                    name: $.trim(formSubmit.last_name.value),
-                    address: {
-                        line1: $.trim(formSubmit.address1.value),
-                        line2: $.trim(formSubmit.address2.value),
-                        city: $.trim(formSubmit.town_or_city.value),
-                        postal_code: $.trim(formSubmit.postcode.value),
-                        country: $.trim(formSubmit.country.value),
+                name: $.trim(formSubmit.first_name.value),
+                phone: $.trim(formSubmit.phone_number.value),
+                address: {
+                    line1: $.trim(formSubmit.address1.value),
+                    line2: $.trim(formSubmit.address2.value),
+                    city: $.trim(formSubmit.town_or_city.value),
+                    country: $.trim(formSubmit.country.value),
+                    postal_code: $.trim(formSubmit.postcode.value),
+                    state: $.trim(formSubmit.county.value),
                     }
                 },
         // Render an error message in the event of invalid details 
