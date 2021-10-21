@@ -71,13 +71,12 @@ def update_bag(request, item_id):
         if item_quantity > 0:
             # Updating quantity to a product with a size
             current_bag[item_id]['items_by_size'][size] = item_quantity
-            messages.success(request, f'You have just updated size: {size.upper()} {product.name} quantity to {current_bag[item_id]["items_by_size"]}')
+            messages.success(request, f'You have just updated the quantity of {size.lower()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
         else:
             # Deleting a product
-            del current_bag[item_id]['items_by_size'][size]
             if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
-            messages.success(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
+            messages.success(request, f'You have just removed size: {size.lower()} {product.name} from your cart')
     else:
         if item_quantity > 0:
             # updating quantity for a product

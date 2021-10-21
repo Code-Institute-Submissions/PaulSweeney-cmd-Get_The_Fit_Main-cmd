@@ -35,14 +35,11 @@ class Order(models.Model):
 
     # updates grand total when new item is added
     def update_total(self):
-        print("ut1")
         self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        print("ut2", self.bag_total)
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
             self.delivery_total = 0
-        print("ut3", self.delivery_total)
         self.grand_total = self.bag_total + self.delivery_total
         self.save()
 
@@ -64,7 +61,7 @@ class OrderItem(models.Model):
     lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=False, editable=False)
 
     # a default function to set line item total and update order total
-    def save_order(self, *args, **kwargs):
+    def save(self, *args, **kwargs):
 
         self.lineitem_total = self.product.price * self.item_quantity
         super().save(*args, **kwargs)
