@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import csrf_exempt
 
-from checkout.webhook_handler import StripeWH_Handler
+from store_checkout.webhook_handler import StripeWH_Handler
 import stripe
 
 
@@ -22,7 +22,7 @@ def webhook(request):
     event = None
 
     try:
-        event = stripe.Webhook.construct.event(
+        event = stripe.Webhook.construct_event(
             payload, sig_header, wh_secret
         )
     except ValueError as e:
@@ -33,6 +33,9 @@ def webhook(request):
         return HttpResponse(status=400)
     except Exception as e:
         return HttpResponse(content=e, status=400)
+
+    print('success')
+    return HttpResponse(status=200)
 
 
     # Handling the event
