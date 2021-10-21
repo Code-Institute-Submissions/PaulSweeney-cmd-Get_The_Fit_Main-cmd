@@ -51,6 +51,9 @@ formSubmit.addEventListener('submit', function(ev) {
     // diabling buttons to prevent issues incase of multiple submissions
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
+    // loading spinner and form fade
+    $('#payment-form').fadeToggle(100);
+    $('#loading-overlay').fadeToggle(100);
 
     // checking for the status of the save info check box
     var saveInfo = Boolean($('#id-save-info').attr('checked'));
@@ -105,6 +108,10 @@ formSubmit.addEventListener('submit', function(ev) {
                     </span>
                     <span>${result.error.message}</span>`;
                 $(cardError).html(errorMessage);
+
+                // loading spinner and overlay
+                $('#payment-form').fadeToggle(100);
+                $('#loading-overlay').fadeToggle(100);
 
                 // enabling buttons again so user can rectify details and try again
                 card.update({ 'disabled': false });
