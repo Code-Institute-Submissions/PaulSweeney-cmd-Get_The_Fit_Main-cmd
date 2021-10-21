@@ -56,6 +56,30 @@ formSubmit.addEventListener('submit', function(ev) {
     stripe.confirmCardPayment(clientSecret, {
         payment_method: {
             card: card,
+            billing_details: {
+                first_name: $.trim(form.first_name.value),
+                last_name: $.trim(form.last_name.value),
+                email: $.trim(form.email_address.value),
+                address: {
+                    line1: $.trim(form.address1.value),
+                    line2: $.trim(form.address2.value),
+                    city: $.trim(form.town_or_city.value),
+                    county: $.trim(form.county.value),
+                    country: $.trim(form.country.value),
+                }
+            }
+        },
+        shipping_details: {
+            first_name: $.trim(form.first_name.value),
+            last_name: $.trim(form.last_name.value),
+            address: {
+                line1: $.trim(form.address1.value),
+                line2: $.trim(form.address2.value),
+                city: $.trim(form.town_or_city.value),
+                county: $.trim(form.county.value),
+                postcode: $.trim(form.postcode.value),
+                country: $.trim(form.country.value),
+            }
         }
     // Render an error message in the event of invalid details 
     }).then(function(result) {
