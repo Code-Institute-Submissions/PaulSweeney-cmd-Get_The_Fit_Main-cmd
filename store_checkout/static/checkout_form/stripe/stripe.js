@@ -71,30 +71,28 @@ formSubmit.addEventListener('submit', function(ev) {
             payment_method: {
                 card: card,
                 billing_details: {
-                    first_name: $.trim(form.first_name.value),
-                    last_name: $.trim(form.last_name.value),
-                    email: $.trim(form.email_address.value),
+                    name: $.trim(formSubmit.first_name.value),
+                    name: $.trim(formSubmit.last_name.value),
+                    email: $.trim(formSubmit.email_address.value),
                     address: {
-                        line1: $.trim(form.address1.value),
-                        line2: $.trim(form.address2.value),
-                        city: $.trim(form.town_or_city.value),
-                        county: $.trim(form.county.value),
-                        country: $.trim(form.country.value),
+                        line1: $.trim(formSubmit.address1.value),
+                        line2: $.trim(formSubmit.address2.value),
+                        city: $.trim(formSubmit.town_or_city.value),
+                        country: $.trim(formSubmit.country.value),
                     }
                 }
             },
-            shipping_details: {
-                first_name: $.trim(form.first_name.value),
-                last_name: $.trim(form.last_name.value),
-                address: {
-                    line1: $.trim(form.address1.value),
-                    line2: $.trim(form.address2.value),
-                    city: $.trim(form.town_or_city.value),
-                    county: $.trim(form.county.value),
-                    postcode: $.trim(form.postcode.value),
-                    country: $.trim(form.country.value),
-                }
-            }
+            shipping: {
+                    name: $.trim(formSubmit.first_name.value),
+                    name: $.trim(formSubmit.last_name.value),
+                    address: {
+                        line1: $.trim(formSubmit.address1.value),
+                        line2: $.trim(formSubmit.address2.value),
+                        city: $.trim(formSubmit.town_or_city.value),
+                        postal_code: $.trim(formSubmit.postcode.value),
+                        country: $.trim(formSubmit.country.value),
+                    }
+                },
         // Render an error message in the event of invalid details 
         }).then(function(result) {
             if (result.error) {
@@ -107,7 +105,7 @@ formSubmit.addEventListener('submit', function(ev) {
                 $(cardError).html(errorMessage);
 
                 // enabling buttons again so user can rectify details and try again
-                card.update({ 'disabled': false});
+                card.update({ 'disabled': false });
                 $('#submit-button').attr('disabled', false);
 
             // submitting form in the event of updated details

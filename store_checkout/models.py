@@ -35,11 +35,14 @@ class Order(models.Model):
 
     # updates grand total when new item is added
     def update_total(self):
+        print("ut1")
         self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        print("ut2", self.bag_total)
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
             self.delivery_total = 0
+        print("ut3", self.delivery_total)
         self.grand_total = self.bag_total + self.delivery_total
         self.save()
 

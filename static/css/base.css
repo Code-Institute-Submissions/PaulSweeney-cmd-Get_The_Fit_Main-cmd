@@ -254,6 +254,17 @@ span.exit.button {
     text-decoration: underline;
 }
 
+/*---------- Toast bag pop up ----------*/
+span.bag-pop-checkout.text-uppercase {
+    display: inline-block;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    width: 66%;
+    font-size: 14px;
+    padding: 7px;
+    min-width: -webkit-fill-available;
+}
+
 /*---------- Toast - cappers ----------*/
 
 .w-100.toast-capper.danger {
