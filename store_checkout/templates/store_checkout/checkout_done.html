@@ -101,7 +101,6 @@
                         </div>
                     </div>
                     <!-------------->
-                    {% if order.address2 %}
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-white">Address 2</p>
@@ -110,9 +109,7 @@
                             <p class="mb-0 text-white">{{ order.address2 }}</p>
                         </div>
                     </div>
-                    {% endif %}
                     <!-------------->
-                    {% if order.county %}
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-white">County</p>
@@ -121,7 +118,6 @@
                             <p class="mb-0 text-white">{{ order.county }}</p>
                         </div>
                     </div>
-                    {% endif %}
                     <!-------------->
                     <div class="row">
                         <div class="col-12 col-md-4">
@@ -132,7 +128,6 @@
                         </div>
                     </div>
                     <!-------------->
-                    {% if order.postcode %}
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-white">Postcode</p>
@@ -141,7 +136,6 @@
                             <p class="mb-0 text-white">{{ order.postcode }}</p>
                         </div>
                     </div>
-                    {% endif %}
                     <!-------------->
                     <div class="row">
                         <div class="col-12 col-md-4">
@@ -168,6 +162,7 @@
                         </div>
                     </div>
                     <!-------------->
+                    
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-white">Order Total</p>
@@ -194,6 +189,7 @@
                             <p class="mb-0 text-white">{{ order.grand_total }}</p>
                         </div>
                     </div>
+                    
                     <!-------------->
                 </div>
             </div>
