@@ -19,7 +19,7 @@ def cache_checkout_data(request):
         # Modifying the payment intent id to pass in metadata
         stripe.PaymentIntent.modify(pid, metadata={
             'bag': json.dumps(request.session.get('bag', {})),
-            'save-info': request.POST.get('save-info'),
+            'save_info': request.POST.get('save-info'),
             'username': request.user,
         })
         return HttpResponse(status=200)
@@ -52,7 +52,11 @@ def checkout(request):
         order_form = NewOrderForm(new_form_data)
         # saving data if the form is valid
         if order_form.is_valid():
-            order = order_form.save()
+            order = order_form.save(commit=False)
+            pid = request.POST.get('client_secret').split('_secret')[0]
+            order.stripe_pid = pid
+            order.original_bag = json.dumps(request.session.get('bag', {}))
+            order.save()
             for item_id, item_data in shopping_bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
