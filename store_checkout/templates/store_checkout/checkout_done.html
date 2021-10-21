@@ -57,8 +57,8 @@
                     {% for item in order.lineitems.all %}
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <p class="small mb-0 text-white">
-                                {{ item.product.name }}{% if item.product_size %} - Size {{ item.product_size|upper }}{% endif %}
+                            <p class="small mb-0 text-white" style="text-transform: capitalize;">
+                                {{ item.product.name }}{% if item.product_size %} - Size {{ item.product_size|lower }}{% endif %}
                             </p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">

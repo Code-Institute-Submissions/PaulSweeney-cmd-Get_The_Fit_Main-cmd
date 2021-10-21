@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-9">
                             <p class="pop-up-fields my-0">{{ item.product.name }}</p>
-                            <p class="pop-up-fields my-0">Size: {% if item.product.product_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                            <p class="pop-up-fields my-0">Size: {% if item.product.product_sizes %}{{ item.size|upper }}{% else %}Unavailable{% endif %}</p>
                             <p class="pop-up-fields my-0 ">Qty: {{ item.item_quantity }}</p>
                         </div>
                     </div>

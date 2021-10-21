@@ -60,7 +60,6 @@ def checkout(request):
                     return redirect(reverse('bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            print(f"ORDER NUMBER: {order.order_number}")
             return redirect(reverse(
                 'checkout_done', args=[order.order_number])
             )
