@@ -71,7 +71,8 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 ## 3. Installs
 * [Stripe](https://stripe.com/gb) for card payments
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
-* [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities
+* [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities.
+* [Django Countries](https://pypi.org/project/django-countries/) for the country dropdown.
 
 
 # Site Testing
