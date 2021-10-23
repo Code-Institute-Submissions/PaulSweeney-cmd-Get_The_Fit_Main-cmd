@@ -1,1 +1,12 @@
 {% extends "base.html" %}
+
+{% block content %}
+<div class="container header-container login-image">
+    <div class="col-12 col-lg-6">
+        <div class="allauth-form-login-content">
+            {% block login_content %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}
