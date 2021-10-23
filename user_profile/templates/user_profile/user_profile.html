@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'user_profile/css/user_profile.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <!------------------ Page title ------------------>
+        <div class="row">
+            <div class="col">
+                <h2 class="page-title mt-5 text-center">Welcome back render users name in jinja templete here!</h2>
+                <hr>
+            </div>
+        </div>
+{% endblock %}
