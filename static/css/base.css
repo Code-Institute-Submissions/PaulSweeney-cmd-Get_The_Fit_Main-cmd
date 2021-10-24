@@ -148,6 +148,7 @@ a.btn.back-home {
 }
 a.button.secondaryAction {
     color: #f0f005;
+    float: left;
 }
 label.form-check-label {
     color: #fafafa;
@@ -809,20 +810,11 @@ hr {
 }
 /*--------------- Profile ---------------*/
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: -1;
-    opacity: 1;
-    height: 105vh;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black
+
+p.username {
+    color: #17a2b8;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 .profile-overlay {
@@ -840,6 +832,90 @@ hr {
     align-items: center;
     justify-content: center;
     background-color: transparent;
+}
+
+p.form-title {
+    font-family: 'Almarai';
+    color: #fafafa;
+    font-size: 17px;
+}
+
+input#id_default_address1,
+input#id_default_address2,
+input#id_default_town_or_city,
+input#id_default_county,
+input#id_default_postcode,
+input#id_default_phone_number,
+select#id_default_country {
+    background-color: transparent;
+    border-color: #fafafa;
+    border-radius: 0;
+    color: #fafafa;
+}
+select#id_default_country {
+    background-color: black;
+    color: #fafafa;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #fafafa;
+}
+
+button.btn-btn-black-rounded-0.update-profile.float-right {
+    background-color: black;
+    color: white;
+    border: 1px solid #fafafa;
+    padding: 5px;
+}
+
+.container.sign-out {
+    background-color: #000000b0;
+    border-radius: 11px;
+    color: #fafafa;
+    text-align: center;
+}
+
+.black-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+p.allauth-text {
+    color: #fafafa;
+    text-align: center;
+}
+
+button.logout-button {
+    background-color: black;
+    color: #fafafa;
+    padding: 8px;
+    width: 104px;
+    margin-left: 30%;
+}
+
+button.allauth-button {
+    font-family: 'Almarai', sans-serif;
+    border: 2px solid #fafafa;
+    background-color: #000;
+    opacity: 0.75;
+    text-transform: initial;
+    color: #fafafa;
+    font-size: 19px;
+    float: right;
+    margin-right: 8px;
+    padding-bottom: 3px;
 }
 /*--------------- Media Queries ---------------*/
 

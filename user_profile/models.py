@@ -12,8 +12,6 @@ class Profile(models.Model):
     default delivery and order history
     """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    default_phone_number = models.CharField(
-        max_length=25, null=True, blank=True)
     default_address1 = models.CharField(
         max_length=100, null=True, blank=True)
     default_address2 = models.CharField(
@@ -24,8 +22,10 @@ class Profile(models.Model):
         max_length=20, null=True, blank=True)
     default_postcode = models.CharField(
         max_length=15, null=True, blank=True)
+    default_phone_number = models.CharField(
+        max_length=25, null=True, blank=True)
     default_country = CountryField(
-        blank_label='Country *', null=True, blank=True)
+        blank_label='Country', null=True, blank=True)
 
     def __str__(self):
         return self.user.username
