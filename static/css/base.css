@@ -11,8 +11,7 @@ body {
     color: #000;
 }
 
-.overlay {
-    background: #000;
+.products-overlay {
     height: 100%;
     width: 100%;
     top: 0;
@@ -20,6 +19,13 @@ body {
     position: fixed;
     z-index: -1;
     opacity: 1;
+    height: 105vh;
+    background: url('/media/product-overlay.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
 }
 
 /*--------------- Allauth ---------------*/
@@ -32,7 +38,7 @@ body {
     z-index: -1;
     opacity: 1;
     height: 105vh;
-    background: url(/media/new-image.jpg) no-repeat center center fixed;
+    background: url('/media/new-image.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
