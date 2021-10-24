@@ -1,5 +1,5 @@
 html {
-    height: 100% !important;
+    height: 100%;
 }
 
 body {
@@ -22,6 +22,93 @@ body {
     opacity: 1;
 }
 
+/*--------------- Allauth ---------------*/
+.image-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background: url(/media/new-image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.allauth-form-login-content {
+    margin-top: 50%;
+}
+
+.allauth-form-inner-content p {
+    margin-top: 1.5rem;
+    color: #fafafa;
+}
+
+.allauth-form-login-content input,
+.allauth-form-login-content input:focus {
+    background-color: transparent;
+    border-color: #fafafa;
+    border-radius: 0;
+    color: #fafafa;
+}
+
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-inner-content input::placeholder {
+    color: #fafafa;
+}
+
+.allauth-form-inner-content button:hover {
+    cursor: pointer;
+}
+
+p.login-signup-text {
+    font-family: 'Montserrat';
+    color: #fafafa;
+    font-family: 23px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button.primaryAction {
+    font-family: 'Almarai', sans-serif;
+    border: 2px solid #fafafa;
+    background-color: #000;
+    opacity: 0.75;
+    text-transform: initial;
+    color: #fafafa;
+    font-size: 19px;
+    float: right;
+    margin-right: 8px;
+    padding-bottom: 3px;
+}
+a.btn.back-home {
+    font-family: 'Almarai', sans-serif;
+    border: 2px solid #fafafa;
+    background-color: #000;
+    opacity: 0.75;
+    text-transform: initial;
+    color: #fafafa;
+    font-size: 19px;
+    padding: 1;
+    padding: 2px;
+    border-radius: 0;
+    float: right;
+}
+a.button.secondaryAction {
+    color: #f0f005;
+}
+label.form-check-label {
+    color: #fafafa;
+}
 /*--------------- Nav Bar ---------------*/
 
 h1.company-name-font.text-white.my-0 {
@@ -203,7 +290,7 @@ h2.page-title {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
-    background-color: #000;
+    background-color: transparent;
     color: #fafafa;
     font-weight: lighter;
 }
@@ -777,6 +864,13 @@ input.btn.btn-black.text-uppercase {
     padding: 7px;
     margin-top: 17px;
     margin-left: 7px;
+    }
+    /* Allauth */
+    .allauth-form-login-content {
+        margin-top: 28%;
+    }
+    p.login-signup-text {
+        font-size: 15px;
     }
 }
 

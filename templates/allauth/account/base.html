@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 
+
 {% block content %}
+<div class="image-overlay"></div>
 <div class="container header-container login-image">
+    <div class="row">
     <div class="col-12 col-lg-6">
         <div class="allauth-form-login-content">
             {% block login_content %}
             {% endblock %}
         </div>
     </div>
+</div>
+</div>
 </div>
 {% endblock %}
