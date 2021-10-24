@@ -18,7 +18,7 @@ class ProfileForm(forms.ModelForm):
             'default_town_or_city': 'Town or City',
             'default_county': 'County, state or locality',
             'default_postcode': 'Post Code',
-            'default_country': 'Country'
+            'default_country': 'Country',
         }
 
         # setting autofocus to default
