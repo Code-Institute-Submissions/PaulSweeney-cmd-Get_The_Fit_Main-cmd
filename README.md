@@ -122,8 +122,11 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Payment-intent not working: test webhook charge succeeded but internal server error stated there was an issue with a typo as follows....order = Order.object.create() whereas it should have been order = Order.objects.create().
 ### FIX: 
 * Issue rectified, new endpoint set up and re-tested.
-
-#
+### BUG
+### Webhooks :
+* User profile not updating on submit.
+### FIX: 
+* Syntax error in jinja templating, incorrect syntax for url ( missing })
 
 
 
