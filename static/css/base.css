@@ -810,7 +810,9 @@ hr {
 }
 /*--------------- Profile ---------------*/
 
-
+input[name='q']::placeholder {
+    color: #604b4ba6;
+}
 p.username {
     color: #17a2b8;
     font-weight: 700;
