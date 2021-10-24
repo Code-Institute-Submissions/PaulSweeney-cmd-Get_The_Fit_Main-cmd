@@ -384,8 +384,13 @@ select#sort-selector {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid #17a2b8;
+    border: 1px solid #fafafa;
     border-radius: .25rem;
+}
+
+hr.product.page-breaker {
+    margin-bottom: 2px;
+    margin-top: 15px;
 }
 
 /*---------- Toast messages ----------*/
@@ -618,7 +623,22 @@ input.btn.btn-black.text-uppercase {
 }
 
 /*---------- Shopping bag page ----------*/
-
+.bag-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-color: black;
+}
 .table-responsive.rounded {
     display: flex;
 }
@@ -787,7 +807,40 @@ hr {
     margin-bottom: 1px;
     border: 0;
 }
+/*--------------- Profile ---------------*/
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black
+}
+
+.profile-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background: url('/media/profile-overlay.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
 /*--------------- Media Queries ---------------*/
 
 @media (min-width: 300px) {
