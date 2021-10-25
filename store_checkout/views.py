@@ -115,8 +115,24 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
-        # importing the order form created in forms.py
-        new_order_form = NewOrderForm()
+        # auto-complete fields
+        if request.user.is_authenticated:
+            try:
+                profile = Profile.objects.get(user=request.user)
+                new_order_form = NewOrderForm(initial={
+                    'address1': profile.default_address1,
+                    'address2': profile.default_address2,
+                    'town_or_city': profile.default_town_or_city,
+                    'county': profile.default_county,
+                    'postcode': profile.default_postcode,
+                    'phone_number': profile.default_phone_number,
+                    'country': profile.default_country,
+                })
+            except Profile.DoesNotExist:
+                new_order_form = NewOrderForm()
+        else:
+            # importing the order form created in forms.py
+            new_order_form = NewOrderForm()
 
     # throw an error if the public key has not ben added to the environment
     if not stripe_public_key:
@@ -148,8 +164,8 @@ def checkout_done(request, order_number):
         # if save info box is checked, grab user profile data
         if save_info:
             profile_data = {
-                'default_address_1': order.address1,
-                'default_address_2': order.address2,
+                'default_address1': order.address1,
+                'default_address2': order.address2,
                 'default_town_or_city': order.town_or_city,
                 'default_county': order.county,
                 'default_postcode': order.postcode,
