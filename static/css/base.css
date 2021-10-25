@@ -27,7 +27,7 @@ body {
     justify-content: center;
     background-color: transparent;
 }
-.checkout-overlay {
+.checkout-done-overlay {
     height: 100%;
     width: 100%;
     top: 0;
@@ -43,6 +43,23 @@ body {
     justify-content: center;
     background-color: transparent;
 }
+
+.checkout-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
 .container.mb-2 {
     background: url(/media/checkout-overlay.jpg) no-repeat center center fixed;
     margin-top: 4%;
@@ -813,6 +830,13 @@ hr {
     max-height: 416px;
     overflow: auto;
 }
+
+.order-list.col-12 {
+    background-color: #0000007a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 input[name='q']::placeholder {
     color: #604b4ba6;
 }
@@ -842,7 +866,12 @@ p.username {
 p.form-title {
     font-family: 'Almarai';
     color: #fafafa;
-    font-size: 17px;
+    font-size: 18px;
+}
+
+th {
+    table-layout: fixed;
+    width: 500px;
 }
 
 input#id_default_address1,
