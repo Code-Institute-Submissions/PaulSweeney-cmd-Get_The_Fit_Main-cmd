@@ -5,6 +5,8 @@ from django.contrib import messages
 from django.conf import settings
 import stripe
 from products.models import Product
+from user_profile.forms import ProfileForm
+from user_profile.models import Profile
 from shopping_bag.contexts import bag_items
 from .forms import NewOrderForm
 from .models import Order, OrderItem
@@ -136,6 +138,29 @@ def checkout_done(request, order_number):
 
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
+
+    if request.user.is_authenticated:
+        # assigning the users profile to the order when it's been created
+        profile = Profile.objects.get(user=request.user)
+        order.user_profile = profile
+        order.save()
+
+        # if save info box is checked, grab user profile data
+        if save_info:
+            profile_data = {
+                'default_address_1': order.address1,
+                'default_address_2': order.address2,
+                'default_town_or_city': order.town_or_city,
+                'default_county': order.county,
+                'default_postcode': order.postcode,
+                'default_phone_number': order.phone_number,
+                'default_country': order.country,
+            }
+            profile_form = ProfileForm(profile_data, instance=profile)
+            if profile_form.is_valid():
+                profile_form.save()
+
+
     messages.success(request, f'Awesome job! \
         Your order has been successfully placed. \
         Order number {order_number}. We will email you with a copy.')
