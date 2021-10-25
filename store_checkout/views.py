@@ -1,5 +1,6 @@
 import json
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -175,7 +176,6 @@ def checkout_done(request, order_number):
             profile_form = ProfileForm(profile_data, instance=profile)
             if profile_form.is_valid():
                 profile_form.save()
-
 
     messages.success(request, f'Awesome job! \
         Your order has been successfully placed. \

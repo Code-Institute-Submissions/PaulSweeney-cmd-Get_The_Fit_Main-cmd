@@ -1,11 +1,9 @@
-from django.http import HttpResponse
-
-from .models import Order, OrderItem
-from products.models import Product
-from user_profile.models import Profile
-
 import json
 import time
+from django.http import HttpResponse
+from products.models import Product
+from user_profile.models import Profile
+from .models import Order, OrderItem
 
 
 class StripeWH_Handler:
@@ -37,7 +35,7 @@ class StripeWH_Handler:
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
-        
+
         # updating the users profile information when save info box checked
         profile = None
         username = intent.metadata.username
