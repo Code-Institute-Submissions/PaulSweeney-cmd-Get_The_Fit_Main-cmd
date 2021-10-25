@@ -10,13 +10,13 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
+    <div class="checkout-overlay"></div>
     <div class="container mb-2">
         <!------------------ Page title ------------------>
         <div class="row">
             <div class="col">
-                <h2 class="page-title mt-5 text-center">Success!</h2>
-                <p class="page-comment mb-5 text-white text-center">Thank you for your order.</p>
+                <h2 class="page-title mt-5 text-center">Your Order</h2>
+                <br>
                 <hr class="page-breaker">
             </div>
         </div>
@@ -189,16 +189,28 @@
                             <p class="mb-0 text-white">£{{ order.grand_total }}</p>
                         </div>
                     </div>
-                    
                     <!-------------->
                 </div>
             </div>
         </div>
+        <!-- If the user is coming from their profile render this button only -->
+        <div class="row">
+            <div class="col-12 col-lg 7 text-right">
+            {% if from_profile %}
+            <p class="text-white text-center mt-5">
+                <a href="{% url 'user_profile' %}">
+                    <span class="here-button-text" style="color: #17a2b8; text-decoration: underline;">Your Profile</span>
+                </a>
+            </p>
+        {% else %}
         <hr class="page-breaker">
-        <p class="text-white text-center mt-5">Before you go why not check our our products on offer in our sale section
-            <a href="{% url 'products' %}?category=sale" class="btn btn-black rounded-0 my-2 text-center">
-                <span class="here-button-text" style="color: #17a2b8; text-decoration: underline;">Here</span>
-            </a>
-        </p>
+            <p class="text-white text-center mt-5">Before you go why not check our our products on offer in our sale section
+                <a href="{% url 'products' %}?category=sale" class="btn btn-black rounded-0 my-2 text-center">
+                    <span class="here-button-text" style="color: #17a2b8; text-decoration: underline;">Here</span>
+                </a>
+            </p>
+            {% endif %}
+        </div>
     </div>
+</div>
 {% endblock %}
