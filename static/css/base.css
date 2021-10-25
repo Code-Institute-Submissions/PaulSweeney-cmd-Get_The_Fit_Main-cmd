@@ -809,7 +809,10 @@ hr {
     border: 0;
 }
 /*--------------- Profile ---------------*/
-
+.order-history-table {
+    max-height: 416px;
+    overflow: auto;
+}
 input[name='q']::placeholder {
     color: #604b4ba6;
 }
