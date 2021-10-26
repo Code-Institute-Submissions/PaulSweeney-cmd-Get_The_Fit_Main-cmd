@@ -11,6 +11,7 @@ body {
     color: #000;
 }
 
+/* --- Image overlays --- */
 .products-overlay {
     height: 100%;
     width: 100%;
@@ -43,7 +44,6 @@ body {
     justify-content: center;
     background-color: transparent;
 }
-
 .checkout-overlay {
     height: 100%;
     width: 100%;
@@ -59,7 +59,6 @@ body {
     justify-content: center;
     background-color: #000;
 }
-
 .container.mb-2 {
     background: url(/media/checkout-overlay.jpg) no-repeat center center fixed;
     margin-top: 4%;
@@ -177,6 +176,10 @@ h1.company-name-font.text-white.my-0 {
     font-size: 50px;
 }
 
+.navbar {
+    padding: 0rem;
+}
+
 h1.company-name-font.text-white.my-0:hover {
     text-decoration: none;
 }
@@ -184,7 +187,7 @@ div#topnav {
     background-color: black !important;
 }
 
-nav.navbar.navbar-expand-lg.navbar-dark.w-100 {
+nav.navbar.navbar-expand-lg.w-100 {
     background-color: black;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -301,7 +304,7 @@ i.fas.fa-bars {
 
 /*---------- Search Box ----------*/
 
-input.form-control.search-bar.text-white.rounded-0 {
+input.form-control.search-bar.rounded-0 {
     background-color: #00000080;
     text-transform: capitalize;
     color: #fafafa;
@@ -309,6 +312,10 @@ input.form-control.search-bar.text-white.rounded-0 {
 
 .fa-search {
     color: white;
+}
+
+input.form-control.search-bar.rounded-0::placeholder {
+    color: #fafafa !important;
 }
 
 /*---------- Delivery banner ----------*/
@@ -328,12 +335,14 @@ input.form-control.search-bar.text-white.rounded-0 {
 
 h1.home-main-text {
     color: #f0f005;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #f0f005;
     font-size: 60px;
     margin-top: 21px;
+    background-color: #000305b8;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 h1.company-name-font.text-white.my-0:hover {
@@ -830,13 +839,11 @@ hr {
     max-height: 416px;
     overflow: auto;
 }
-
 .order-list.col-12 {
     background-color: #0000007a;
     padding: 10px;
     border-radius: 10px;
 }
-
 input[name='q']::placeholder {
     color: #604b4ba6;
 }
@@ -845,7 +852,6 @@ p.username {
     font-weight: 700;
     text-transform: capitalize;
 }
-
 .profile-overlay {
     height: 100%;
     width: 100%;
@@ -862,18 +868,15 @@ p.username {
     justify-content: center;
     background-color: transparent;
 }
-
 p.form-title {
     font-family: 'Almarai';
     color: #fafafa;
     font-size: 18px;
 }
-
 th {
     table-layout: fixed;
     width: 500px;
 }
-
 input#id_default_address1,
 input#id_default_address2,
 input#id_default_town_or_city,
@@ -895,21 +898,18 @@ label {
     margin-bottom: .5rem;
     color: #fafafa;
 }
-
 button.btn-btn-black-rounded-0.update-profile.float-right {
     background-color: black;
     color: white;
     border: 1px solid #fafafa;
     padding: 5px;
 }
-
 .container.sign-out {
     background-color: #000000b0;
     border-radius: 11px;
     color: #fafafa;
     text-align: center;
 }
-
 .black-overlay {
     height: 100%;
     width: 100%;
@@ -925,12 +925,10 @@ button.btn-btn-black-rounded-0.update-profile.float-right {
     justify-content: center;
     background-color: black;
 }
-
 p.allauth-text {
     color: #fafafa;
     text-align: center;
 }
-
 button.logout-button {
     background-color: black;
     color: #fafafa;
@@ -938,7 +936,6 @@ button.logout-button {
     width: 104px;
     margin-left: 30%;
 }
-
 button.allauth-button {
     font-family: 'Almarai', sans-serif;
     border: 2px solid #fafafa;
@@ -951,7 +948,9 @@ button.allauth-button {
     margin-right: 8px;
     padding-bottom: 3px;
 }
+
 /*--------------- Media Queries ---------------*/
+/* --- Product page --- */
 
 @media (min-width: 300px) {
     p.bag-product-name,
@@ -1002,7 +1001,7 @@ and (max-device-width: 480px) {
     width: 315px;
 }
 
-/*---------- Post checkout success styling ----------*/
+/* --- Post checkout success styling --- */
 p.text-white.text-center {
     color: #fff!important;
     font-size: 16px;
@@ -1011,6 +1010,7 @@ span.here-button-text {
     font-size: 16px;
 }
 
+/* --- Product detail --- */
 select#id_product_size {
     width: 45%;
     background-color: black;
@@ -1028,14 +1028,7 @@ select#id_product_size {
     margin-bottom: 15px;
 }
 
-.image-container.w-25 {
-    width: 100% !important;
-}
-
-.table-responsive.rounded {
-    display: block !important;
-}
-
+/* --- Shopping bag --- */
 p.bag-product-code,
 p.bag-product-price,
 p.bag-product-quantity,
@@ -1044,21 +1037,19 @@ p.bag-product-price {
     font-size: 17px;
     margin-bottom: 5px;
 }
-
 p.bag-product-name {
     font-size: 20px;
 }
-
 span.text-uppercase {
     color: #fafafa;
     border: 1px solid #fafafa;
     padding: 9px;
 }
-
 td.image.w-25.mr-5.mt-3 {
     padding-top: 12px;
     margin-bottom: 10px;
 }
+
 
 .header-container {
     padding-top: 116px;
@@ -1068,26 +1059,25 @@ body {
     height: calc(100vh - 116px);
 }
 
+/* --- Nav bar --- */
+
 .display-4.logo-font.text-black {
     font-size: 2rem;
 }
-
 .nav-link {
     padding: 0.15rem;
 }
-
 .nav-link i.fa-lg {
     font-size: 1rem;
 }
-
 .navbar-toggler {
     padding: .6rem .6rem;
     font-size: 1rem;
 }
-
 #delivery-banner h4 {
     font-size: .9rem;
 }
+
 
 .btn.btn-outline-black.rounded-0,
 .btn.btn-black.rounded-0 {
@@ -1119,12 +1109,30 @@ input.btn.btn-black.text-uppercase {
     margin-top: 17px;
     margin-left: 7px;
     }
-    /* Allauth */
+
+    /* --- Allauth --- */
     .allauth-form-login-content {
         margin-top: 28%;
     }
     p.login-signup-text {
         font-size: 15px;
+    }
+    .fieldset-label {
+        position: relative;
+        right: 5rem;
+        margin-left: 72px;
+        margin-bottom: 12px;
+    }
+}
+
+/* iPad portrate layout */
+@media only screen and (min-device-width: 481px) 
+and (max-device-width: 1024px) 
+and (orientation:portrait) {
+    /* --- Checkout page --- */
+    .fieldset-label {
+        margin-left: 70px;
+        margin-bottom: 15px;
     }
 }
 

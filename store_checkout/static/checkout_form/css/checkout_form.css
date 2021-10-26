@@ -13,7 +13,7 @@ p.checkout-product-quantity {
 
 p.checkout-product-price {
     color: #fafafa;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 p.summary-text {
@@ -70,6 +70,8 @@ a.checkout-create {
 button#complete-order {
     color: #fafafa;
     border: 1px solid #fafafa;
+    margin-bottom: 10px;
+    margin-right: 1rem;
 }
 
 a.adjust.btn.btn-outline-black.rounded-0 {
@@ -90,6 +92,7 @@ p.charge-text.small.text-danger.my-0 {
     color: #ba2121!important;
     font-size: 15px;
     font-weight: 600;
+    margin-right: 1rem;
 }
 
 
