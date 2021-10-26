@@ -649,6 +649,31 @@ input.btn.btn-black.text-uppercase {
     background-color: black;
 }
 
+input#review-input {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    width: 50%;
+    background-color: #000000d6;
+    color: #fafafa;
+    font-family: 'Almarai';
+    font-size: 15px;
+    width: 50%;
+    padding-left: 10px;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
+
+p.review-header {
+    color: 16px;
+    color: #fafafa;
+    font-size: 25px;
+    margin-top: 19px;
+}
+
+.review-container {
+    margin-top: 40px;
+}
+
 /*---------- Shopping bag page ----------*/
 .bag-overlay {
     height: 100%;
@@ -1122,6 +1147,10 @@ input.btn.btn-black.text-uppercase {
         right: 5rem;
         margin-left: 72px;
         margin-bottom: 12px;
+    }
+
+    input#review-input {
+        width: 100%;
     }
 }
 
