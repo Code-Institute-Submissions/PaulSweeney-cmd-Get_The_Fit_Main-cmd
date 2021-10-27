@@ -3,8 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 
 from django.db.models.functions import Lower
-from .models import Product, Category, Review
-from .forms import ReviewForm
+from .models import Product, Category
 
 
 def site_products(request):
@@ -69,23 +68,3 @@ def individual_product(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
-
-
-def product_review(request):
-    """ displaying users profile """
-    review = get_object_or_404(Review, user=request.user)
-
-    if request.method == 'POST':
-        # generating review data from django and checking form is valid before submit
-        form = ReviewForm(request.POST, instance=review)
-        if form.is_valid():
-            form.save()
-            messages.success(request, 'Your profile has been updated.')
-
-    form = ReviewForm(instance=review)
-    template = 'user_profile/user_profile.html'
-    context = {
-        'form': form,
-    }
-
-    return render(request, template, context)
