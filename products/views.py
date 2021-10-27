@@ -4,6 +4,7 @@ from django.db.models import Q
 
 from django.db.models.functions import Lower
 from .models import Product, Category
+from .forms import ReviewForm
 
 
 def site_products(request):
@@ -68,3 +69,15 @@ def individual_product(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def add_review(request):
+    """ Adding a product review """
+
+    form = ReviewForm()
+    template = 'products/product_detail.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)

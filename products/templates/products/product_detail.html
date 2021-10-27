@@ -113,8 +113,19 @@
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
                         </div>
+                    <!------------------ Review form ------------------>
+                </form>
+                <div class="col-12 col-md-6">
+                    <form method="POST" action="{% url 'add_review' %}" class="form">
+                        {% csrf_token %}
+                        {{ form | crispy }}
+                        <div class="text-right">
+                            <a class="btn btn-outline-white rounded-0" href="{% url 'products' %}">Back</a>
+                            <button class="btn btn-black rounded-0" type="submit">Add Review</button>
+                        </div>
                     </form>
                 </div>
+            </div>
             </div>
         </div>
     </div>
@@ -124,3 +135,5 @@
     {{ block.super }}
     {% include 'products/includes/product_quantity_js.html' %}
 {% endblock %}
+
+
