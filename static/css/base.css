@@ -609,10 +609,6 @@ p.product_name.mb-0.text-capitalize {
     padding-bottom: 19px;
 }
 
-.form.form {
-    background-color: #fafafa;
-}
-
 /*---------- Individual Products Page - Product increment//decrement ----------*/
 
 p.quantity-header-text{
@@ -677,6 +673,13 @@ p.review-header {
     margin-top: 40px;
 }
 
+
+form.review-form {
+    background-color: #000;
+    height: 140px;
+    border: 1px solid #fafafa;
+    margin-top: 30px;
+}
 /*---------- Shopping bag page ----------*/
 .bag-overlay {
     height: 100%;
