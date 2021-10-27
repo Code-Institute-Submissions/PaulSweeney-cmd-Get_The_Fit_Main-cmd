@@ -35,3 +35,6 @@ class Product(models.Model):
 
 class Review(models.Model):
     description = models.TextField()
+
+    def __str__(self):
+        return self.description
