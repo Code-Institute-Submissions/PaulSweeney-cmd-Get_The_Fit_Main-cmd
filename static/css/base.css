@@ -12,6 +12,21 @@ body {
 }
 
 /* --- Image overlays --- */
+.review-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    height: 105vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
 .products-overlay {
     height: 100%;
     width: 100%;
