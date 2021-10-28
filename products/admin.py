@@ -29,7 +29,7 @@ class CategoryAdmin(admin.ModelAdmin):
 class Review_productAdmin(admin.ModelAdmin):
     list_display = (
         'review_comment',
-        'rating',
+        'review_title',
     )
 
 

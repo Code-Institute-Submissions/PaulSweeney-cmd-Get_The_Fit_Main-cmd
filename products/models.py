@@ -34,4 +34,8 @@ class Product(models.Model):
 
 
 class Review(models.Model):
-    description = models.TextField()
+    review_comment = models.CharField(max_length=1000)
+    review_title = models.CharField(max_length=1000, default=True)
+
+    def __str__(self):
+        return self.review_comment + '' + self.review_title

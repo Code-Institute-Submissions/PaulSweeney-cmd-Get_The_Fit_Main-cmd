@@ -16,8 +16,10 @@ def user_profile(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Your profile has been updated.')
-
-    form = ProfileForm(instance=profile)
+        else:
+            messages.error(request, 'Your profile faield to update')
+    else:
+        form = ProfileForm(instance=profile)
     orders = profile.orders.all()
     template = 'user_profile/user_profile.html'
     context = {

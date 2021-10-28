@@ -609,6 +609,10 @@ p.product_name.mb-0.text-capitalize {
     padding-bottom: 19px;
 }
 
+.card.review-card {
+    margin-top: 30px;
+}
+
 /*---------- Individual Products Page - Product increment//decrement ----------*/
 
 p.quantity-header-text{

@@ -113,14 +113,19 @@
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
                         </div>
-                        <a href="{% url 'add_review' %}" class="continue-shopping-button">
-                            <span class="product-detail text-uppercase mt-5">Review</span>
-                        </a>
-                </form>
+                    </form>
                 </div>
             </div>
         </div>
+        <div class="col-12 col-lg-6">
+            <form action="" method="POST" class="border-white">
+                {% csrf_token %}
+                <input type="submit">
+            </form>
+        </div>
     </div>
+
+
 {% endblock %}
 <!------------------ JS block for product quantity ------------------>
 {% block postloadjs %}
