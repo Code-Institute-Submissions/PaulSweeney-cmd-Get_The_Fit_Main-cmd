@@ -26,14 +26,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # PRODUCTION KEYS // SECRET KEYS // STRIPE
 SECRET_KEY = os.getenv('SECRET_KEY', '')
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
+HEROKU_SECRET_KEY = os.environ.get('HEROKU_SECRET_KEY', '')
+
 STRIPE_CURRENCY = 'gbp'
 FREE_DELIVERY_THRESHOLD = 30
 STANDARD_DELIVERY_PERCENTAGE = 10
-
-HEROKU_SECRET_KEY = os.getenv('HEROKU_SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     'store_checkout',
     'crispy_forms',
     'user_profile',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -188,6 +189,13 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'get-the-fit-cmd'
+    AWS_S3_REGION_NAME = 'eu-west-2'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
