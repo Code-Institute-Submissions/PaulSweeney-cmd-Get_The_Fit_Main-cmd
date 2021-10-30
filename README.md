@@ -38,6 +38,8 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * To give users the chance to share product links via social media to generate new business, these users could be in the form of fitness influencers and fitness models / gym owners and promoters.
 * If this were a site intended for real time online use I would like to be able to implement the database to handle stock levels so ussers can check availability.
 # Design
+
+[Monitor File-one](media/wireframes/MONITOR_2.png)
 ## 1. Colour Scheme
 * The colour scheme for the design consists of blacks, yellows and blues (for free delivery suggestion text and shopping bag icon when products have been added - this actually came built in so I've decided to keep it as it goes well). The colour scheme is simple yet attractive to the user and doesn't overload their experice with too much noise. I like to call it simple but effective.
 
