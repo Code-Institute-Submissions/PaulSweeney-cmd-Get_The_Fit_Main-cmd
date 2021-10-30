@@ -40,14 +40,17 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 # Design
 
 ## Wireframes
-* [Desktop view - File-one](media/wireframes/Desktop-1.png)
-* [Desktop view - File-two](media/wireframes/Desktop-2.png)
-* [iPad view1 - File-two](media/wireframes/iPad-1.png)
-* [iPad view2 - File-two](media/wireframes/iPad-2.png)
-* [iPad view3 - File-two](media/wireframes/iPad-3.png)
-* [iPhone view1 - File-two](media/wireframes/iPhone-1.png)
-* [iPhone view2 - File-two](media/wireframes/iPhone-2.png)
-* [iPhone view3 - File-two](media/wireframes/iPhone-3.png)
+* [Desktop view1](media/wireframes/Desktop-1.png)
+* [Desktop view2](media/wireframes/Desktop-2.png)
+#
+* [iPad view1](media/wireframes/iPad-1.png)
+* [iPad view2](media/wireframes/iPad-2.png)
+* [iPad view3](media/wireframes/iPad-3.png)
+#
+* [iPhone view1](media/wireframes/iPhone-1.png)
+* [iPhone view2](media/wireframes/iPhone-2.png)
+* [iPhone view3](media/wireframes/iPhone-3.png)
+#
 ## 1. Colour Scheme
 * The colour scheme for the design consists of blacks, yellows and blues (for free delivery suggestion text and shopping bag icon when products have been added - this actually came built in so I've decided to keep it as it goes well). The colour scheme is simple yet attractive to the user and doesn't overload their experice with too much noise. I like to call it simple but effective.
 * I've also added a transparency effect to the nav bar with a stronger gradient on the nav link bar to set it apart to highlight the navlinks better. This instantly added more character and professionalism to the site.
