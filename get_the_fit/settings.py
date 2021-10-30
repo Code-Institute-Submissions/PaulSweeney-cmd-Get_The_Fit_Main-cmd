@@ -199,7 +199,7 @@ if 'USE_AWS' in os.environ:
 
     # setting a time limit for caching files
     AWS_S3_OBJECT_PARAMETERS = {
-        'Expiry': 'Thursday, 31 Dec 2099 20:00:00 GMT',
+        'Expires': 'Thursday, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
 
