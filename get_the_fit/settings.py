@@ -26,10 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # PRODUCTION KEYS // SECRET KEYS // STRIPE
 SECRET_KEY = os.getenv('SECRET_KEY', '')
-STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
-STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
-HEROKU_SECRET_KEY = os.environ.get('HEROKU_SECRET_KEY', '')
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+HEROKU_SECRET_KEY = os.getenv('HEROKU_SECRET_KEY', '')
 
 STRIPE_CURRENCY = 'gbp'
 FREE_DELIVERY_THRESHOLD = 30
