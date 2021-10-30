@@ -24,7 +24,7 @@
     </li>
     <!-- to open the My account drop-down -->
     <li class="list-inline-item dropdown">
-        <a class="text-black nav-link d-block d-lg-none" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center text-white">
                 <div><i class="far fa-user fa-lg"></i></div>
                 <p class="my-0">My Account</p>
@@ -39,7 +39,7 @@
                 <a href="{% url 'account_logout' %}" class="dropdown-item">Account Logout</a>
             {% else %}
                 <a href="{% url 'account_signup' %}" class="dropdown-item">Account Register</a>
-                <a href="{% url 'account_login' %}" class="dropdown-item">Account Login</a>
+                <a href="{% url 'account_login' %}"class="dropdown-item">Account Login</a>
             {% endif %}
         </div>
     </li>
