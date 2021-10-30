@@ -110,10 +110,10 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 
 # Credits & Acknowledgements
 ## Credits
+- Nishant Kumar for feedback on site layout, structure and styling.
+- Mentions from the SLACK community
 ### Image overlays:
 - Ivan Samkov & CottonBro @[Pexels.com](https://www.pexels.com/) - for the page overlay images
-- Nishant Kumar for feedback on site layout, structure and styling.
-
 ## Acknowledgements
 - The code base for the project including page structures and functionality was take from the Boutique Ado project. I took on this project idea based on the intention of furthering my knowledge of backend and front end programming. 
 - I found the processes, installation of frameworks to be quite challenging at times as the complexity was quite overwhelming but as I have already stated this site was developed for educational purposes 
@@ -150,9 +150,5 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 - Scroll down to Reveal Config Vars and select
 - Enter the environment variables and their values you entered in to your env.py file in GitHub -- these must include the config vars from your AWS, Stripe etc if you are using the same platforms used to create this project.
 - Once you have completed those fields click on Automatic Deploys and select the Deploy Branch button, this will then connect to GitHub and a code window will open up below and start to build your app
-- Once it has finished select View and you'll be abkle to see any codce you wrote to test your repository.
-
-
-HAPPY CODING!
-
+- Once it has finished select View and you'll be abkle to see any code you wrote to test your repository.
 
