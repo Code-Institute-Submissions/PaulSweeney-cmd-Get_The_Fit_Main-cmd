@@ -74,6 +74,9 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities.
 * [Django Countries](https://pypi.org/project/django-countries/) for the country dropdown.
 * [gunicorn](https://gunicorn.org/)
+* [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
+* [django storages](https://django-storages.readthedocs.io/en/latest/)
+
 
 
 # Site Testing
