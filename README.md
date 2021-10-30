@@ -50,6 +50,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [iPhone view3 - File-two](media/wireframes/iPhone-3.png)
 ## 1. Colour Scheme
 * The colour scheme for the design consists of blacks, yellows and blues (for free delivery suggestion text and shopping bag icon when products have been added - this actually came built in so I've decided to keep it as it goes well). The colour scheme is simple yet attractive to the user and doesn't overload their experice with too much noise. I like to call it simple but effective.
+* I've also added a transparency effect to the nav bar with a stronger gradient on the nav link bar to set it apart to highlight the navlinks better. This instantly added more character and professionalism to the site.
 
 ## 2. Typography
 * Home Link & Page Titles - Montserrat. This font was chosen as the style goes well with a black background, an off-white colour was used to finish the look
@@ -59,6 +60,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * The imagery for this is pretty straight forward, the home page consists of one image spanning the entire cover of the page. The image used has the same colour scheme to make it sit well as the first impression a user would get to the layout. This was sourced for free from Artist 'Montsera' @ [Pexels.com](https://www.pexels.com/)
 * Product Images & information was sourced from various companies, all of which can be found listed in the [SOURCES.md](SOURCES.md) file in this project.
 * Size Guide image was sourced from [Roleur](https://www.rouleur.cc/)
+* Each div overlay for the site also has a background image instead of the original idea of a simple black  background. This instantly worked in my favour because it makes the page in question pop out better and promotes good UX.  
 
 
 
@@ -148,8 +150,8 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 
 # Credits & Acknowledgements
 ## Credits
-* The idea for the general site layout including the media image layout and HTML references were taken from the Whiskey Drop site project lead by Matt Rudge from [Code Institute](https://codeinstitute.net/).
-* The images were sourced from [Shutterstock](https://www.shutterstock.com/).
+### Image overlays:
+- Ivan Samkov & CottonBro @[Pexels.com](https://www.pexels.com/) - for the page overlay images
 
 ## Acknowledgements
 * Input on bugs were discussed with JimLynx_lead and my Mentor Nishant Kumar.
