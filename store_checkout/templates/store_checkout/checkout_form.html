@@ -16,7 +16,7 @@
 
 {% block content %}
     <div class="checkout-overlay"></div>
-        <!------------------ Page title ------------------>
+        <!-- Page title -->
         <div class="row">
             <div class="col">
                 <h2 class="page-title text-center">Checkout</h2>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 {% for item in bag_items %}
-                <!------------------ Image links ------------------>
+                <!-- Image links -->
                 <div class="row">
                     <div class="col-2 mb-1">
                         <a href="{% url 'individual_product' item.product.id %}">
@@ -46,20 +46,20 @@
                             {% endif %}
                         </a>
                     </div>
-                    <!------------------ Product detail ------------------>
+                    <!-- Product detail -->
                     <div class="col-7">
                         <p class="checkout-product-name">{{ item.product.name }}
                         <p class="checkout-product-size">Size: {% if item.product.product_sizes %}{{ item.size|lower }}{% endif %}</p>
                         <p class="checkout-product-quantity">Qty: {{ item.item_quantity }}
                     </div>
-                    <!------------------ Product price calculation ------------------>
+                    <!-- Product price calculation -->
                     <div class="col-3 text-right">
                         <p class="checkout-product-price">£ {{ item.product.price | calc_subtotal:item.item_quantity }}</p>
                     </div>
                 </div>
                 {% endfor %}
                 <hr class="page-breaker">
-                <!------------------ Order cost & delivery ------------------>
+                <!-- Order cost & delivery -->
                 <div class="row text-white text-right">
                     <div class="col-7 offset-2">
                         <p class="checkout-bag-total">Bag Total:</p>
@@ -76,7 +76,7 @@
             <div class="col-12 col-lg-6">
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
-                    <!------------------ Checkout form contact fields ------------------>
+                    <!-- Checkout form contact fields -->
                     <fieldset class="rounded px-3 mb-5">
                         <legend class="fieldset-label small text-white px-2 w-auto">Details</legend>
                         {{ new_order_form.first_name | as_crispy_field }}
@@ -84,7 +84,7 @@
                         {{ new_order_form.email_address | as_crispy_field }}
                         {{ new_order_form.phone_number | as_crispy_field }}
                     </fieldset>
-                    <!------------------ Checkout form delivery fields ------------------>
+                    <!-- Checkout form delivery fields -->
                     <fieldset class="rounded px-3 mb-5">
                         <legend class="fieldset-label small text-white px-2 w-auto">Deivery Info</legend>
                             {{ new_order_form.address1 | as_crispy_field }}
@@ -94,7 +94,7 @@
                             {{ new_order_form.postcode| as_crispy_field }}
                             {{ new_order_form.country | as_crispy_field }}
                             <div class="form-check form-check-inline float-right mr-0">
-                                <!------------------ Accout signup/login/save info buttons and inputs ------------------>
+                                <!-- Accout signup/login/save info buttons and inputs -->
                                 {% if user.is_authenticated %}
                                     <label class="form-check-label" for="id-save-info">Save info</label>
                                     <input class="form-check-input ml-2 mr-0" type="checkbox"  id="id-save-info" name="save-info" checked>
@@ -107,7 +107,7 @@
                             </div>
                         </fieldset>
                     <fieldset class="px-3">
-                    <!------------------ Payments and stripe elements ------------------>
+                    <!-- Payments and stripe elements -->
                         <legend class="fieldset-label small text-white px-2 w-auto">Payment Details</legend>
                         <!-- Stripe -->
                         <div class="mb-3" id="card-element"></div>
