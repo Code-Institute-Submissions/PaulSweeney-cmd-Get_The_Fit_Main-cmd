@@ -73,6 +73,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
 * [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities.
 * [Django Countries](https://pypi.org/project/django-countries/) for the country dropdown.
+* [gunicorn](https://gunicorn.org/)
 
 
 # Site Testing

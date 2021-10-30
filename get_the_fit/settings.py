@@ -33,9 +33,11 @@ STRIPE_CURRENCY = 'gbp'
 FREE_DELIVERY_THRESHOLD = 30
 STANDARD_DELIVERY_PERCENTAGE = 10
 
+HEROKU_SECRET_KEY = os.getenv('HEROKU_SECRET_KEY', '')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     'get-the-fit-cmd.herokuapp.com', 'localhost'
