@@ -132,4 +132,27 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 1. On GitHub, navigate to the main page of the repository.
 2. Above the list of files, click the button with the arrow icon labelled 'Code'.
 
+## Creating and Deploying an app with Heroku
+
+### In GitHub:
+
+- Create a requirements.txt file type the following into your terminal: pip3 freeze --local > requirements.txt
+- Create a Procfile by typing the following: echo web: python3 app.py > Procfile
+- Add and commit both files
+
+### In Heroku:
+
+- Create an account and create a new app by clicking NEW in the top right hand corner of the screen
+- Choose the best region closest to you
+- Click Create App
+#
+- Click on the deploy tab and then navigate to the GitHub button and select
+- Scroll down to Reveal Config Vars and select
+- Enter the environment variables and their values you entered in to your env.py file in GitHub -- these must include the config vars from your AWS, Stripe etc if you are using the same platforms used to create this project.
+- Once you have completed those fields click on Automatic Deploys and select the Deploy Branch button, this will then connect to GitHub and a code window will open up below and start to build your app
+- Once it has finished select View and you'll be abkle to see any codce you wrote to test your repository.
+
+
+HAPPY CODING!
+
 
