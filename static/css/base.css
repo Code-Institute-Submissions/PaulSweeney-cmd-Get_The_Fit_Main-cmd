@@ -146,7 +146,6 @@ body {
 p.login-signup-text {
     font-family: 'Montserrat';
     color: #fafafa;
-    font-family: 23px;
     font-size: 17px;
     font-weight: 600;
     text-align: center;
@@ -172,7 +171,7 @@ a.btn.back-home {
     text-transform: initial;
     color: #fafafa;
     font-size: 19px;
-    padding: 1;
+    padding: 1px;
     padding: 2px;
     border-radius: 0;
     float: right;
@@ -192,7 +191,7 @@ h1.company-name-font.text-white.my-0 {
 }
 
 .navbar {
-    padding: 0rem;
+    padding: 2px;
 }
 
 h1.company-name-font.text-white.my-0:hover {
@@ -682,7 +681,7 @@ input#review-input {
 }
 
 p.review-header {
-    color: 16px;
+    font-size: 16px;
     color: #fafafa;
     font-size: 25px;
     margin-top: 19px;
@@ -1000,53 +999,11 @@ button.allauth-button {
 }
 
 /*--------------- Media Queries ---------------*/
-/* --- Product page --- */
 
-@media (min-width: 300px) {
-    p.bag-product-name,
-    p.product-code,
-    p.product-price,
-    p.product-quantity { 
-        font-size: 80%;
-    }
-    p.product_name.mb-0.text-capitalize {
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 500px) {
-    p.bag-product-name,
-    p.product_name.mb-0.text-capitalize,
-    p.product-code,
-    p.product-price,
-    p.product-quantity { 
-        font-size: 80%;
-    }
-}
-
-@media (min-width: 700px) {
-    p.bag-product-name,
-    p.product_name.mb-0.text-capitalize,
-    p.product-code,
-    p.product-price,
-    p.product-quantity { 
-        font-size: 120%; 
-    }
-}
-
-@media (min-width: 1200px) {
-    p.bag-product-name,
-    p.product_name.mb-0.text-capitalize,
-    p.product-code,
-    p.product-price,
-    p.product-quantity { 
-        font-size: 200%;
-    }
-}
 
 /*--------------- Mobile View ---------------*/
-@media only screen and (min-device-width: 320px) 
-and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) 
+and (max-width: 480px) {
 .form-group.quantity-box {
     width: 315px;
 }
@@ -1115,7 +1072,7 @@ body {
     font-size: 2rem;
 }
 .nav-link {
-    padding: 0.15rem;
+    padding: 1px;
 }
 .nav-link i.fa-lg {
     font-size: 1rem;
@@ -1180,8 +1137,8 @@ input.btn.btn-black.text-uppercase {
 }
 
 /* iPad portrate layout */
-@media only screen and (min-device-width: 481px) 
-and (max-device-width: 1024px) 
+@media only screen and (min-width: 481px) 
+and (max-width: 1024px) 
 and (orientation:portrait) {
     /* --- Checkout page --- */
     .fieldset-label {
