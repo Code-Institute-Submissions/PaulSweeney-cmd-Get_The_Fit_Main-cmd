@@ -104,6 +104,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [Login](media/html-css-validators/Login-page.png)
 * [Logout](media/html-css-validators/Logout-page.png)
 * [Register](media/html-css-validators/Register-page.png)
+* [Toast bag pop-up](media/html-css-validators/Toast-pop-up.png)
 #
 ## 5. CSS Validators
 * [Checkout](media/html-css-validators/Checkout-CSS.png)
