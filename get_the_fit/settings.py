@@ -38,7 +38,7 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'get-the-fit-cmd.herokuapp.com', 'localhost'
