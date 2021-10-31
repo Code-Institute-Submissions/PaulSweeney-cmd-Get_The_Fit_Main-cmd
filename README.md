@@ -130,9 +130,9 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 ### Image overlays:
 - Ivan Samkov & CottonBro @[Pexels.com](https://www.pexels.com/) - for the page overlay images
 ## Acknowledgements
-- The code base for the project including page structures and functionality was take from the Boutique Ado project. I took on this project idea based on the intention of furthering my knowledge of backend and front end programming. 
+- The code base for the project including page structures and functionality was taken from the Boutique Ado project. I took on this project idea based on the intention of furthering my knowledge of backend and front end programming. 
 - I found the processes, installation of frameworks to be quite challenging at times as the complexity was quite overwhelming but as I have already stated this site was developed for educational purposes 
-   and It's quite useful to know how to implement structure in the future.
+   and It's quite useful to know how to implement structure in the future. Full credit for functionality code base to ckz8780 walkthroughs.
 # Deployment
 ## Git Hub Pages
 * To create this project and it's repository, I opened a new repository by clicking the green button "new", making sure I used the Code Institute's student template.

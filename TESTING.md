@@ -37,6 +37,14 @@
 * 500 error when card details submit, this may be down to an internal error with stripe as the text isnt found in any webhook handler
 [Image](media/testing/payment-error.png)
 
+## Bag pop-up
+
+* CSS Amended but not carried over to heroku
+[Image](media/testing/Bag-css-bug.png)
+
+
+
+
 
 
 
