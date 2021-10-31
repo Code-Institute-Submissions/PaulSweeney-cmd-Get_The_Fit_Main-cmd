@@ -84,7 +84,7 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * Montserrat & Almarai were sourced from [Google Fonts](https://fonts.google.com/)
 * Frameworks were constructed using [Balsamiq](https://balsamiq.com/)
 * Version control and to make good use of my git pod terminal to push my code from Git to [GitHub](https://git-scm.com/)
-
+#
 ## 3. Installs
 * [Stripe](https://stripe.com/gb) for card payments
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
@@ -93,7 +93,22 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [gunicorn](https://gunicorn.org/)
 * [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 * [django storages](https://django-storages.readthedocs.io/en/latest/)
-
+#
+## 4. HTML Validators
+* [Home](media/html-css-validators/Home-page.png)
+* [Products](media/html-css-validators/All-products-page.png)
+* [Individual Product](media/html-css-validators/Individual-product-page.png)
+* [Shopping Bag](media/html-css-validators/Shopping-bag.png)
+* [Checkout](media/html-css-validators/Checkout-page.png)  Possible validator bugs, could not locate issue
+* [Profile](media/html-css-validators/Profile-page.png) Unclosed elements searched using [closing-tag checker](https://www.aliciaramirez.com/closing-tags-checker/), nothing found
+* [Login](media/html-css-validators/Login-page.png)
+* [Logout](media/html-css-validators/Logout-page.png)
+* [Register](media/html-css-validators/Register-page.png)
+#
+## 5. CSS Validators
+* [Checkout](media/html-css-validators/Checkout-CSS.png)
+* [Base](media/html-css-validators/Base-CSS.png)
+#
 ## 4. Credentials
 ### Heroku Superuser
 * user: gtfcmd33
