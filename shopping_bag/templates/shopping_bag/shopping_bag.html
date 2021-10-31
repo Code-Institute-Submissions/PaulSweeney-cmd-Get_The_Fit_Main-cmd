@@ -6,7 +6,7 @@
     <div class="container header-container">
         <div class="row">
             <div class="col">
-                
+
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
                             {% endfor %}
                             <!-- Total cost fields and delivery calculations -->
                             <tr>
-                                <td colspan="5" class="pt-5 text-right">
+                                <td colspan="2" class="pt-5 text-right">
                                     <h6 class="bag-total">Bag Total: £{{ bag_total | floatformat:2 }}</h6>
                                     <h6 class="bag-delivery">Delivery: £{{ delivery | floatformat:2 }}</h6>
                                     <h4 class="bag-total mt-4">Grand Total: £{{ grand_total | floatformat:2 }}</h4>
@@ -94,7 +94,7 @@
                             </tr>
                             <!-- Continue shopping and checkout -->
                             <tr>
-                                <td colspan="5" class="text-right">
+                                <td colspan="2" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                                         <span class="shopping-bag text-uppercase mt-5">Continue Shopping</span>
                                     </a>
