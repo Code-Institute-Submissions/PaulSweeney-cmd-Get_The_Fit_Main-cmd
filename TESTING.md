@@ -32,6 +32,12 @@
 
 * This was a bug I had major issue trying to fix, despite a tedious amount of time with tutor support, this could not be rectified before my submission deadline. Tutor support did send over some updated code from the boutique ado project. this was looked in to and changes applied with no positive result.
 
+## Payments
+
+* 500 error when card details submit, this may be down to an internal error with stripe as the text isnt found in any webhook handler
+[Image](media/testing/payment-error.png)
+
+
 
 
 
