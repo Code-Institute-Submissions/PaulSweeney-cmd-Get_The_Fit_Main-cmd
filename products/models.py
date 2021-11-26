@@ -39,3 +39,11 @@ class Review(models.Model):
 
     def __str__(self):
         return self.review_comment + '' + self.review_title
+
+
+class Blog(models.Model):
+    blog_name = models.CharField(max_length=100)
+    blog_comment = models.TextField()
+
+    def __str__(self):
+        return self.blog_name + '' + self.blog_comment
