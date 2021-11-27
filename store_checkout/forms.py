@@ -11,7 +11,15 @@ class NewOrderForm(forms.ModelForm):
             'country', 'postcode', 'county',
         )
 
+    def clean_first_name(self):
+        first_name = self.cleaned_data.get('first_name')
+
+        if not first_name:
+            raise forms.ValidationError('Field is empty, please provide a first name')
+        return first_name
+
     # removing auto labels, adding placeholders and classes
+
     def __init__(self, *args, **kwargs):
 
         super().__init__(*args, **kwargs)
