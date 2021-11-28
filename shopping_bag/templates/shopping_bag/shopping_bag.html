@@ -33,7 +33,11 @@
                             <!-- Table template for products data -->
                                 <tr>
                                     <td class="image w-25 mr-5 mt-3">
-                                        <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="product image">
+                                        {% if item.product.image %}
+                                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                        {% else %}
+                                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                        {% endif %}
                                     </td>
                                     <td class="products-table-data">
                                         <p class="bag-product-name">{{ item.product.name }}
