@@ -98,8 +98,8 @@ def update_product(request, product_id):
         form = ProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Update successful')
-            return redirect(reverse('product_detail', args=[product.id]))
+            messages.success(request, f'{product.name} has been updated.')
+            return redirect(reverse('individual_product', args=[product.id]))
         else:
             messages.error(request, f'Oops, looks like there was an issue updating \
                 {product.name}, check the form is valid and try again.')
