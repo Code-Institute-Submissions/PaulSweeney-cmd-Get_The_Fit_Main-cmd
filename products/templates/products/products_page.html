@@ -74,6 +74,12 @@
                                         {% else %}
                                             <small>No Rating</small>
                                         {% endif %}
+                                        {% if request.user.is_superuser %}
+                                        <small class="ml-3">
+                                            <a class="product-edit" href="{% url 'update_product' product.id %}">Edit</a> |
+                                            <a class="product-delete" href="{% url 'delete_product' product.id %}">Delete</a>
+                                        </small>
+                                        {% endif %}
                                     </div>
                                 </div>
                                 {% if product.category %}
@@ -82,12 +88,6 @@
                                         {{ product.category.friendly_name }}
                                     </div>
                                 </div>
-                                {% endif %}
-                                {% if request.user.is_superuser %}
-                                    <small class="ml-3">
-                                        <a class="product-edit" href="{% url 'update_product' product.id %}">Edit</a> |
-                                        <a class="product-delete" href="{% url 'delete_product' product.id %}">Delete</a>
-                                    </small>
                                 {% endif %}
                             </div>
                         </div>
