@@ -94,8 +94,18 @@ def add_product(request):
 def update_product(request, product_id):
     """ Edit an entry """
     product = get_object_or_404(Product, pk=product_id)
-    form = ProductForm(instance=product)
-    messages.info(request, f'You have chosen {product.name} to edit')
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Update successful')
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            messages.error(request, f'Oops, looks like there was an issue updating \
+                {product.name}, check the form is valid and try again.')
+    else:
+        form = ProductForm(instance=product)
+        messages.info(request, f'You have chosen {product.name} to edit')
 
     template = 'products/edit_product.html'
     context = {

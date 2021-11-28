@@ -1016,8 +1016,9 @@ input#id_detail_02,
 input#id_detail_03,
 input#id_price,
 input#id_rating,
-input#id_image_url {
-    background: black;
+input#id_image_url,
+input#id_image {
+    background: transparent;
     color: #fafafa;
 }
 
