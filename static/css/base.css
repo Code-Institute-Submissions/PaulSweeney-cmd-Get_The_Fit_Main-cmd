@@ -1003,6 +1003,24 @@ button.allauth-button {
     padding-bottom: 3px;
 }
 
+
+/*--------------- Product admin ---------------*/
+
+select#id_category,
+input#id_sku,
+input#id_name,
+textarea#id_description,
+select#id_product_sizes,
+input#id_detail_01,
+input#id_detail_02,
+input#id_detail_03,
+input#id_price,
+input#id_rating,
+input#id_image_url {
+    background: black;
+    color: #fafafa;
+}
+
 /*--------------- Media Queries ---------------*/
 
 
