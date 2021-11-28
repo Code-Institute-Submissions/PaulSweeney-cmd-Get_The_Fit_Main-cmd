@@ -1032,7 +1032,7 @@ a.product-edit {
     padding-bottom: 5px;
 }
 a.product-edit:hover {
-    color: #4794e7;
+    color: #0758af;
 }
 
 a.product-delete {
@@ -1047,6 +1047,9 @@ a.product-delete {
 }
 a.product-delete:hover {
     color: #91303a;
+}
+.col.card-category {
+    margin-top: 8px;
 }
 
 /*--------------- Media Queries ---------------*/
