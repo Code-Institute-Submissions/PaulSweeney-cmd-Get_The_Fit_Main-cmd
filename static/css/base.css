@@ -1022,6 +1022,33 @@ input#id_image {
     color: #fafafa;
 }
 
+a.product-edit {
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #007bff;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a.product-edit:hover {
+    color: #4794e7;
+}
+
+a.product-delete {
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a.product-delete:hover {
+    color: #91303a;
+}
+
 /*--------------- Media Queries ---------------*/
 
 
