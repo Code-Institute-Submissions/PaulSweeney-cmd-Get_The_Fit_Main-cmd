@@ -121,4 +121,4 @@ def delete_product(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, f'{product.name} has been deleted.')
-    return redirect(reverse('site_products'))
+    return redirect(reverse('products'))
