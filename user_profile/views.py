@@ -5,6 +5,7 @@ from store_checkout.models import Order
 from .models import Profile
 from .forms import ProfileForm
 
+
 @login_required
 def user_profile(request):
     """ displaying users profile """
