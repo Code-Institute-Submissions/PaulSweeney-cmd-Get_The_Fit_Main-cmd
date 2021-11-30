@@ -1153,13 +1153,6 @@ body {
     font-size: .9rem;
 }
 
-i.far.fa-user:hover,
-i.fas.fa-cart-arrow-down:hover,
-p.my-0:hover {
-    color: #f0f005;
-}
-
-
 .btn.btn-outline-black.rounded-0,
 .btn.btn-black.rounded-0 {
     padding: .375rem .375rem;
