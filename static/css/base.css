@@ -1010,6 +1010,16 @@ button.allauth-button {
     margin-right: auto;
 }
 
+h2.add-product-page-title.text-center {
+    margin-top: 45%;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    background-color: transparent;
+    color: #fafafa;
+    font-weight: lighter;
+}
+
 select#id_category,
 input#id_sku,
 input#id_name,
@@ -1203,6 +1213,15 @@ and (orientation:portrait) {
         margin-left: 70px;
         margin-bottom: 15px;
     }
+    h2.add-product-page-title.text-center {
+        margin-top: 45%;
+        letter-spacing: 1px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 46px;
+        background-color: transparent;
+        color: #fafafa;
+        font-weight: lighter;
+    }
 }
 
 /*--------------- fixed top navbar only on medium and up ---------------*/
@@ -1219,17 +1238,3 @@ and (orientation:portrait) {
     }
 }
 
-/*--------------- iPad ---------------*/
-@media only screen 
-and (min-width: 768px)
-and (max-width: 1024px) {
-    h2.add-product-page-title.text-center {
-        margin-top: 45%;
-        letter-spacing: 1px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 46px;
-        background-color: transparent;
-        color: #fafafa;
-        font-weight: lighter;
-    }
-}
