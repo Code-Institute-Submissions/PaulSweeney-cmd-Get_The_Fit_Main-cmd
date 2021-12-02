@@ -11,7 +11,8 @@ body {
     color: #000;
 }
 
-/* --- Image overlays --- */
+/* Image overlays */
+
 .review-overlay {
     height: 100%;
     width: 100%;
@@ -79,7 +80,7 @@ body {
     margin-top: 4%;
 }
 
-/*--------------- Allauth ---------------*/
+/* Allauth */
 .image-overlay {
     height: 100%;
     width: 100%;
@@ -183,7 +184,8 @@ a.button.secondaryAction {
 label.form-check-label {
     color: #fafafa;
 }
-/*--------------- Nav Bar ---------------*/
+
+/* Nav Bar */
 
 h1.company-name-font.text-white.my-0 {
     font-family: 'Montserrat', sans-serif;
@@ -243,7 +245,7 @@ nav.navbar.navbar-expand-lg.w-100 {
     border-radius: .25rem;
 }
 
-/*---------- Nav Link styling ----------*/
+/* Nav Link styling */
 
 a#all-products-link {
     color: #fafafa;
@@ -298,7 +300,7 @@ div#topnav {
 }
 
 
-/*--------------- Nav Bar - Mobile View ---------------*/
+/* Nav Bar - Mobile View */
 
 .navbar-dark .navbar-toggler {
     color: white;
@@ -316,7 +318,7 @@ i.fas.fa-bars {
     color: #fafafa;
 }
 
-/*---------- Search Box ----------*/
+/* Search Box */
 
 input.form-control.search-bar.rounded-0 {
     background-color: #00000080;
@@ -332,7 +334,7 @@ input.form-control.search-bar.rounded-0::placeholder {
     color: #fafafa !important;
 }
 
-/*---------- Delivery banner ----------*/
+/* Delivery banner */
 
 .col.delivery-offer {
     background-color: #f0f005;
@@ -345,7 +347,7 @@ input.form-control.search-bar.rounded-0::placeholder {
     font-weight: 600;
 }
 
-/*--------------- Home Page ---------------*/
+/* Home Page */
 
 h1.home-main-text {
     color: #f0f005;
@@ -372,7 +374,7 @@ a:hover {
     color: #f0f005;
 }
 
-/*---------- Home Page - Shop Button ----------*/
+/* Home Page - Shop Button */
 
 a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     font-family: 'Almarai', sans-serif;
@@ -381,7 +383,7 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
     opacity: 0.75;
 }
 
-/*--------------- Products Page ---------------*/
+/* Products Page */
 
 h2.page-title {
     letter-spacing: 1px;
@@ -433,7 +435,7 @@ hr.product.page-breaker {
     margin-top: 15px;
 }
 
-/*---------- Toast messages ----------*/
+/* Toast messages */
 
 .site-message-container {
     position: fixed;
@@ -457,7 +459,8 @@ span.exit.button {
     text-decoration: underline;
 }
 
-/*---------- Toast bag pop up ----------*/
+/* Toast bag pop up */
+
 span.bag-pop-checkout.text-uppercase {
     display: inline-block;
     color: #fafafa;
@@ -473,7 +476,7 @@ span.bag-pop-checkout.text-uppercase {
     color: #fafafa;
 }
 
-/*---------- Toast - cappers ----------*/
+/* Toast - cappers */
 
 .w-100.toast-capper.danger {
     background-color: #ba2121;
@@ -503,7 +506,7 @@ span.bag-pop-checkout.text-uppercase {
     border-bottom: 0;
 }
 
-/*--------------- Individual Products Page ---------------*/
+/* Individual Products Page */
 
 a.category-title {
     letter-spacing: 1px;
@@ -631,7 +634,7 @@ p.product_name.mb-0.text-capitalize {
     margin-top: 30px;
 }
 
-/*---------- Individual Products Page - Product increment//decrement ----------*/
+/* Individual Products Page - Product increment//decrement */
 
 p.quantity-header-text{
     color: #fafafa;
@@ -651,7 +654,7 @@ input.form-control.qty_input {
 }
 
 
-/*---------- Individual Products Page - Buttons ----------*/
+/* Individual Products Page - Buttons */
 
 span.product-detail.text-uppercase.mt-5 {
     color: #fafafa;
@@ -702,7 +705,7 @@ form.review-form {
     border: 1px solid #fafafa;
     margin-top: 30px;
 }
-/*---------- Shopping bag page ----------*/
+/* Shopping bag page */
 .bag-overlay {
     height: 100%;
     width: 100%;
@@ -729,7 +732,8 @@ span.text-uppercase {
     padding: 13px;
 }
 
-/*-- Update & Remove buttons --*/
+/* Update & Remove buttons */
+
 a.update-button.text-info.float-right {
     font-weight: 600;
     cursor: pointer;
@@ -816,7 +820,7 @@ td.products-table-data {
     border-top: 1px solid #f0f005;
 }
 
-/*---------- Shopping bag pop-up ----------*/
+/* Shopping bag pop-up */
 
 .shopping-bag-wrapper {
     height: 100px;
@@ -868,7 +872,7 @@ span.bag-pop-checkout.text-uppercase {
     padding: 7px;
 }
 
-/*---------- Post checkout success styling ----------*/
+/* Post checkout success styling */
 
 p.text-white.text-center,
 span.here-button-text {
@@ -887,7 +891,8 @@ hr {
     margin-bottom: 1px;
     border: 0;
 }
-/*--------------- Profile ---------------*/
+/* Profile */
+
 .order-history-table {
     max-height: 416px;
     overflow: auto;
@@ -1003,7 +1008,7 @@ button.allauth-button {
 }
 
 
-/*--------------- Product admin ---------------*/
+/* Product admin */
 .add-product-form.col-12.col-md-6 {
     margin-left: auto;
     margin-right: auto;
@@ -1065,7 +1070,7 @@ a.product-delete:hover {
     margin-top: 8px;
 }
 
-/*--------------- Login ---------------*/
+/* Login */
 
 .allauth-form-login-content {
     margin-top: 30%;
@@ -1075,17 +1080,18 @@ a.product-delete:hover {
     border-radius: 5px;
 }
 
-/*--------------- Media Queries ---------------*/
+/* Media Queries */
 
 
-/*--------------- Mobile View ---------------*/
+/* iPhone 5 */
 @media only screen and (min-width: 320px) 
 and (max-width: 480px) {
 .form-group.quantity-box {
     width: 315px;
 }
 
-/* --- Post checkout success styling --- */
+/* Post checkout success styling */
+
 p.text-white.text-center {
     color: #fff!important;
     font-size: 16px;
@@ -1094,7 +1100,7 @@ span.here-button-text {
     font-size: 16px;
 }
 
-/* --- Product detail --- */
+/* Product detail */
 select#id_product_size {
     width: 45%;
     background-color: black;
@@ -1112,7 +1118,8 @@ select#id_product_size {
     margin-bottom: 15px;
 }
 
-/* --- Shopping bag --- */
+/* Shopping bag */
+
 p.bag-product-code,
 p.bag-product-price,
 p.bag-product-quantity,
@@ -1143,7 +1150,7 @@ body {
     height: calc(100vh - 116px);
 }
 
-/* --- Nav bar --- */
+/* Nav bar */
 
 .display-4.logo-font.text-black {
     font-size: 2rem;
@@ -1193,9 +1200,10 @@ input.btn.btn-black.text-uppercase {
     margin-left: 7px;
     }
 
-    /* --- Allauth --- */
+    /* Allauth */
+
     .allauth-form-login-content {
-        margin-top: 28%;
+        margin-top: 2%;
     }
     p.login-signup-text {
         font-size: 15px;
@@ -1212,11 +1220,36 @@ input.btn.btn-black.text-uppercase {
     }
 }
 
+/* iPhone 6,7,8 */
+
+@media only screen 
+    and (min-width: 375px) 
+    and (max-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .allauth-form-login-content {
+            margin-top: 15%;
+        }
+    }
+
+/* iPhone 6, 7, 8 + */
+
+    @media only screen 
+    and (min-width: 414px) 
+    and (max-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .allauth-form-login-content {
+            margin-top: 21%;
+        }
+    }
+
 /* iPad portrate layout */
+
 @media only screen and (min-width: 481px) 
 and (max-width: 1024px) 
 and (orientation:portrait) {
-    /* --- Checkout page --- */
+
+    /* Checkout page */
+
     .fieldset-label {
         margin-left: 70px;
         margin-bottom: 15px;
@@ -1232,7 +1265,7 @@ and (orientation:portrait) {
     }
 }
 
-/*--------------- fixed top navbar only on medium and up ---------------*/
+/* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
