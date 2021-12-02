@@ -705,7 +705,9 @@ form.review-form {
     border: 1px solid #fafafa;
     margin-top: 30px;
 }
+
 /* Shopping bag page */
+
 .bag-overlay {
     height: 100%;
     width: 100%;
@@ -870,6 +872,17 @@ span.bag-pop-checkout.text-uppercase {
     width: 66%;
     font-size: 14px;
     padding: 7px;
+}
+
+/* checkout page */
+
+p.checkout-product-price,
+p.subtotal-text.mb-1.mt-0.small,
+p.subtotal-text.mb-1.mt-0.small,
+p.checkout-delivery-charge,
+p.checkout-grand-total,
+p.checkout-bag-total {
+    margin-right: 10px;
 }
 
 /* Post checkout success styling */
@@ -1217,6 +1230,16 @@ input.btn.btn-black.text-uppercase {
 
     input#review-input {
         width: 100%;
+    }
+
+    /* checkout */
+    img.image.w-100 {
+        margin-left: 10px;
+    }
+
+    p.summary-text {
+        color: #f0f005;
+        margin-left: 10px;
     }
 }
 
