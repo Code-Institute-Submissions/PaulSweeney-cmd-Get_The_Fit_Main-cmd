@@ -1066,6 +1066,16 @@ a.product-delete:hover {
     margin-top: 8px;
 }
 
+/*--------------- Login ---------------*/
+
+.allauth-form-login-content {
+    margin-top: 50%;
+    background: #000305b8;
+    padding: 10px;
+    padding-bottom: 47px;
+    border-radius: 5px;
+}
+
 /*--------------- Media Queries ---------------*/
 
 
