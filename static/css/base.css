@@ -1249,11 +1249,11 @@ and (max-width: 1024px)
 and (orientation:portrait) {
 
     /* Checkout page */
-
     .fieldset-label {
         margin-left: 70px;
         margin-bottom: 15px;
     }
+
     h2.add-product-page-title.text-center {
         margin-top: 45%;
         letter-spacing: 1px;
@@ -1262,6 +1262,12 @@ and (orientation:portrait) {
         background-color: transparent;
         color: #fafafa;
         font-weight: lighter;
+    }
+
+    /* allauth forms */
+
+    .allauth-form-login-content {
+        margin-top: 50%;
     }
 }
 
