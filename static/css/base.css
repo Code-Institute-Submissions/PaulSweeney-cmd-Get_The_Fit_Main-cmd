@@ -350,7 +350,6 @@ input.form-control.search-bar.rounded-0::placeholder {
 h1.home-main-text {
     color: #f0f005;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     color: #f0f005;
     font-size: 60px;
     margin-top: 21px;
@@ -1069,7 +1068,7 @@ a.product-delete:hover {
 /*--------------- Login ---------------*/
 
 .allauth-form-login-content {
-    margin-top: 50%;
+    margin-top: 30%;
     background: #000305b8;
     padding: 10px;
     padding-bottom: 47px;
