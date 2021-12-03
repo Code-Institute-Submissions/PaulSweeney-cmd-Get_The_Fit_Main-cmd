@@ -252,7 +252,9 @@ a#all-products-link {
     font-size: 19px;
     
 }
-a#all-products-link:hover,
+a#all-products-link:hover {
+    color: #f0f005;
+}
 a#all-products-link:active {
     color: #f0f005;
 }
