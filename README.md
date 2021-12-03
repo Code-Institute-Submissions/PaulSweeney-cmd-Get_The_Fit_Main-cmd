@@ -121,7 +121,16 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 <br>
 
-# **Testing**
+# **End User Testing**
+### **Home Page**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/user-testing/desktop-home.png) | ![](user-testing/phone-home.png) | ![](user-testing/desktop-home.png) |
+|| ![](user-testing/desktop-home.png) |
+
+**User Feeedback** 
+
+When I come on to the site the first thing I see is a well laid out home page. The colours are eye catching and I can see all the available pages at the top. The page has a great structure. The background looks really good with the colours.
 
 
 
