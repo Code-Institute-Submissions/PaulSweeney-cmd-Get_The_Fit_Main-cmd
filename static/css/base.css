@@ -252,7 +252,8 @@ a#all-products-link {
     font-size: 19px;
     
 }
-a#all-products-link:hover {
+a#all-products-link:hover,
+a#all-products-link:active {
     color: #f0f005;
 }
 
@@ -261,7 +262,8 @@ a#mens-link {
     font-size: 19px;
     
 }
-a#mens-link:hover {
+a#mens-link:hover,
+a#mens-link:active {
     color: #f0f005;
 }
 
@@ -270,7 +272,8 @@ a#womens-link {
     font-size: 19px;
     
 }
-a#womens-link:hover {
+a#womens-link:hover,
+#womens-link:active {
     color: #f0f005;
 }
 
@@ -279,7 +282,8 @@ a#accessories-link {
     font-size: 19px;
     
 }
-a#accessories-link:hover {
+a#accessories-link:hover,
+a#accessories-link:active {
     color: #f0f005;
 }
 
@@ -288,7 +292,8 @@ a#sales-link {
     font-size: 19px;
     
 }
-a#sales-link:hover {
+a#sales-link:hover,
+a#sales-link:active {
     color: #f0f005;
 }
 
@@ -1374,4 +1379,3 @@ and (orientation:portrait) {
         padding-top: 164px;
     }
 }
-
