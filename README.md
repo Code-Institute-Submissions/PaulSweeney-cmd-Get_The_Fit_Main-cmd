@@ -25,14 +25,14 @@ My objective for this fina project is to create an e-commerce site for users to 
 ## *First Time Visitor Goals*
 - I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
 - I would like to check on product details and whether they have an option for different sizes and or colours.
-- I would like to have the ability to register my details using a username and password.
-- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
+- I would like to have the ability to register my details and create an account
 
 <br>
 
 ## *Frequent Visitor Goals*
 - I would like to check for any new products in the store, this includes any sales and or promotions.
 - I would like to browse through products and sort them by keyword, price and alphabetical order.
+- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 
 <br>
 
@@ -152,6 +152,38 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | ![](/media/user-testing/phone-product-size-upper.png) | ![](/media/user-testing/desktop-product-size.png) | ![](/media/user-testing/tablet-product-size.png) |
 | ![](/media/user-testing/phone-product-size-lower.png) |
 
+<br>
+
+### I would like to have the ability to register my details and create an account.
+### **Navigating To Link**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-sign-up-nav.png) | ![](/media/user-testing/phone-sign-up-nav.png) | ![](/media/user-testing/tablet-sign-up-nav.png) |
+### **Registering Details**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-sign-up-form.png) | ![](/media/user-testing/phone-sign-up-form.png) | ![](/media/user-testing/tablet-sign-up-form.png) |
+### **Verifying Details**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-sign-up-verify.png) | ![](/media/user-testing/phone-sign-up-verify.png) | ![](/media/user-testing/tablet-sign-up-verify.png) |
+
+<br>
+
+<p align="left">
+   <img width="900" height="500" src="media/user-testing/tempmail-email.png">
+</p>
+
+<br>
+
+### **Confirming Email**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-sign-up-confirm.png) | ![](/media/user-testing/phone-sign-up-confirm.png) | ![](/media/user-testing/tablet-sign-up-confirm.png) |
+### **Sign-up Successful Email**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-acc-created.png) | ![](/media/user-testing/phone-acc-created.png) | ![](/media/user-testing/tablet-acc-created.png) |
 
 
 
@@ -160,8 +192,6 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 
 
-
-- I would like to have the ability to register my details using a username and password.
 - I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 
 

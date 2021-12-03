@@ -124,6 +124,10 @@ body {
     color: #fafafa;
 }
 
+p.allauth-text\>Please.confirm.that.\<a.href\= {
+    color: #fafafa;
+}
+
 .allauth-form-login-content input,
 .allauth-form-login-content input:focus {
     background-color: transparent;
@@ -1328,7 +1332,7 @@ and (min-width: 414px)
 and (max-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3) {
     .allauth-form-login-content {
-        margin-top: 21%;
+        margin-top: 6%;
     }
 
     .header-container {
@@ -1448,7 +1452,7 @@ and (orientation:portrait) {
     /* allauth forms */
 
     .allauth-form-login-content {
-        margin-top: 50%;
+        margin-top: 35%;
     }
 
     /* shopping buton & add to bag */
