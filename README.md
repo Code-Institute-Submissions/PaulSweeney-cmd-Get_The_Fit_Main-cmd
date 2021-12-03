@@ -135,9 +135,14 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 ## *First Time Visitor Goals*
 ### I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
+### **Product Search**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-product-search.png) | ![](/media/user-testing/phone-product-search.png) | ![](media/user-testing/tablet-product-search.png) |
+### **Nav Link Example**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-product-link.png) | ![](/media/user-testing/phone-product-search.png) | ![](media/user-testing/tablet-product-search.png) |
 
 
 

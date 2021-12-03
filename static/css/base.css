@@ -1104,119 +1104,129 @@ a.product-delete:hover {
 /* iPhone 5 */
 @media only screen and (min-width: 320px) 
 and (max-width: 480px) {
-.form-group.quantity-box {
-    width: 315px;
-}
-
-/* Post checkout success styling */
-
-p.text-white.text-center {
-    color: #fff!important;
-    font-size: 16px;
-}
-span.here-button-text {
-    font-size: 16px;
-}
-
-/* Product detail */
-select#id_product_size {
-    width: 45%;
-    background-color: black;
-    color: #fafafa;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-
-.form-group.quantity-box {
-    width: 107%;
-    background-color: black;
-    color: #fafafa;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-/* Shopping bag */
-
-p.bag-product-code,
-p.bag-product-price,
-p.bag-product-quantity,
-p.bag-product-price {
-    color: #fafafa;
-    font-size: 17px;
-    margin-bottom: 5px;
-}
-p.bag-product-name {
-    font-size: 20px;
-}
-span.text-uppercase {
-    color: #fafafa;
-    border: 1px solid #fafafa;
-    padding: 9px;
-}
-td.image.w-25.mr-5.mt-3 {
-    padding-top: 12px;
-    margin-bottom: 10px;
-}
-
-
-.header-container {
-    padding-top: 116px;
-}
-
-body {
-    height: calc(100vh - 116px);
-}
-
-/* Nav bar */
-
-.display-4.logo-font.text-black {
-    font-size: 2rem;
-}
-.nav-link {
-    padding: 1px;
-}
-.nav-link i.fa-lg {
-    font-size: 1rem;
-}
-.navbar-toggler {
-    padding: .6rem .6rem;
-    font-size: 1rem;
-}
-#delivery-banner h4 {
-    font-size: .9rem;
-}
-
-.btn.btn-outline-black.rounded-0,
-.btn.btn-black.rounded-0 {
-    padding: .375rem .375rem;
-}
-
-.btn.btn-outline-black.rounded-0.btn-lg,
-.btn.btn-black.rounded-0.btn-lg {
-    padding: .375rem .375rem;
-    font-size: .75rem;
-}
-
-.increment-qty, .decrement-qty {
-    padding: .25rem .5rem !important;
-}
-
-.form-group.quantity-box {
-    width: 107%;
-    color: #fafafa;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: transparent;
-}
-
-input.btn.btn-black.text-uppercase {
-    color: #fafafa;
-    border: 1px solid #fafafa;
-    padding: 7px;
-    margin-top: 17px;
-    margin-left: 7px;
+    .form-group.quantity-box {
+        width: 315px;
     }
+
+    /* Post checkout success styling */
+
+    p.text-white.text-center {
+        color: #fff!important;
+        font-size: 16px;
+    }
+    span.here-button-text {
+        font-size: 16px;
+    }
+
+    /* Product detail */
+    select#id_product_size {
+        width: 45%;
+        background-color: black;
+        color: #fafafa;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .form-group.quantity-box {
+        width: 107%;
+        background-color: black;
+        color: #fafafa;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Shopping bag */
+
+    p.bag-product-code,
+    p.bag-product-price,
+    p.bag-product-quantity,
+    p.bag-product-price {
+        color: #fafafa;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    p.bag-product-name {
+        font-size: 20px;
+    }
+    span.text-uppercase {
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        padding: 9px;
+    }
+    td.image.w-25.mr-5.mt-3 {
+        padding-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* nav links */
+    a#home-link,
+    a#all-products-link,
+    a#home-link,
+    a#mens-link,
+    a#womens-link,
+    a#accessories-link,
+    a#sales-link {
+        margin-left: 10px;
+    }
+
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+
+    /* Nav bar */
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+    .nav-link {
+        padding: 1px;
+    }
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
+    .form-group.quantity-box {
+        width: 107%;
+        color: #fafafa;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+
+    input.btn.btn-black.text-uppercase {
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        padding: 7px;
+        margin-top: 17px;
+        margin-left: 7px;
+        }
 
     /* Allauth */
 
@@ -1251,38 +1261,50 @@ input.btn.btn-black.text-uppercase {
 /* iPhone 6,7,8 */
 
 @media only screen 
-    and (min-width: 375px) 
-    and (max-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
-        .allauth-form-login-content {
-            margin-top: 15%;
-        }
-
-        a#home-link,
-        a#all-products-link,
-        a#home-link,
-        a#womens-link,
-        a#accessories-link,
-        a#sales-link {
-            margin-left: 10px;
-        }
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+    .allauth-form-login-content {
+        margin-top: 15%;
     }
+
+    a#home-link,
+    a#all-products-link,
+    a#home-link,
+    a#mens-link,
+    a#womens-link,
+    a#accessories-link,
+    a#sales-link {
+        margin-left: 10px;
+    }
+}
 
 /* iPhone 6, 7, 8 + */
 
-    @media only screen 
-    and (min-width: 414px) 
-    and (max-width: 736px) 
-    and (-webkit-min-device-pixel-ratio: 3) {
-        .allauth-form-login-content {
-            margin-top: 21%;
-        }
-
-        /* search bar */
-        .dropdown-menu.border-0.p-3.rounded-0.my-0.show {
-            width: 100vw;
-        }
+@media only screen 
+and (min-width: 414px) 
+and (max-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+    .allauth-form-login-content {
+        margin-top: 21%;
     }
+
+    /* nav links */
+    a#home-link,
+    a#all-products-link,
+    a#home-link,
+    a#mens-link,
+    a#womens-link,
+    a#accessories-link,
+    a#sales-link {
+        margin-left: 10px;
+    }
+
+    /* search bar */
+    .dropdown-menu.border-0.p-3.rounded-0.my-0.show {
+        width: 100vw;
+    }
+}
 
 /* iPad portrate layout */
 
@@ -1297,6 +1319,17 @@ and (orientation:portrait) {
 
     select#sort-selector {
         margin-top: 60%;
+    }
+
+    /* nav links */
+    a#home-link,
+    a#all-products-link,
+    a#home-link,
+    a#mens-link,
+    a#womens-link,
+    a#accessories-link,
+    a#sales-link {
+        margin-left: 10px;
     }
 
     /* search bar */
