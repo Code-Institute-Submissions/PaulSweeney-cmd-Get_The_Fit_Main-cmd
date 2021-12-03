@@ -3,42 +3,100 @@
 
 This site is for educational purposes only. Any and all content used form a third party source shall not be used for profit. This content includes:
 
-* Product Images
-* Product descriptions
-* Product prices
-* Product overview
+- Product Images
+- Product descriptions
+- Product prices
+- Product overview
 
 I hereby state that the site creator (myself) shall not re-use or re-publish such content for any other purposes without written consent from the orignal sources. A full list of content sources can be found [here](SOURCES.md).
+
+<br>
 
 # **Site Creator Overview** - UX
 My objective for this fina project is to create an e-commerce site for users to browse gymwear and accessories. The site offers products from well known and established gymwear companies. Inspiration for this site was taken from existing 3rd party sites selling products made by high end brands, the only difference is that this site focusses on one demographic (being sports enthusiasts and gym members) rather than their sites product range which spans across general clothing sections such as jeans, tshirts, shirts and footwear which include both trainers and smart shoes.
 
+<br>
+
 ![Am I Responsive?](media/testing/responsive.png)
 
-## 1. First Time Visitor Goals
-* I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
-* I would like to check on product details and whether they have an option for different sizes and or colours.
-* I would like to have the ability to register my details using a username and password.
-* I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
+<br>
 
-## 2. Frequent Visitor Goals
-* I would like to check for any new products in the store, this includes any sales and or promotions.
-* I would like to browse through products and sort them by keyword, price and alphabetical order.
-## 3.  Returning Visitor Goals
-* I would like to log in to my account to view my purchase history.
-* I would like to be able to leave feedback in the form of a product review.
-* I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
+# **User Stories**
+## *First Time Visitor Goals*
+- I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
+- I would like to check on product details and whether they have an option for different sizes and or colours.
+- I would like to have the ability to register my details using a username and password.
+- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 
-## Site Owner Goals
-* To gain more popluarity with the fitness community through sales promotions and new products.
-* To give users a good experience finding top end products at a good price.
-* To implement a review section so users can know what to look out for before purchasing it based on past experiences
-* To to allow the iste to be viewed on various devices like tablets, phones and desktop.
-* To give users the ability to manipulate their shopping bag and delete items they no longer want
-## Future Site Owner Goals
-* To give users the chance to share product links via social media to generate new business, these users could be in the form of fitness influencers and fitness models / gym owners and promoters.
-* If this were a site intended for real time online use I would like to be able to implement the database to handle stock levels so ussers can check availability.
-# **Design**
+<br>
+
+## *Frequent Visitor Goals*
+- I would like to check for any new products in the store, this includes any sales and or promotions.
+- I would like to browse through products and sort them by keyword, price and alphabetical order.
+
+<br>
+
+## *Returning Visitor Goals*
+- I would like to log in to my account to view my purchase history.
+- I would like to be able to leave feedback in the form of a product review.
+- I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
+- I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 
+
+<br>
+
+## *Site Creator Goals*
+- To gain more popluarity with the fitness community through sales promotions and new products.
+- To give users a good experience finding top end products at a good price.
+- To to allow the site to be viewed on various devices like tablets, phones and desktop.
+- To give users the ability to manipulate their shopping bag and delete items they no longer want
+
+<br>
+
+## *Future Site Creator Goals*
+- To implement a review section so users can know what to look out for before purchasing it based on past experiences.
+- To implement a blog section for potential fitness influencers and socail media figures to offer their insight in to the site.
+- To implement form validations from the backend
+
+<br>
+
+# **Features**
+- A wide range good quality clothing from known retailers in the fitness industry
+- Clear navigation with the use of a navigation bar and side navigation bar on mobile and tablet format
+- Availability to access the site on various devices
+- Register for an account
+- Update their delivery infomation to auto fill in the checkout section
+
+<br>
+
+# **Technologies & Design**
+
+<p align="left">
+   <img width="900" height="500" src="media/schema/get-the-fit-schema.png">
+</p>
+
+## *Coding Languages*
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+* [JQuery](https://en.wikipedia.org/wiki/JQuery)
+
+## *Libararies, Frameworks & Additional Programmes*
+* Main site apps: [DJango](https://www.djangoproject.com/)
+* Font icon kit sourced from [Font Awesome](https://fontawesome.com/)
+* Containers, inline margin styling and colours using [Bootstrap 4.4.1](https://blog.getbootstrap.com/2019/11/28/bootstrap-4-4-1/)
+* Montserrat & Almarai were sourced from [Google Fonts](https://fonts.google.com/)
+* Frameworks were constructed using [Balsamiq](https://balsamiq.com/)
+* Version control and to make good use of my git pod terminal to push my code from Git to [GitHub](https://git-scm.com/)
+## *Installs*
+* [Stripe](https://stripe.com/gb) for card payments
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
+* [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities.
+* [Django Countries](https://pypi.org/project/django-countries/) for the country dropdown.
+* [gunicorn](https://gunicorn.org/)
+* [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
+* [django storages](https://django-storages.readthedocs.io/en/latest/)
+
 ## *Wireframes*
 * [Desktop view1](media/wireframes/Desktop-1.png)
 * [Desktop view2](media/wireframes/Desktop-2.png)
@@ -49,68 +107,34 @@ My objective for this fina project is to create an e-commerce site for users to 
 * [iPhone view2](media/wireframes/iPhone-2.png)
 * [iPhone view3](media/wireframes/iPhone-3.png)
 
-<br>
-
-# **Data**
-* [Database Schema](media/schema/get-the-fit-schema.png)
-
-<br>
-
-## 1. Colour Scheme
+## *Colour Scheme*
 * The colour scheme for the design consists of blacks, yellows and blues (for free delivery suggestion text and shopping bag icon when products have been added - this actually came built in so I've decided to keep it as it goes well). The colour scheme is simple yet attractive to the user and doesn't overload their experice with too much noise. I like to call it simple but effective.
 * I've also added a transparency effect to the nav bar with a stronger gradient on the nav link bar to set it apart to highlight the navlinks better. This instantly added more character and professionalism to the site.
-#
-## 2. Typography
+## *Typography*
 * Home Link & Page Titles - Montserrat. This font was chosen as the style goes well with a black background, an off-white colour was used to finish the look
 * General Text - Almarai. I chose this font because it compliments the title and home logo text. This text also looks great when it's condensed down on mobile view and goes well in all product details and descriptions. An off-white color was also used. Both fonts used also have a default sans-serif text to fall back on incase of page issues.
-#
-## 3. Imagery
+## *Imagery*
 * The imagery for this is pretty straight forward, the home page consists of one image spanning the entire cover of the page. The image used has the same colour scheme to make it sit well as the first impression a user would get to the layout. This was sourced for free from Artist 'Montsera' @ [Pexels.com](https://www.pexels.com/)
 * Product Images & information was sourced from various companies, all of which can be found listed in the [SOURCES.md](SOURCES.md) file in this project.
 * Size Guide image was sourced from [Roleur](https://www.rouleur.cc/)
-* Each div overlay for the site also has a background image instead of the original idea of a simple black  background. This instantly worked in my favour because it makes the page in question pop out better and promotes good UX.  
+* Each div overlay for the site also has a background image instead of the original idea of a simple black  background. This instantly worked in my favour because it makes the page in question pop out better and promotes good UX.
 
-# Technologies
-## 1. Coding Languages
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
-* [JQuery](https://en.wikipedia.org/wiki/JQuery)
+<br>
 
-## 2. Libararies, Frameworks & Additional Programmes
-* Main site apps: [DJango](https://www.djangoproject.com/)
-* Font icon kit sourced from [Font Awesome](https://fontawesome.com/)
-* Containers, inline margin styling and colours using [Bootstrap 4.4.1](https://blog.getbootstrap.com/2019/11/28/bootstrap-4-4-1/)
-* Montserrat & Almarai were sourced from [Google Fonts](https://fonts.google.com/)
-* Frameworks were constructed using [Balsamiq](https://balsamiq.com/)
-* Version control and to make good use of my git pod terminal to push my code from Git to [GitHub](https://git-scm.com/)
-#
-## 3. Installs
-* [Stripe](https://stripe.com/gb) for card payments
-* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/) for the form styling.
-* [Pillow](https://pypi.org/project/Pillow/) for image processing capabilities.
-* [Django Countries](https://pypi.org/project/django-countries/) for the country dropdown.
-* [gunicorn](https://gunicorn.org/)
-* [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
-* [django storages](https://django-storages.readthedocs.io/en/latest/)
-#
+# **Testing**
+
+
+
+
+
+
+
+
+
+
+
+
 ## 4. HTML Validators
-* [Home](media/html-css-validators/Home-page.png)
-* [Products](media/html-css-validators/All-products-page.png)
-* [Individual Product](media/html-css-validators/Individual-product-page.png)
-* [Shopping Bag](media/html-css-validators/Shopping-bag.png)
-* [Checkout](media/html-css-validators/Checkout-page.png)  Possible validator bugs, could not locate issue
-* [Profile](media/html-css-validators/Profile-page.png) Unclosed elements searched using [closing-tag checker](https://www.aliciaramirez.com/closing-tags-checker/), nothing found
-* [Login](media/html-css-validators/Login-page.png)
-* [Logout](media/html-css-validators/Logout-page.png)
-* [Register](media/html-css-validators/Register-page.png)
-* [Toast bag pop-up](media/html-css-validators/Toast-pop-up.png)
-#
-## 5. CSS Validators
-* [Checkout](media/html-css-validators/Checkout-CSS.png)
-* [Base](media/html-css-validators/Base-CSS.png)
-#
 ## 4. Credentials
 ### Django Superuser
 * user: gtfcmd12345678
