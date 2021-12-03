@@ -1711,6 +1711,12 @@ and (orientation:portrait) {
     p.summary-text {
         margin-left: 18px;
     }
+
+    /* order confirm */
+    
+    h2.page-title.text-center.order-confirm {
+        margin-top: 18%;
+    }
 }
 
 /* fixed top navbar only on medium and up */

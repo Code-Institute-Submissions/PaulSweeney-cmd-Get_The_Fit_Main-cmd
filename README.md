@@ -215,6 +215,17 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-bag-contents.png) | ![](/media/user-testing/phone-bag-contents.png) | ![](/media/user-testing/tablet-bag-contents.png) |
+### **Checkout Page**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-checkout.png) | ![](/media/user-testing/phone-checkout-top.png) | ![](/media/user-testing/tablet-checkout-top.png) |
+||![](/media/user-testing/phone-checkout-bottom.png) | ![](/media/user-testing/tablet-checkout-bottom.png) |
+
+### **Order Confirmation**
+| Phone | Desktop | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/phone-order-confirmation-top.png) | ![](/media/user-testing/desktop-order-confirmation.png) | ![](/media/user-testing/tablet-order-confirmation.png) |
+| ![](/media/user-testing/phone-order-confirmation-bottom.png) |
 
 
 
