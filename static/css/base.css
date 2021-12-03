@@ -1257,6 +1257,15 @@ input.btn.btn-black.text-uppercase {
         .allauth-form-login-content {
             margin-top: 15%;
         }
+
+        a#home-link,
+        a#all-products-link,
+        a#home-link,
+        a#womens-link,
+        a#accessories-link,
+        a#sales-link {
+            margin-left: 10px;
+        }
     }
 
 /* iPhone 6, 7, 8 + */
