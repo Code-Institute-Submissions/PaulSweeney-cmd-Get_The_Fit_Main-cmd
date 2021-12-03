@@ -1429,7 +1429,7 @@ and (orientation:portrait) {
         width: 36%;
     }
 
-    .card-img-top {
+    .card-img-top.product-card {
         margin-left: 19px;
     }
 
