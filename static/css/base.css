@@ -1292,7 +1292,8 @@ and (orientation:portrait) {
 
     /* search bar */
     .dropdown-menu.border-0.p-3.rounded-0.my-0.show {
-        margin-left: 62%;
+        width: 50% !important;
+        margin-left: 50%;
     }
 
     /* Checkout page */
