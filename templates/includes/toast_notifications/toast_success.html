@@ -23,9 +23,9 @@
                     <div class="row">
                         <div class="col-3 my-1">
                             {% if item.product.image %}
-                                <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                <img class="w-100 toast-image" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
                             {% else %}
-                                <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                <img class="w-100 toast-image" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
                             {% endif %}
                         </div>
                         <div class="col-9">
@@ -38,7 +38,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <strong>
+                    <strong class="total">
                         Total{% if free_delivery_delta > 0 %} (Exc. delivery){% endif %}: 
                         <span class="bag-total float-right">£{{ bag_total|floatformat:2 }}</span>
                     </strong>

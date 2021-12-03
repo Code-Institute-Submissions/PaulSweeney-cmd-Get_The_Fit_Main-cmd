@@ -32,7 +32,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 ## *Frequent Visitor Goals*
 - I would like to check for any new products in the store, this includes any sales and or promotions.
-- I would like to browse through products and sort them by keyword, price and alphabetical order.
+- I would like to browse through products and sort them by keyword, price and alphabetical order etc.
 - I would like to make purchases via a simple order form.
 - I would like to be able to delete any unwanted items in my basket
 
@@ -194,6 +194,24 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-acc-created.png) | ![](/media/user-testing/phone-acc-created.png) | ![](/media/user-testing/tablet-acc-created.png) |
+
+<br>
+
+## *Frequent Visitor Goals*
+### I would like to browse through products and sort them by keyword, price and alphabetical order etc.
+| Desktop |
+| :---: |
+| ![](/media/user-testing/desktop-product-sort.png) |
+
+ <br>
+
+### I would like to make purchases via a simple order form.
+
+
+
+
+- I would like to be able to delete any unwanted items in my basket
+
 
 
 
