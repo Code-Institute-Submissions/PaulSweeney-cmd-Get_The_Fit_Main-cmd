@@ -125,7 +125,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 ### **Home Page**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-| ![](/user-testing/desktop-home.png) | ![](user-testing/phone-home.png) | ![](user-testing/desktop-home.png) |
+| ![](/media/user-testing/desktop-home.png) | ![](/media/user-testing/phone-home.png) | ![](user-testing/desktop-home.png) |
 || ![](user-testing/desktop-home.png) |
 
 **User Feeedback** 
