@@ -389,6 +389,10 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
 
 /* Products Page */
 
+option {
+    background-color: black;
+}
+
 input.form-control.border.border-black.rounded-0 {
     background: black;
     color: #fafafa;

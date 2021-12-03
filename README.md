@@ -34,6 +34,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 - I would like to check for any new products in the store, this includes any sales and or promotions.
 - I would like to browse through products and sort them by keyword, price and alphabetical order.
 - I would like to make purchases via a simple order form.
+- I would like to be able to delete any unwanted items in my basket
 
 <br>
 
@@ -49,6 +50,8 @@ My objective for this fina project is to create an e-commerce site for users to 
 - To give users a good experience finding top end products at a good price.
 - To to allow the site to be viewed on various devices like tablets, phones and desktop.
 - To give users the ability to manipulate their shopping bag and delete items they no longer want
+- Give users ability to update quantity of items in shopping bag
+- 
 
 <br>
 
