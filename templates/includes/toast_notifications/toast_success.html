@@ -43,7 +43,7 @@
                         <span class="bag-total float-right">£{{ bag_total|floatformat:2 }}</span>
                     </strong>
                     {% if free_delivery_delta > 0 %}
-                        <p class="mb-0 p-2 text-center">
+                        <p class="discount-info">
                             Spend <strong>£{{ free_delivery_delta }}</strong> more to get free next day delivery!
                         </p>
                     {% endif %}
