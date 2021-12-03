@@ -25,6 +25,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 ## *First Time Visitor Goals*
 - I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
 - I would like to check on product details and whether they have an option for different sizes and or colours.
+- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 - I would like to have the ability to register my details and create an account
 
 <br>
@@ -32,13 +33,12 @@ My objective for this fina project is to create an e-commerce site for users to 
 ## *Frequent Visitor Goals*
 - I would like to check for any new products in the store, this includes any sales and or promotions.
 - I would like to browse through products and sort them by keyword, price and alphabetical order.
-- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
+- I would like to make purchases via a simple order form.
 
 <br>
 
 ## *Returning Visitor Goals*
 - I would like to log in to my account to view my purchase history.
-- I would like to be able to leave feedback in the form of a product review.
 - I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
 - I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 
 
@@ -154,6 +154,13 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
+### I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery.
+| Nav Bar Deliver Banner |
+| :---: |
+| ![](/media/user-testing/delivery-banner.png) |
+
+<br>
+
 ### I would like to have the ability to register my details and create an account.
 ### **Navigating To Link**
 | Desktop | Phone | Tablet |
@@ -180,7 +187,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-sign-up-confirm.png) | ![](/media/user-testing/phone-sign-up-confirm.png) | ![](/media/user-testing/tablet-sign-up-confirm.png) |
-### **Sign-up Successful Email**
+### **Sign-up Successful**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-acc-created.png) | ![](/media/user-testing/phone-acc-created.png) | ![](/media/user-testing/tablet-acc-created.png) |
@@ -192,7 +199,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 
 
-- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
+
 
 
 
