@@ -786,6 +786,7 @@ form.review-form {
 }
 .table-responsive.rounded {
     display: flex;
+    overflow-x: hidden;
 }
 
 span.text-uppercase {
