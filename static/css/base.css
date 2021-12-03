@@ -936,13 +936,17 @@ span.bag-pop-checkout.text-uppercase {
 
 /* checkout page */
 
+legend.fieldset-label.small.text-white.px-2.w-auto {
+    margin-left: 71px;
+}
+
 p.checkout-product-price,
 p.subtotal-text.mb-1.mt-0.small,
 p.subtotal-text.mb-1.mt-0.small,
 p.checkout-delivery-charge,
 p.checkout-grand-total,
 p.checkout-bag-total {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /* Post checkout success styling */
