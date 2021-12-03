@@ -1206,6 +1206,14 @@ and (max-width: 480px) {
         margin-left: 10px;
     }
 
+    i.fas.fa-cart-arrow-down {
+        margin-right: 13px;
+    }
+
+    p.my-0.bag-total-icon {
+        margin-right: 13px;
+    }
+
     .header-container {
         padding-top: 116px;
     }
@@ -1348,6 +1356,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 10px;
     }
 
+    i.fas.fa-cart-arrow-down {
+        margin-right: 13px;
+    }
+
+    p.my-0.bag-total-icon {
+        margin-right: 13px;
+    }
+
     button.navbar-toggler {
         margin-left: 10px;
     }
@@ -1369,6 +1385,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 5px;
         margin-bottom: 10px;
         font-weight: 100;
+    }
+
+    .toast.show {
+        margin-left: 8px;
+        margin-right: 28px;
     }
 
     .btn-block+.btn-block {
@@ -1406,6 +1427,14 @@ and (-webkit-min-device-pixel-ratio: 3) {
         margin-left: 10px;
     }
 
+    i.fas.fa-cart-arrow-down {
+        margin-right: 13px;
+    }
+
+    p.my-0.bag-total-icon {
+        margin-right: 13px;
+    }
+
     button.navbar-toggler {
         margin-left: 10px;
     }
@@ -1441,6 +1470,11 @@ and (-webkit-min-device-pixel-ratio: 3) {
         margin-left: 5px;
         margin-bottom: 10px;
         font-weight: 100;
+    }
+
+    .toast.show {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .btn-block+.btn-block {
