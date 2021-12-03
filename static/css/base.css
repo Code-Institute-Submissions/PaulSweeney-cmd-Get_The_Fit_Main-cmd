@@ -1314,6 +1314,11 @@ and (max-width: 480px) {
         font-size: 33px;
     }
 
+    /* checkout page */
+    h2.page-title.text-center.checkout {
+        margin-top: 10px;
+        font-size: 33px;
+    }
     p.checkout-product-price,
     p.subtotal-text.mb-1.mt-0.small,
     p.subtotal-text.mb-1.mt-0.small,
@@ -1429,6 +1434,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 33px;
     }
 
+    /* checkout page */
+    h2.page-title.text-center.checkout {
+        margin-top: 30px;
+        font-size: 33px;
+    }
+
     /* toast */
     span.bag-total.float-right {
         float: right!important;
@@ -1529,7 +1540,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 
     h2.page-title.text-center.bag-title {
-        margin-top: 10%;
+        margin-top: 30px;
+        font-size: 33px;
     }
 
     /* toast */
