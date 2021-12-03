@@ -1268,6 +1268,11 @@ input.btn.btn-black.text-uppercase {
         .allauth-form-login-content {
             margin-top: 21%;
         }
+
+        /* search bar */
+        .dropdown-menu.border-0.p-3.rounded-0.my-0.show {
+            width: 100vw;
+        }
     }
 
 /* iPad portrate layout */
