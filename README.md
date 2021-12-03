@@ -33,7 +33,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 ## *Frequent Visitor Goals*
 - I would like to check for any new products in the store, this includes any sales and or promotions.
 - I would like to browse through products and sort them by keyword, price and alphabetical order etc.
-- I would like to make purchases via a simple order form.
+- I would like to add items to a shopping bag and  make a purhcase via a simple order form.
 - I would like to be able to delete any unwanted items in my basket
 
 <br>
@@ -49,8 +49,8 @@ My objective for this fina project is to create an e-commerce site for users to 
 - To gain more popluarity with the fitness community through sales promotions and new products.
 - To give users a good experience finding top end products at a good price.
 - To to allow the site to be viewed on various devices like tablets, phones and desktop.
-- To give users the ability to manipulate their shopping bag and delete items they no longer want
-- Give users ability to update quantity of items in shopping bag
+- To give users the ability to manipulate their shopping bag and delete items they no longer want.
+- Give users ability to update quantity of items in shopping bag.
 - 
 
 <br>
@@ -58,7 +58,8 @@ My objective for this fina project is to create an e-commerce site for users to 
 ## *Future Site Creator Goals*
 - To implement a review section so users can know what to look out for before purchasing it based on past experiences.
 - To implement a blog section for potential fitness influencers and socail media figures to offer their insight in to the site.
-- To implement form validations from the backend
+- To implement form validations from the backend.
+- To add a confirmation modal when user wants delets an item from their bag.
 
 <br>
 
@@ -203,9 +204,9 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | :---: |
 | ![](/media/user-testing/desktop-product-sort.png) |
 
- <br>
+<br>
 
-### I would like to make purchases via a simple order form.
+### I would like to add items to a shopping bag and  make a purhcase via a simple order form.
 
 
 
