@@ -459,6 +459,18 @@ span.bag-total.float-right {
     font-weight: 100;
 }
 
+img.w-100.toast-image {
+    margin-left: 12px;
+}
+
+i.fas.fa-cart-arrow-down {
+    margin-right: 13px;
+}
+
+p.my-0.bag-total-icon {
+    margin-right: 13px;
+}
+
 .btn-block+.btn-block {
     margin-top: 0;
 }
