@@ -1285,6 +1285,11 @@ and (orientation:portrait) {
         margin-top: 60%;
     }
 
+    /* search bar */
+    .dropdown-menu.border-0.p-3.rounded-0.my-0.show {
+        margin-left: 62%;
+    }
+
     /* Checkout page */
     .fieldset-label {
         margin-left: 70px;
