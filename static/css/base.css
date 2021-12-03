@@ -450,6 +450,24 @@ hr.product.page-breaker {
 
 /* Toast messages */
 
+/* toast */
+span.bag-total.float-right {
+    float: right!important;
+    margin-right: 14px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.btn-block+.btn-block {
+    margin-top: 0;
+}
+
+strong.total {
+    float: right;
+    font-weight: 100;
+}
+
 .toast.show {
     display: block;
     opacity: 1;
@@ -1462,6 +1480,15 @@ and (orientation:portrait) {
         margin-right: 14px;
         margin-left: 5px;
         margin-bottom: 10px;
+        font-weight: 100;
+    }
+
+    .btn-block+.btn-block {
+        margin-top: 0;
+    }
+
+    strong.total {
+        float: right;
         font-weight: 100;
     }
 
