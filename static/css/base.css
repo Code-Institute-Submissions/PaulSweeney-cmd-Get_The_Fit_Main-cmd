@@ -1314,6 +1314,15 @@ and (max-width: 480px) {
         font-size: 33px;
     }
 
+    p.checkout-product-price,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.checkout-delivery-charge,
+    p.checkout-grand-total,
+    p.checkout-bag-total {
+    margin-right: 10px;
+}
+
     /* toasts */
 
     .toast.show {
@@ -1447,6 +1456,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
         float: right;
         font-weight: 100;
     }
+
+    p.checkout-product-price,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.checkout-delivery-charge,
+    p.checkout-grand-total,
+    p.checkout-bag-total {
+        margin-right: 10px;
+    }
 }
 
 /* iPhone 6, 7, 8 + */
@@ -1540,6 +1558,15 @@ and (-webkit-min-device-pixel-ratio: 3) {
     strong.total {
         float: right;
         font-weight: 100;
+    }
+
+    p.checkout-product-price,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.subtotal-text.mb-1.mt-0.small,
+    p.checkout-delivery-charge,
+    p.checkout-grand-total,
+    p.checkout-bag-total {
+        margin-right: 10px;
     }
 }
 
