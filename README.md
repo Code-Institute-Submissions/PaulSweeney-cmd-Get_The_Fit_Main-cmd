@@ -207,6 +207,10 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 <br>
 
 ### I would like to add items to a shopping bag and  make a purhcase via a simple order form.
+### **Adding to bag**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-add-bag.png) | ![](/media/user-testing/phone-add-bag.png) | ![](/media/user-testing/tablet-add-bag.png) |
 
 
 
