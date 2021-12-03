@@ -144,6 +144,13 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-product-link.png) | ![](/media/user-testing/phone-product-link.png) | ![](media/user-testing/tablet-product-link.png) |
 
+<br>
+
+### I would like to check on product details and whether they have an option for different sizes and or colours.
+| Phone | Desktop | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/phone-product-size-upper.png) | ![](/media/user-testing/desktop-product-size.png) | ![](/media/user-testing/tablet-product-size.png) |
+| ![](/media/user-testing/phone-product-size-lower.png) |
 
 
 
@@ -151,7 +158,9 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 
 
-- I would like to check on product details and whether they have an option for different sizes and or colours.
+
+
+
 - I would like to have the ability to register my details using a username and password.
 - I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 

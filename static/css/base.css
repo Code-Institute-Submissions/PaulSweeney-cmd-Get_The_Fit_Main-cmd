@@ -1240,6 +1240,7 @@ and (max-width: 480px) {
     span.product-detail.text-uppercase.mt-5,
     input.btn.btn-black.text-uppercase {
         font-size: 14px;
+        margin-bottom: 10px;
     }
 
     /* Allauth */
@@ -1311,6 +1312,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .details-container.mb-5.mt-md-5 {
         margin-left: 5px;
     }
+
+   /* shopping buton & add to bag */
+    span.product-detail.text-uppercase.mt-5,
+    input.btn.btn-black.text-uppercase {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 }
 
 /* iPhone 6, 7, 8 + */
@@ -1359,6 +1367,13 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .details-container.mb-5.mt-md-5 {
         margin-left: 5px;
     }
+
+    /* shopping buton & add to bag */
+    span.product-detail.text-uppercase.mt-5,
+    input.btn.btn-black.text-uppercase {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 }
 
 /* iPad portrate layout */
@@ -1392,7 +1407,7 @@ and (orientation:portrait) {
     }
 
     button.navbar-toggler {
-        margin-left: 10px;
+        margin-left: 19px;
     }
 
     /* search bar */
@@ -1404,6 +1419,10 @@ and (orientation:portrait) {
     /* product details */
     select#id_product_size {
         width: 36%;
+    }
+
+    .card-img-top {
+        margin-left: 19px;
     }
 
     p.product_name.mb-0.text-capitalize {
@@ -1430,6 +1449,13 @@ and (orientation:portrait) {
 
     .allauth-form-login-content {
         margin-top: 50%;
+    }
+
+    /* shopping buton & add to bag */
+    span.product-detail.text-uppercase.mt-5,
+    input.btn.btn-black.text-uppercase {
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 }
 
