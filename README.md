@@ -116,10 +116,10 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 * [Base](media/html-css-validators/Base-CSS.png)
 #
 ## 4. Credentials
-### Heroku Superuser
-* user: gtfcmd33
-* email: gtfcmd@someemail.com
-* pass: djps1234
+### Superuser
+* user: gtfcmd12345678
+* email: gtfcmd@email.co.uk
+* password: djps1234
 
 ### STRIPE
 * email: tecopoy212@smuvaj.com
@@ -128,17 +128,6 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 ## Additonal notes:
 
  - The intentionwas to add two more models to the site in the form of a review and additonal address section as adviosed to look in to on amazon. Due to migration issues and having to re-manipulate my Data, this was unacchievable due to time frame.
-
-# Credits & Acknowledgements
-## Credits
-- Nishant Kumar for feedback on site layout, structure and styling.
-- Mentions from the SLACK community
-### Image overlays:
-- Ivan Samkov & CottonBro @[Pexels.com](https://www.pexels.com/) - for the page overlay images
-## Acknowledgements
-- The code base for the project including page structures and functionality was taken from the Boutique Ado project. I took on this project idea based on the intention of furthering my knowledge of backend and front end programming. 
-- I found the processes, installation of frameworks to be quite challenging at times as the complexity was quite overwhelming but as I have already stated this site was developed for educational purposes 
-   and It's quite useful to know how to implement structure in the future. Full credit for functionality code base to ckz8780 walkthroughs.
 # Deployment
 ## Git Hub Pages
 * To create this project and it's repository, I opened a new repository by clicking the green button "new", making sure I used the Code Institute's student template.
@@ -173,3 +162,13 @@ I hereby state that the site creator (myself) shall not re-use or re-publish suc
 - Once you have completed those fields click on Automatic Deploys and select the Deploy Branch button, this will then connect to GitHub and a code window will open up below and start to build your app
 - Once it has finished select View and you'll be abkle to see any code you wrote to test your repository.
 
+# Credits & Acknowledgements
+## Credits
+- Nishant Kumar for feedback on site layout, structure and styling.
+- Mentions from the SLACK community
+### Image overlays:
+- Ivan Samkov & CottonBro @[Pexels.com](https://www.pexels.com/) - for the page overlay images
+## Acknowledgements
+- The code base for the project including page structures and functionality was taken from the Boutique Ado project. I took on this project idea based on the intention of furthering my knowledge of backend and front end programming. 
+- I found the processes, installation of frameworks to be quite challenging at times as the complexity was quite overwhelming but as I have already stated this site was developed for educational purposes 
+   and It's quite useful to know how to implement structure in the future. Full credit for functionality code base to ckz8780 walkthroughs.
