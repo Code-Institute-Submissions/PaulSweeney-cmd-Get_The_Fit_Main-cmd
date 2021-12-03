@@ -1697,6 +1697,20 @@ and (orientation:portrait) {
     h2.page-title.text-center.bag-title {
         margin-top: 20%;
     }
+
+    /* checkout page */
+
+    h2.page-title.text-center.checkout {
+        margin-top: 18%;
+    }
+
+    img.image.w-100.checkout-image {
+        margin-left: 18px;
+    }
+
+    p.summary-text {
+        margin-left: 18px;
+    }
 }
 
 /* fixed top navbar only on medium and up */
