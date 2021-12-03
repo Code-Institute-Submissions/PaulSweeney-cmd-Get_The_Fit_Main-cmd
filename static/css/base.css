@@ -37,7 +37,7 @@ body {
     z-index: -1;
     opacity: 1;
     height: 105vh;
-    background: url('media/product-overlay.jpg') no-repeat center center fixed;
+    background: url('/media/product-overlay.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -53,7 +53,7 @@ body {
     z-index: -1;
     opacity: 1;
     height: 105vh;
-    background: url('media/checkout-overlay.jpg') no-repeat center center fixed;
+    background: url('/media/checkout-overlay.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ body {
     background-color: #000;
 }
 .container.mb-2 {
-    background: url(media/checkout-overlay.jpg) no-repeat center center fixed;
+    background: url(/media/checkout-overlay.jpg) no-repeat center center fixed;
     margin-top: 4%;
 }
 
@@ -90,7 +90,7 @@ body {
     z-index: -1;
     opacity: 1;
     height: 105vh;
-    background: url('media/new-image.jpg') no-repeat center center fixed;
+    background: url('/media/new-image.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@ body {
     z-index: -1;
     opacity: 1;
     height: 105vh;
-    background: url('media/detail-overlay.jpg') no-repeat center center fixed;
+    background: url('/media/detail-overlay.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
