@@ -142,7 +142,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 ### **Nav Link Example**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
-| ![](/media/user-testing/desktop-product-link.png) | ![](/media/user-testing/phone-product-search.png) | ![](media/user-testing/tablet-product-search.png) |
+| ![](/media/user-testing/desktop-product-link.png) | ![](/media/user-testing/phone-product-link.png) | ![](media/user-testing/tablet-product-link.png) |
 
 
 
