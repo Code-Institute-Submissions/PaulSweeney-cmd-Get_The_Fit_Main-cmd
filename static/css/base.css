@@ -1274,6 +1274,18 @@ and (max-width: 480px) {
         font-size: 14px;
     }
 
+    /* toasts */
+
+    .toast.show {
+        display: block;
+        opacity: 1;
+        margin-left: 8px;
+    }
+
+    img.w-100.toast-image {
+        margin-left: 7px;
+    }
+
     /* Allauth */
 
     .allauth-form-login-content {
@@ -1517,6 +1529,10 @@ and (orientation:portrait) {
         margin-left: 5px;
         margin-bottom: 10px;
         font-weight: 100;
+    }
+
+    img.w-100.toast-image {
+        margin-left: 12px;
     }
 
     .btn-block+.btn-block {
