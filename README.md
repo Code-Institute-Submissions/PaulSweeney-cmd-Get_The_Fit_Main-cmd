@@ -51,7 +51,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 - To to allow the site to be viewed on various devices like tablets, phones and desktop.
 - To give users the ability to manipulate their shopping bag and delete items they no longer want.
 - Give users ability to update quantity of items in shopping bag.
-- 
+- Add new products to the company database
 
 <br>
 
@@ -59,7 +59,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 - To implement a review section so users can know what to look out for before purchasing it based on past experiences.
 - To implement a blog section for potential fitness influencers and socail media figures to offer their insight in to the site.
 - To implement form validations from the backend.
-- To add a confirmation modal when user wants delets an item from their bag.
+- To add a confirmation modal when user wants delete an item from their bag.
 
 <br>
 
