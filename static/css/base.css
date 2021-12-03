@@ -385,6 +385,11 @@ a.shop-button.btn.btn-lg.text-white.rounded-0.text-capitalize.py-3 {
 
 /* Products Page */
 
+input.form-control.border.border-black.rounded-0 {
+    background: black;
+    color: #fafafa;
+}
+
 h2.page-title {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
@@ -1270,6 +1275,15 @@ input.btn.btn-black.text-uppercase {
 @media only screen and (min-width: 481px) 
 and (max-width: 1024px) 
 and (orientation:portrait) {
+
+    /* products page */
+    .col-12.col-md-6.order-md-first {
+        margin-top: 20%;
+    }
+
+    select#sort-selector {
+        margin-top: 60%;
+    }
 
     /* Checkout page */
     .fieldset-label {
