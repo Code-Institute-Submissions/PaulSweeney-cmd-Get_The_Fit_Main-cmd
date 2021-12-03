@@ -122,7 +122,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 <br>
 
 # **End User Testing**
-### **Home Page**
+## *Home Page*
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-home.png) | ![](/media/user-testing/phone-home.png) | ![](media/user-testing/tablet-home.png) |
@@ -132,6 +132,23 @@ My objective for this fina project is to create an e-commerce site for users to 
 When I come on to the site I'm immediatley drawn to the image in the backlground. The colours are eye catching and I can see all the available pages at the top. The page has a great structure. The background image looks really good with the colour scheme.
 
 <br>
+
+## *First Time Visitor Goals*
+### I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-product-search.png) | ![](/media/user-testing/phone-product-search.png) | ![](media/user-testing/tablet-product-search.png) |
+
+
+
+
+
+
+
+
+- I would like to check on product details and whether they have an option for different sizes and or colours.
+- I would like to have the ability to register my details using a username and password.
+- I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery
 
 
 
