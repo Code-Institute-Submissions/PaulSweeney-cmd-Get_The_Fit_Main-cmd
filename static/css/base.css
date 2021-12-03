@@ -255,17 +255,13 @@ a#all-products-link {
 a#all-products-link:hover {
     color: #f0f005;
 }
-a#all-products-link:active {
-    color: #f0f005;
-}
 
 a#mens-link {
     color: #fafafa;
     font-size: 19px;
     
 }
-a#mens-link:hover,
-a#mens-link:active {
+a#mens-link:hover {
     color: #f0f005;
 }
 
@@ -274,8 +270,7 @@ a#womens-link {
     font-size: 19px;
     
 }
-a#womens-link:hover,
-#womens-link:active {
+a#womens-link:hover {
     color: #f0f005;
 }
 
@@ -284,8 +279,7 @@ a#accessories-link {
     font-size: 19px;
     
 }
-a#accessories-link:hover,
-a#accessories-link:active {
+a#accessories-link:hover {
     color: #f0f005;
 }
 
@@ -294,8 +288,7 @@ a#sales-link {
     font-size: 19px;
     
 }
-a#sales-link:hover,
-a#sales-link:active {
+a#sales-link:hover {
     color: #f0f005;
 }
 
@@ -1381,3 +1374,4 @@ and (orientation:portrait) {
         padding-top: 164px;
     }
 }
+
