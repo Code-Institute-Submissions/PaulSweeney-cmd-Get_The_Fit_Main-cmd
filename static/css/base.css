@@ -1589,13 +1589,18 @@ and (orientation:portrait) {
         font-weight: lighter;
     }
 
-    /* toast */
+    /* toasts */
     span.bag-total.float-right {
         float: right!important;
         margin-right: 14px;
         margin-left: 5px;
         margin-bottom: 10px;
         font-weight: 100;
+    }
+
+    p.discount-info {
+        margin-left: 12px;
+        margin-right: 13px;
     }
 
     img.w-100.toast-image {
