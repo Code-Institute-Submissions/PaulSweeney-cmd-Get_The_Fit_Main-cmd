@@ -40,8 +40,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 ## *Returning Visitor Goals*
 - I would like to log in to my account to view my purchase history.
-- I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
-- I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 
+- I would like to update billing details if I want to
 
 <br>
 
@@ -267,9 +266,13 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | ![](/media/user-testing/phone-order-history-top.png) | ![](/media/user-testing/desktop-order-history.png) | ![](/media/user-testing/tablet-order-history.png) |
 | ![](/media/user-testing/phone-order-history-bottom.png) |
 
+### I would like to update billing details if I want to.
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-update.png) | ![](/media/user-testing/phone-update.png) | ![](/media/user-testing/tablet-update.png) |
+### **Address Update**
+![](/media/user-testing/update.png) 
 
-
-- I would like to be able to edit my details if in the event of ordering to an alternate address
 
 
 

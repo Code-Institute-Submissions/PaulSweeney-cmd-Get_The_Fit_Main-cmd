@@ -1791,6 +1791,12 @@ and (orientation:portrait) {
         font-size: 30px;
         margin-top: 15%;
     }
+
+    h2.page-title.text-center.profile-header {
+        margin-top: 20%;
+        margin-bottom: 4%;
+        font-size: 25px;
+    }
 }
 
 /* fixed top navbar only on medium and up */
