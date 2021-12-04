@@ -44,7 +44,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 <br>
 
-## *Site Creator Goals*
+# **Site Creator Goals**
 - To gain more popluarity with the fitness community through sales promotions and new products.
 - To give users a good experience finding top end products at a good price.
 - To to allow the site to be viewed on various devices like tablets, phones and desktop.
@@ -54,7 +54,7 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 <br>
 
-## *Future Site Creator Goals*
+# **Future Site Creator Goals**
 - To implement a review section so users can know what to look out for before purchasing it based on past experiences.
 - To implement a blog section for potential fitness influencers and socail media figures to offer their insight in to the site.
 - To implement form validations from the backend.
@@ -124,20 +124,17 @@ My objective for this fina project is to create an e-commerce site for users to 
 
 <br>
 
-# **End User Testing**
 ## *Home Page*
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-home.png) | ![](/media/user-testing/phone-home.png) | ![](media/user-testing/tablet-home.png) |
 
-**User Feeedback** 
-
-When I come on to the site I'm immediatley drawn to the image in the backlground. The colours are eye catching and I can see all the available pages at the top. The page has a great structure. The background image looks really good with the colour scheme.
 
 <br>
 
-## *First Time Visitor Goals*
-### I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.
+# **End User Testing - First Time Visitor Goals**
+
+## *I want to be able to browse through products with easy naviagtion, this includes the use of a search bar and product links.*
 ### **Product Search**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
@@ -149,7 +146,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
-### I would like to check on product details and whether they have an option for different sizes and or colours.
+## *I would like to check on product details and whether they have an option for different sizes and or colours.*
 | Phone | Desktop | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/phone-product-size-upper.png) | ![](/media/user-testing/desktop-product-size.png) | ![](/media/user-testing/tablet-product-size.png) |
@@ -157,14 +154,14 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
-### I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery.
+## *I would want to be able to check on how much I need to spend for any discount on delivery charges or free delivery.*
 | Nav Bar Deliver Banner |
 | :---: |
 | ![](/media/user-testing/delivery-banner.png) |
 
 <br>
 
-### I would like to have the ability to register my details and create an account.
+## *I would like to have the ability to register my details and create an account.*
 ### **Navigating To Link**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
@@ -197,15 +194,15 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
-## *Frequent Visitor Goals*
-### I would like to browse through products and sort them by keyword, price and alphabetical order etc.
+# **End User Testing - Frequent Visitor Goals**
+## I would like to browse through products and sort them by keyword, price and alphabetical order etc.
 | Desktop |
 | :---: |
 | ![](/media/user-testing/desktop-product-sort.png) |
 
 <br>
 
-### I would like to add items to a shopping bag and  make a purhcase via a simple order form.
+## *I would like to add items to a shopping bag and  make a purhcase via a simple order form.*
 ### **Adding To Bag**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
@@ -229,7 +226,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
-### I would like to be able to delete any unwanted items in my basket
+## *I would like to be able to delete any unwanted items in my basket*
 <br>
 
 ![](/media/user-testing/remove-update.png)
@@ -241,8 +238,8 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 <br>
 
-## *Returning Visitor Goals*
-### I would like to log in to my account to view my purchase history.
+# **End User Testing - Returning Visitor Goals**
+## *I would like to log in to my account to view my purchase history.*
 ### **Navigating To Login Link**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
@@ -266,13 +263,15 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | ![](/media/user-testing/phone-order-history-top.png) | ![](/media/user-testing/desktop-order-history.png) | ![](/media/user-testing/tablet-order-history.png) |
 | ![](/media/user-testing/phone-order-history-bottom.png) |
 
-### I would like to update billing details if I want to.
+## *I would like to update billing details if I want to.*
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-update.png) | ![](/media/user-testing/phone-update.png) | ![](/media/user-testing/tablet-update.png) |
 ### **Address Update**
 ![](/media/user-testing/update.png) 
 
+
+<br>
 
 # **Validators**
 ## *Html*
@@ -336,36 +335,26 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 * [urls.py](/validators/python/project-urls.py.png)
 * [Settings.py](/validators/python/settings.py.png)
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 4. Credentials
+## *Credentials*
 ### Django Superuser
 * user: gtfcmd12345678
 * email: gtfcmd@email.co.uk
 * password: djps1234
 
+<br>
+
 ### STRIPE
 * email: tecopoy212@smuvaj.com
 * pass: djps12345678910
 
-## Additonal notes:
+<br>
+
+## Additonal notes: **PLEASE READ**
 - The intentionwas to add two more models to the site in the form of a review and additonal address section as adviosed to look in to on amazon. Due to migration issues and having to re-manipulate my Data, this was unacchievable due to time frame.
+- Functionality for updating the shopping bag items that have a size results in the product size not rendering when the bag is updated. This bug was discussed with tutor support with no positive result.
+- Backend form validation was attempted and discussed with tutor support also but could not be resolved within the timeframe given for this resubmission. Sources were checked online in Stack Overflow and various other sources but due to the way this code has been written and based on I was unable to amend my code to factor in this functionality.
 # Deployment
 ## Git Hub Pages
 * To create this project and it's repository, I opened a new repository by clicking the green button "new", making sure I used the Code Institute's student template.
