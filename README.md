@@ -274,28 +274,6 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 ![](/media/user-testing/update.png) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 4. HTML Validators
 ## 4. Credentials
 ### Django Superuser
