@@ -121,3 +121,5 @@ def delete_item(request, item_id):
     except Exception as e:
         messages.error(request, f'Ooops it looks like there was an error removing: {e}')
         return HttpResponse(status=500)
+
+    return render(request, 'products/products_page.html')
