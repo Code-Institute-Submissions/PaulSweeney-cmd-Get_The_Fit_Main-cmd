@@ -274,7 +274,86 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 ![](/media/user-testing/update.png) 
 
 
-## 4. HTML Validators
+# **Validators**
+## *Html*
+* [Order Summary](/validators/html/order-details.png)
+* [Product Details](/validators/html/product-detail.png)
+* [Shopping Bag](/validators/html/bag.png)
+* [All Products](/validators/html/products.png)
+* [Checkout](/validators/html/checkout.png)
+* [Register](/validators/html/register.png)
+* [Logout](/validators/html/logout.png)
+* [Profile](/validators/html/profile.png)
+* [Verify](/validators/html/verify.png)
+* [Login](/validators/html/login.png)
+* [Home](/validators/html/home.png)
+
+<br>
+
+## *Css*
+* [Main Project](/validators/css/project-css.png)
+* [Sub Level > Checkout Form](/validators/css/checkout-form-css.png)
+
+## *Javascript*
+* [Main Project](/validators/js/js.png)
+
+## *Python*
+### Please note any E501 errors showing on any of the Python validators will be due to code not being adaptable to formatting, if the lines were reduced line with pep8 regulations this would break the code and render the functionality useless.
+
+*Checkout*
+* [Admin](/validators/python/checkout-admin.py.png)
+* [Apps](/validators/python/checkout-apps.py.png)
+* [Forms](/validators/python/checkout-forms.py.png)
+* [Models](/validators/python/checkout-models.py.png)
+* [Signals](/validators/python/checkout-signals.py.png)
+* [Urls](/validators/python/checkout-urls.py.png)
+* [Views](/validators/python/checkout-views.py.png)
+* [Webhook Handlers](/validators/python/checkout-webhook-handler.py.png)
+* [Webhooks](/validators/python/checkout-webhooks.py.png)
+
+*Products*
+* [Admin](/validators/python/products-admin.py.png)
+* [Apps](/validators/python/products-apps.py.png)
+* [Forms](/validators/python/products-forms.py.png)
+* [Models](/validators/python/products-models.py.png)
+* [Urls](/validators/python/products-urls.py.png)
+* [Views](/validators/python/products-views.py.png)
+
+*Profile*
+* [Apps](/validators/python/profile-apps.py.png)
+* [Forms](/validators/python/profile-forms.py.png)
+* [Models](/validators/python/profile-models.py.png)
+* [Urls](/validators/python/profile-urls.py.png)
+* [Views](/validators/python/profile-views.py.png)
+
+*Shopping Bag*
+* [Apps](/validators/python/shopping-bag-apps.py.png)
+* [Contexts](/validators/python/shopping-bag-contexts.py.png)
+* [Urls](/validators/python/shopping-bag-urls.py.png)
+* [Views](/validators/python/shopping-bag-views.py.png)
+
+*Project Level*
+* [urls.py](/validators/python/project-urls.py.png)
+* [Settings.py](/validators/python/settings.py.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 4. Credentials
 ### Django Superuser
 * user: gtfcmd12345678
@@ -286,8 +365,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 * pass: djps12345678910
 
 ## Additonal notes:
-
- - The intentionwas to add two more models to the site in the form of a review and additonal address section as adviosed to look in to on amazon. Due to migration issues and having to re-manipulate my Data, this was unacchievable due to time frame.
+- The intentionwas to add two more models to the site in the form of a review and additonal address section as adviosed to look in to on amazon. Due to migration issues and having to re-manipulate my Data, this was unacchievable due to time frame.
 # Deployment
 ## Git Hub Pages
 * To create this project and it's repository, I opened a new repository by clicking the green button "new", making sure I used the Code Institute's student template.
