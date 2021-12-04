@@ -256,16 +256,21 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-profile-nav.png) | ![](/media/user-testing/phone-profile-nav.png) | ![](/media/user-testing/tablet-profile-nav.png) |
-### **Profile & Order History**
+### **Profile**
 | Phone | Desktop | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/phone-profile-top.png) | ![](/media/user-testing/desktop-profile.png) | ![](/media/user-testing/tablet-profile.png) |
 | ![](/media/user-testing/phone-profile-bottom.png) |
+### **Order History**
+| Phone | Desktop | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/phone-order-history-top.png) | ![](/media/user-testing/desktop-order-history.png) | ![](/media/user-testing/tablet-order-history.png) |
+| ![](/media/user-testing/phone-order-history-bottom.png) |
 
 
 
-- I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
-- I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 
+- I would like to be able to edit my details if in the event of ordering to an alternate address
+
 
 
 
