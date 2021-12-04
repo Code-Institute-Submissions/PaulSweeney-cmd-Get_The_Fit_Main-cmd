@@ -231,7 +231,7 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 <br>
 
 ### I would like to be able to delete any unwanted items in my basket
- <br>
+<br>
 
 ![](/media/user-testing/remove-update.png)
 
@@ -240,6 +240,17 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | ![](/media/user-testing/desktop-current-bag.png) | ![](/media/user-testing/phone-delete.png) | ![](/media/user-testing/tablet-delete.png) |
 | ![](/media/user-testing/desktop-delete.png) |
 
+<br>
+
+## *Returning Visitor Goals*
+### I would like to log in to my account to view my purchase history.
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-nav-login.png) | ![](/media/user-testing/phone-nav-login.png) | ![](/media/user-testing/tablet-nav-login.png) |
+| ![](/media/user-testing/desktop-login-form.png) | ![](/media/user-testing/phone-login-form.png) | ![](/media/user-testing/tablet-login-form.png) |
+
+- I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
+- I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 
 
 
 
