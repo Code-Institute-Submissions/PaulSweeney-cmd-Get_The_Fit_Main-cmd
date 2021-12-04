@@ -71,22 +71,22 @@ def update_bag(request, item_id):
         if item_quantity > 0:
             # Updating quantity to a product with a size
             current_bag[item_id]['items_by_size'][size] = item_quantity
-            messages.success(request, f'You have just updated the quantity of {size.upper()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
+            messages.info(request, f'You have just updated the quantity of {size.upper()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
         else:
             # Deleting a product
             del current_bag[item_id]['items_by_size'][size]
             if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
-            messages.success(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
+            messages.info(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
     else:
         if item_quantity > 0:
             # updating quantity for a product
             current_bag[item_id] = item_quantity
-            messages.success(request, f'Quantity for {product.name} has been updated to {current_bag[item_id]}')
+            messages.info(request, f'Quantity for {product.name} has been updated to {current_bag[item_id]}')
         else:
             # Deleting product
             current_bag.pop(item_id)
-            messages.success(request, f'You have just removed {product.name} from your cart')
+            messages.info(request, f'You have just removed {product.name} from your cart')
 
     request.session['bag'] = current_bag
     return redirect(reverse('bag'))
@@ -110,10 +110,10 @@ def delete_item(request, item_id):
             del current_bag[item_id]['items_by_size'][size]
             if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
-            messages.success(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
+            messages.info(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
         else:
             current_bag.pop(item_id)
-            messages.success(request, f'You have just removed {product.name} from your cart')
+            messages.info(request, f'You have just removed {product.name} from your cart')
 
         request.session['bag'] = current_bag
         return HttpResponse(status=200)
@@ -121,5 +121,3 @@ def delete_item(request, item_id):
     except Exception as e:
         messages.error(request, f'Ooops it looks like there was an error removing: {e}')
         return HttpResponse(status=500)
-
-    return render(request, 'products/products_page.html')
