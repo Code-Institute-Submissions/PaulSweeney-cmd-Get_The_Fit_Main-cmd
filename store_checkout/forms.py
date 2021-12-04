@@ -33,7 +33,6 @@ class NewOrderForm(forms.ModelForm):
             'town_or_city': 'Town or City',
             'county': 'County, state or locality',
             'postcode': 'Post Code',
-            'country': 'Country'
         }
 
         # setting autofocus to first and last name
