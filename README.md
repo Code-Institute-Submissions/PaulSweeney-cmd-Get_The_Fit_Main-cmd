@@ -244,10 +244,25 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 
 ## *Returning Visitor Goals*
 ### I would like to log in to my account to view my purchase history.
+### **Navigating To Login Link**
 | Desktop | Phone | Tablet |
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-nav-login.png) | ![](/media/user-testing/phone-nav-login.png) | ![](/media/user-testing/tablet-nav-login.png) |
+### **Log In**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-login-form.png) | ![](/media/user-testing/phone-login-form.png) | ![](/media/user-testing/tablet-login-form.png) |
+### **Navigatin To Profile Link**
+| Desktop | Phone | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-profile-nav.png) | ![](/media/user-testing/phone-profile-nav.png) | ![](/media/user-testing/tablet-profile-nav.png) |
+### **Profile & Order History**
+| Phone | Desktop | Tablet |
+| :---: | :---: | :---: |
+| ![](/media/user-testing/phone-profile-top.png) | ![](/media/user-testing/desktop-profile.png) | ![](/media/user-testing/tablet-profile.png) |
+| ![](/media/user-testing/phone-profile-bottom.png) |
+
+
 
 - I would like to be able to edit my details if in the event of ordering to an alternate address and change billing details
 - I would like to be able to have the ability to update my delivery details by editing the addresee name and contact infomation 

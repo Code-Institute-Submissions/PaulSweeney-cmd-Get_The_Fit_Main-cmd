@@ -1544,6 +1544,13 @@ and (-webkit-min-device-pixel-ratio: 3) {
         margin-left: 5px;
     }
 
+    /* profile page */
+    h2.page-title.text-center.profile-header {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        font-size: 25px;
+    }
+
     /* shopping buton & add to bag */
     span.product-detail.text-uppercase.mt-5,
     input.btn.btn-black.text-uppercase {
@@ -1615,6 +1622,12 @@ and (orientation:portrait) {
 
     .details-container.mb-5.mt-md-5 {
         margin-left: 5px;
+    }
+
+    /* profile page */
+    h2.page-title.text-center.profile-header {
+        margin-top: 21%;
+        font-size: 33px;
     }
 
     /* nav links */
