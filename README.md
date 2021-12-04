@@ -228,9 +228,18 @@ When I come on to the site I'm immediatley drawn to the image in the backlground
 | ![](/media/user-testing/phone-order-confirmation-bottom.png) |
 
 
+<br>
 
+### I would like to be able to delete any unwanted items in my basket
+ <br>
 
-- I would like to be able to delete any unwanted items in my basket
+![](/media/user-testing/remove-update.png)
+
+| Phone | Desktop ||
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-current-bag.png) | ![](/media/user-testing/phone-delete.png) | ![](/media/user-testing/tablet-delete.png) |
+| ![](/media/user-testing/desktop-delete.png) |
+
 
 
 
