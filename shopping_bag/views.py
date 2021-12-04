@@ -88,7 +88,7 @@ def update_bag(request, item_id):
             messages.success(request, f'You have just removed {product.name} from your cart')
 
     request.session['bag'] = current_bag
-    return redirect(reverse('products'))
+    return redirect(reverse('bag'))
 
 
 def delete_item(request, item_id):
@@ -115,8 +115,7 @@ def delete_item(request, item_id):
             messages.success(request, f'You have just removed {product.name} from your cart')
 
         request.session['bag'] = current_bag
-        # return HttpResponse(status=200)
-        return redirect(reverse('products'))
+        return HttpResponse(status=200)
 
     except Exception as e:
         messages.error(request, f'Ooops it looks like there was an error removing: {e}')
