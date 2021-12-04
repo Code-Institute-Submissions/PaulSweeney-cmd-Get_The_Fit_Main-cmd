@@ -114,7 +114,7 @@ def delete_item(request, item_id):
             current_bag.pop(item_id)
             messages.success(request, f'You have just removed {product.name} from your cart')
 
-        # request.session['bag'] = current_bag
+        request.session['bag'] = current_bag
         return HttpResponse(status=200)
 
     except Exception as e:
