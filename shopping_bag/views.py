@@ -6,7 +6,7 @@ from products.models import Product
 def bag(request):
     """ A view to render the users shopping bag"""
 
-    return render(request, 'shopping_bag/shopping_bag.html')
+    return render(request, 'bag/shopping_bag.html')
 
 
 def add_item(request, item_id):
@@ -74,7 +74,7 @@ def update_bag(request, item_id):
             messages.success(request, f'You have just updated the quantity of {size.upper()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
         else:
             # Deleting a product
-            del current_bag[item_id]['items_by_size'][size]
+            del current_bag[item_id]['items_by_size']
             if not current_bag[item_id]['items_by_size']:
                 current_bag.pop(item_id)
             messages.success(request, f'You have just removed size: {size.upper()} {product.name} from your cart')
