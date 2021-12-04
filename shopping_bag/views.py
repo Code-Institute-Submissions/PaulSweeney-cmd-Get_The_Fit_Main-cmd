@@ -70,8 +70,9 @@ def update_bag(request, item_id):
     if size:
         if item_quantity > 0:
             # Updating quantity to a product with a size
-            current_bag[item_id]['items_by_size'][size] = item_quantity
-            messages.success(request, f'You have just updated the quantity of {size.upper()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
+            if size in current_bag[item_id]['items_by_size'].keys():
+                current_bag[item_id]['items_by_size'][size] = item_quantity
+                messages.success(request, f'You have just updated the quantity of {size.upper()}{product.name} to {current_bag[item_id]["items_by_size"][size]}')
         else:
             # Deleting a product
             del current_bag[item_id]['items_by_size'][size]
