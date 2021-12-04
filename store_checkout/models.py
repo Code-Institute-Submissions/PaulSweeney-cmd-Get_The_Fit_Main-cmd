@@ -9,24 +9,46 @@ from user_profile.models import Profile
 
 
 class Order(models.Model):
-    order_number = models.CharField(max_length=40, null=False, editable=False)
-    user_profile = models.ForeignKey(Profile, on_delete=models.SET_NULL, null=True, blank=True, related_name='orders')
-    first_name = models.CharField(max_length=40, null=False, blank=False)
-    last_name = models.CharField(max_length=40, null=False, blank=False)
-    email_address = models.EmailField(max_length=300, null=False, blank=False)
-    phone_number = models.CharField(max_length=25, null=False, blank=False)
-    address1 = models.CharField(max_length=100, null=False, blank=False)
-    address2 = models.CharField(max_length=100, null=True, blank=True)
-    town_or_city = models.CharField(max_length=50, null=False, blank=False)
-    county = models.CharField(max_length=20, null=False, blank=False)
-    postcode = models.CharField(max_length=15, null=True, blank=True)
-    country = CountryField(blank_label='Country *', null=False, blank=False)
+    order_number = models.CharField(
+        max_length=40, null=False, editable=False)
+    user_profile = models.ForeignKey(
+        Profile, on_delete=models.SET_NULL,
+        null=True, blank=True, related_name='orders')
+    first_name = models.CharField(
+        max_length=40, null=False, blank=False)
+    last_name = models.CharField(
+        max_length=40, null=False, blank=False)
+    email_address = models.EmailField(
+        max_length=300, null=False, blank=False)
+    phone_number = models.CharField(
+        max_length=25, null=False, blank=False)
+    address1 = models.CharField(
+        max_length=100, null=False, blank=False)
+    address2 = models.CharField(
+        max_length=100, null=True, blank=True)
+    town_or_city = models.CharField(
+        max_length=50, null=False, blank=False)
+    county = models.CharField(
+        max_length=20, null=False, blank=False)
+    postcode = models.CharField(
+        max_length=15, null=True, blank=True)
+    country = CountryField(
+        blank_label='Country *', null=False, blank=False)
     date = models.DateField(auto_now_add=True)
-    delivery_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
-    bag_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
-    grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
-    original_bag = models.TextField(null=False, blank=False, default='')
-    stripe_pid = models.CharField(max_length=300, null=False, blank=False, default='')
+    delivery_total = models.DecimalField(
+        max_digits=6, decimal_places=2,
+        null=False, default=0)
+    bag_total = models.DecimalField(
+        max_digits=10, decimal_places=2,
+        null=False, default=0)
+    grand_total = models.DecimalField(
+        max_digits=10, decimal_places=2,
+        null=False, default=0)
+    original_bag = models.TextField(
+        null=False, blank=False, default='')
+    stripe_pid = models.CharField(
+        max_length=300, null=False,
+        blank=False, default='')
 
     # a function to generate an order number using uuid
     def _generate_order_number(self):
@@ -35,7 +57,8 @@ class Order(models.Model):
 
     # updates grand total when new item is added
     def update_total(self):
-        self.bag_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        self.bag_total = self.lineitems.aggregate(
+            Sum('lineitem_total'))['lineitem_total__sum'] or 0
         if self.bag_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_total = self.bag_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
@@ -54,11 +77,20 @@ class Order(models.Model):
 
 
 class OrderItem(models.Model):
-    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
-    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
-    product_size = models.CharField(max_length=15, null=True, blank=True)
-    item_quantity = models.IntegerField(null=False, blank=False, default=0)
-    lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=False, editable=False)
+    order = models.ForeignKey(
+        Order, null=False, blank=False,
+        on_delete=models.CASCADE,
+        related_name='lineitems')
+    product = models.ForeignKey(
+        Product, null=False, blank=False,
+        on_delete=models.CASCADE)
+    product_size = models.CharField(
+        max_length=15, null=True, blank=True)
+    item_quantity = models.IntegerField(
+        null=False, blank=False, default=0)
+    lineitem_total = models.DecimalField(
+        max_digits=6, decimal_places=2,
+        null=True, blank=False, editable=False)
 
     # a default function to set line item total and update order total
     def save(self, *args, **kwargs):
@@ -67,4 +99,5 @@ class OrderItem(models.Model):
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f'sku: {self.product.sku} on following order: {self.order.order_number}'
+        return f'sku: {self.product.sku} on following order: \
+            {self.order.order_number}'

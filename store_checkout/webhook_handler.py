@@ -16,7 +16,8 @@ class StripeWH_Handler:
         """ Handling webhooks events"""
 
         return HttpResponse(
-            content=f'This unhandled webhook has been received successfully: {event["type"]}',
+            content=f'This unhandled webhook has been \
+                received successfully: {event["type"]}',
             status=200
         )
 
@@ -78,7 +79,8 @@ class StripeWH_Handler:
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
-                content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
+                content=f'Webhook received: {event["type"]} | SUCCESS: \
+                    Verified order already in database',
                 status=200)
         else:
             order = None
@@ -130,6 +132,7 @@ class StripeWH_Handler:
         """ Handling an unsuccessful payment"""
 
         return HttpResponse(
-            content=f'This webhook has been received successfully: {event["type"]}',
+            content=f'This webhook has been \
+                received successfully: {event["type"]}',
             status=400
         )

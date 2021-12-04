@@ -15,7 +15,8 @@ class NewOrderForm(forms.ModelForm):
         first_name = self.cleaned_data.get('first_name')
 
         if not first_name:
-            raise forms.ValidationError('Field is empty, please provide a first name')
+            raise forms.ValidationError('Field is empty, \
+                please provide a first name')
         return first_name
 
     # removing auto labels, adding placeholders and classes

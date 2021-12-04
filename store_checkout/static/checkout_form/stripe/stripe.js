@@ -58,7 +58,7 @@ formSubmit.addEventListener('submit', function(ev) {
     // checking for the status of the save info check box
     var saveInfo = Boolean($('#id-save-info').attr('checked'));
     // taken from csrf templating in the checkout form
-    var csrfToken = $('input[name="csrfmiddlewaretoken"]').val()
+    var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
     // passing new information to the view
     var postData = {
         'csrfmiddlewaretoken': csrfToken,
@@ -127,5 +127,5 @@ formSubmit.addEventListener('submit', function(ev) {
     // incase of a bad request response
     }).fail(function() {
         location.reload();
-    })
+    });
 });

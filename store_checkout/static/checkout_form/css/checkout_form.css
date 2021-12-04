@@ -48,7 +48,7 @@ span.here-button-text {
     justify-content: center;
     margin: 0;
     height: 100%;
-  }
+}
 
 /*---------- Buttons ----------*/
 
@@ -99,28 +99,27 @@ p.charge-text.small.text-danger.my-0 {
 /*---------- Stripe ----------*/
 .StripeElement,
 .stripe-style-input,
- #card-element
- {
-  box-sizing: border-box;
-  height: 40px;
-  padding: 10px 12px;
-  border: 1px solid transparent;
-  border-radius: 0px;
-  background-color: #000;
-  box-shadow: 0 1px 3px 0 #e6ebf1;
-  -webkit-transition: box-shadow 150ms ease;
-  transition: box-shadow 150ms ease;
+#card-element{
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
 }
 
 .StripeElement--focus,
 .stripe-style-input:focus,
 .stripe-style-input:active {
-  box-shadow: 0 1px 3px 0 #000;
-  background-color: #000;
+    box-shadow: 0 1px 3px 0 #000;
+    background-color: #000;
 }
 
 .StripeElement--webkit-autofill {
-  background-color: #fafafa !important;
+    background-color: #fafafa !important;
 }
 
 .stripe-style-input::placeholder {
@@ -143,5 +142,5 @@ select option {
 }
 select:invalid,
 select option[value=""] {
-  color: #fafafa !important;
+    color: #fafafa !important;
 }
