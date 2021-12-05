@@ -34,13 +34,14 @@ My objective for this fina project is to create an e-commerce site for users to 
 - I would like to check for any new products in the store, this includes any sales and or promotions.
 - I would like to browse through products and sort them by keyword, price and alphabetical order etc.
 - I would like to add items to a shopping bag and  make a purhcase via a simple order form.
-- I would like to be able to delete any unwanted items in my basket
+- I would like to be able to delete any unwanted items in my basket.
+- I would like to be able to update the quantity of items in my shopping bag.
 
 <br>
 
 ## *Returning Visitor Goals*
 - I would like to log in to my account to view my purchase history.
-- I would like to update billing details if I want to
+- I would like to update billing details if I want to.
 
 <br>
 
@@ -49,8 +50,8 @@ My objective for this fina project is to create an e-commerce site for users to 
 - To give users a good experience finding top end products at a good price.
 - To to allow the site to be viewed on various devices like tablets, phones and desktop.
 - To give users the ability to manipulate their shopping bag and delete items they no longer want.
-- Give users ability to update quantity of items in shopping bag.
-- Add new products to the company database
+- Give users ability to update the size and quantity of items in shopping bag.
+- Add new products to the company database.
 
 <br>
 
@@ -195,13 +196,10 @@ My objective for this fina project is to create an e-commerce site for users to 
 <br>
 
 # **End User Testing - Frequent Visitor Goals**
-## I would like to browse through products and sort them by keyword, price and alphabetical order etc.
+## *I would like to browse through products and sort them by keyword, price and alphabetical order etc.*
 | Desktop |
 | :---: |
 | ![](/media/user-testing/desktop-product-sort.png) |
-
-<br>
-
 ## *I would like to add items to a shopping bag and  make a purhcase via a simple order form.*
 ### **Adding To Bag**
 | Desktop | Phone | Tablet |
@@ -223,18 +221,21 @@ My objective for this fina project is to create an e-commerce site for users to 
 | ![](/media/user-testing/phone-order-confirmation-top.png) | ![](/media/user-testing/desktop-order-confirmation.png) | ![](/media/user-testing/tablet-order-confirmation.png) |
 | ![](/media/user-testing/phone-order-confirmation-bottom.png) |
 
+## *I would like to be able to update the quantity of items with a size and without a size in my shopping bag.*
 
-<br>
+
+| Phone | Desktop ||
+| :---: | :---: | :---: |
+| ![](/media/user-testing/desktop-update-current.png) | ![](/media/user-testing/phone-update-confirm.png) | ![](/media/user-testing/tablet-update-confirm.png) |
+| ![](/media/user-testing/desktop-update-confirm.png) || ![](/media/user-testing/remove-update.png) ||
 
 ## *I would like to be able to delete any unwanted items in my basket*
 <br>
 
-![](/media/user-testing/remove-update.png)
-
 | Phone | Desktop ||
 | :---: | :---: | :---: |
 | ![](/media/user-testing/desktop-current-bag.png) | ![](/media/user-testing/phone-delete.png) | ![](/media/user-testing/tablet-delete.png) |
-| ![](/media/user-testing/desktop-delete.png) |
+| ![](/media/user-testing/desktop-delete.png) || ![](/media/user-testing/remove-update.png) ||
 
 <br>
 
