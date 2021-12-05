@@ -49,7 +49,7 @@ else:
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'get-the-fit-cmd.herokuapp.com', 'localhost'
