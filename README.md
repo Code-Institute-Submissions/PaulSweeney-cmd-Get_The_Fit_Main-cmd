@@ -353,8 +353,6 @@ My objective for this fina project is to create an e-commerce site for users to 
 <br>
 
 ## Additonal notes: **PLEASE READ**
-- The intentionwas to add two more models to the site in the form of a review and additonal address section as adviosed to look in to on amazon. Due to migration issues and having to re-manipulate my Data, this was unacchievable due to time frame.
-- Functionality for updating the shopping bag items that have a size results in the product size not rendering when the bag is updated. This bug was discussed with tutor support with no positive result.
 - Backend form validation was attempted and discussed with tutor support also but could not be resolved within the timeframe given for this resubmission. Sources were checked online in Stack Overflow and various other sources but due to the way this code has been written and based on I was unable to amend my code to factor in this functionality.
 # Deployment
 ## Git Hub Pages
