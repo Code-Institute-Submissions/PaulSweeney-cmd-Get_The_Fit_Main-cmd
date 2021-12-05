@@ -30,7 +30,16 @@
 
 ## Product deleting and size not showing on shopping bag page whe user updates a quantity
 
-* This was a bug I had major issue trying to fix, despite a tedious amount of time with tutor support, this could not be rectified before my submission deadline. Tutor support did send over some updated code from the boutique ado project. this was looked in to and changes applied with no positive result.
+* This was a bug I had major issue trying to fix, checked source code from Boutique ado mainly focussing on the html rather than the python code.
+
+### FIX: 
+* Product increment/decrement button - created an if statement in the product increment/decrement html code and passed in value from the update_bag view.
+
+```
+{% if item.product.has_sizes %}
+    <input type="hidden" name="product_size" value="{{ item.size }}">
+{% endif %}
+```
 
 ## Payments
 
